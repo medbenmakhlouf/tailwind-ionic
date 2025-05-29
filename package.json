@@ -15,8 +15,13 @@
     "tailwindcss": "^4.0.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.css"
   ],
+  "exports": {
+    "./dist": "./dist/ionic-utils.css",
+    "./index.css": "./index.css"
+  },
   "keywords": [
     "tailwind",
     "ionic",
