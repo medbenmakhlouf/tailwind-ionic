@@ -50,7 +50,7 @@ Components:
 - ion-toolbar
 */
 @utility ion-min-h-* {
-    --min-height: --value(integer)px;
+    --min-height: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -64,7 +64,7 @@ Components:
 - ion-toast
 */
 @utility ion-min-w-* {
-    --min-width: --value(integer)px;
+    --min-width: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -78,7 +78,7 @@ Components:
 - ion-toast
 */
 @utility ion-h-* {
-    --height: --value(integer)px;
+    --height: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -91,7 +91,7 @@ Components:
 - ion-toast
 */
 @utility ion-max-h-* {
-    --max-height: --value(integer)px;
+    --max-height: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -104,7 +104,7 @@ Components:
 - ion-toast
 */
 @utility ion-max-w-* {
-    --max-width: --value(integer)px;
+    --max-width: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -117,7 +117,7 @@ Components:
 - ion-toast
 */
 @utility ion-w-* {
-    --width: --value(integer)px;
+    --width: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -128,7 +128,7 @@ Components:
 - ion-popover
 */
 @utility ion-backdrop-opacity-* {
-    --backdrop-opacity: --value(number);
+    --backdrop-opacity: --value(number); /*TODO*/
 }
 /*
 Components:
@@ -196,7 +196,8 @@ Components:
 - ion-toggle
 */
 @utility ion-rounded-* {
-    --border-radius: --value(integer)px;
+    --border-radius: --value(--radius-*);
+    --border-radius: --value(number)px;
 }
 /*
 Components:
@@ -216,7 +217,7 @@ Components:
 - ion-toolbar
 */
 @utility ion-pt-* {
-    --padding-top: --value(integer)px;
+    --padding-top: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -236,7 +237,7 @@ Components:
 - ion-toolbar
 */
 @utility ion-ps-* {
-    --padding-start: --value(integer)px;
+    --padding-start: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -256,7 +257,7 @@ Components:
 - ion-toolbar
 */
 @utility ion-pe-* {
-    --padding-end: --value(integer)px;
+    --padding-end: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -276,7 +277,7 @@ Components:
 - ion-toolbar
 */
 @utility ion-pb-* {
-    --padding-bottom: --value(integer)px;
+    --padding-bottom: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -328,7 +329,7 @@ Components:
 - ion-item
 */
 @utility ion-ease-* {
-    --transition: --value(integer);
+    --transition: --value(integer); /*TODO*/
 }
 /*
 Components:
@@ -340,7 +341,7 @@ Components:
 - ion-segment-button
 */
 @utility ion-bg-hover-opacity-* {
-    --background-hover-opacity: --value(number);
+    --background-hover-opacity: --value(number); /*TODO*/
 }
 /*
 Components:
@@ -365,7 +366,7 @@ Components:
 - ion-tab-button
 */
 @utility ion-bg-focused-opacity-* {
-    --background-focused-opacity: --value(number);
+    --background-focused-opacity: --value(number); /*TODO*/
 }
 /*
 Components:
@@ -394,7 +395,7 @@ Components:
 - ion-segment-button
 */
 @utility ion-me-* {
-    --margin-end: --value(integer)px;
+    --margin-end: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -402,7 +403,7 @@ Components:
 - ion-segment-button
 */
 @utility ion-mb-* {
-    --margin-bottom: --value(integer)px;
+    --margin-bottom: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -410,7 +411,7 @@ Components:
 - ion-segment-button
 */
 @utility ion-ms-* {
-    --margin-start: --value(integer)px;
+    --margin-start: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -418,7 +419,7 @@ Components:
 - ion-segment-button
 */
 @utility ion-mt-* {
-    --margin-top: --value(integer)px;
+    --margin-top: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -436,9 +437,9 @@ Components:
 - ion-toolbar
 */
 @utility ion-border-* {
-    --border-width: --value(integer)px;
+    --border-width: --value(number)px;
     --border-color: --value(--color-*);
-    --border-style: --value(integer);
+    --border-style: --value('solid', 'dashed', 'dotted', 'double', 'groove', 'ridge', 'inset', 'outset', 'thin');
 }
 /*
 Components:
@@ -467,7 +468,7 @@ Components:
 - ion-toast
 */
 @utility ion-shadow-* {
-    --box-shadow: --value(integer);
+    --box-shadow: --value(integer); /*TODO*/
 }
 /*
 Components:
@@ -475,7 +476,7 @@ Components:
 - ion-thumbnail
 */
 @utility ion-size-* {
-    --size: --value(integer)px;
+    --size: --value(integer)px; /*TODO*/
 }
 /*
 Components:
@@ -483,7 +484,7 @@ Components:
 - ion-skeleton-text
 */
 @utility ion-bg-rgb-* {
-    --background-rgb: --value(integer);
+    --background-rgb: --value(integer); /*TODO*/
 }
 /*
 Components:
@@ -493,7 +494,7 @@ Components:
 - ion-textarea
 */
 @utility ion-placeholder-opacity-* {
-    --placeholder-opacity: --value(number);
+    --placeholder-opacity: --value(number); /*TODO*/
 }
 /*
 Components:
@@ -512,7 +513,7 @@ Components:
 - ion-textarea
 */
 @utility ion-placeholder-font-style-* {
-    --placeholder-font-style: --value(integer);
+    --placeholder-font-style: --value(integer); /*TODO*/
 }
 /*
 Components:
@@ -521,7 +522,7 @@ Components:
 - ion-textarea
 */
 @utility ion-placeholder-font-weight-* {
-    --placeholder-font-weight: --value(integer);
+    --placeholder-font-weight: --value(integer); /*TODO*/
 }
 /*
 Components:
@@ -548,7 +549,7 @@ Components:
 - ion-textarea
 */
 @utility ion-highlight-h-* {
-    --highlight-height: --value(integer)px;
+    --highlight-height: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -565,7 +566,7 @@ Components:
 - ion-item-divider
 */
 @utility ion-inner-pb-* {
-    --inner-padding-bottom: --value(integer)px;
+    --inner-padding-bottom: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -573,7 +574,7 @@ Components:
 - ion-item-divider
 */
 @utility ion-inner-pt-* {
-    --inner-padding-top: --value(integer)px;
+    --inner-padding-top: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -581,7 +582,7 @@ Components:
 - ion-item-divider
 */
 @utility ion-inner-ps-* {
-    --inner-padding-start: --value(integer)px;
+    --inner-padding-start: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -589,7 +590,7 @@ Components:
 - ion-item-divider
 */
 @utility ion-inner-pe-* {
-    --inner-padding-end: --value(integer)px;
+    --inner-padding-end: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -597,7 +598,7 @@ Components:
 - ion-list-header
 */
 @utility ion-inner-border-* {
-    --inner-border-width: --value(integer)px;
+    --inner-border-width: --value(number)px;
 }
 /*
 Components:
@@ -612,7 +613,7 @@ Components:
 - ion-action-sheet
 */
 @utility ion-action-sheet-bg-selected-opacity-* {
-    --button-background-selected-opacity: --value(number);
+    --button-background-selected-opacity: --value(number); /*TODO*/
 }
 @utility ion-action-sheet-text-disabled-* {
     --button-color-disabled: --value(--color-*);
@@ -630,7 +631,7 @@ Components:
     --button-background-selected: --value(--color-*);
 }
 @utility ion-action-sheet-bg-hover-opacity-* {
-    --button-background-hover-opacity: --value(number);
+    --button-background-hover-opacity: --value(number); /*TODO*/
 }
 @utility ion-action-sheet-bg-* {
     --button-background: --value(--color-*);
@@ -639,13 +640,13 @@ Components:
     --button-background-activated: --value(--color-*);
 }
 @utility ion-action-sheet-bg-activated-opacity-* {
-    --button-background-activated-opacity: --value(number);
+    --button-background-activated-opacity: --value(number); /*TODO*/
 }
 @utility ion-action-sheet-bg-focused-* {
     --button-background-focused: --value(--color-*);
 }
 @utility ion-action-sheet-bg-focused-opacity-* {
-    --button-background-focused-opacity: --value(number);
+    --button-background-focused-opacity: --value(number); /*TODO*/
 }
 @utility ion-action-sheet-text-activated-* {
     --button-color-activated: --value(--color-*);
@@ -657,35 +658,35 @@ Components:
 Components:
 - ion-back-button
 */
-@utility ion-back-button-pt-icon-* {
-    --icon-padding-top: --value(integer)px;
+@utility ion-back-button-icon-me-* {
+    --icon-margin-end: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-me-icon-* {
-    --icon-margin-end: --value(integer)px;
+@utility ion-back-button-icon-ms-* {
+    --icon-margin-start: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-ms-icon-* {
-    --icon-margin-start: --value(integer)px;
+@utility ion-back-button-icon-mt-* {
+    --icon-margin-top: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-mt-icon-* {
-    --icon-margin-top: --value(integer)px;
+@utility ion-back-button-icon-mb-* {
+    --icon-margin-bottom: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-pb-icon-* {
-    --icon-padding-bottom: --value(integer)px;
+@utility ion-back-button-icon-pt-* {
+    --icon-padding-top: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-pe-icon-* {
-    --icon-padding-end: --value(integer)px;
+@utility ion-back-button-icon-pb-* {
+    --icon-padding-bottom: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-ps-icon-* {
-    --icon-padding-start: --value(integer)px;
+@utility ion-back-button-icon-pe-* {
+    --icon-padding-end: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-text-icon-size-* {
-    --icon-font-size: --value(integer)px;
+@utility ion-back-button-icon-ps-* {
+    --icon-padding-start: calc(var(--spacing) * --value(number));
 }
-@utility ion-back-button-text-icon-weight-* {
-    --icon-font-weight: --value(integer);
+@utility ion-back-button-icon-text-* {
+    --icon-font-size: --value(integer)px; /*TODO*/
 }
-@utility ion-back-button-mb-icon-* {
-    --icon-margin-bottom: --value(integer)px;
+@utility ion-back-button-icon-text-weight-* {
+    --icon-font-weight: --value(integer); /*TODO*/
 }
 /*
 Components:
@@ -699,7 +700,7 @@ Components:
 - ion-checkbox
 */
 @utility ion-checkbox-checkmark-w-* {
-    --checkmark-width: --value(integer)px;
+    --checkmark-width: calc(var(--spacing) * --value(number));
 }
 @utility ion-checkbox-checkmark-color-* {
     --checkmark-color: --value(--color-*);
@@ -718,45 +719,45 @@ Components:
 - ion-col
 */
 @utility ion-col-p-* {
-    --ion-grid-column-padding: --value(integer)px;
+    --ion-grid-column-padding: calc(var(--spacing) * --value(number));
 }
 @utility ion-col-p-lg-* {
-    --ion-grid-column-padding-lg: --value(integer)px;
+    --ion-grid-column-padding-lg: calc(var(--spacing) * --value(number));
 }
 @utility ion-col-p-md-* {
-    --ion-grid-column-padding-md: --value(integer)px;
+    --ion-grid-column-padding-md: calc(var(--spacing) * --value(number));
 }
 @utility ion-col-p-sm-* {
-    --ion-grid-column-padding-sm: --value(integer)px;
+    --ion-grid-column-padding-sm: calc(var(--spacing) * --value(number));
 }
 @utility ion-col-p-xl-* {
-    --ion-grid-column-padding-xl: --value(integer)px;
+    --ion-grid-column-padding-xl: calc(var(--spacing) * --value(number));
 }
 @utility ion-col-p-xs-* {
-    --ion-grid-column-padding-xs: --value(integer)px;
+    --ion-grid-column-padding-xs: calc(var(--spacing) * --value(number));
 }
 @utility ion-col-cols-* {
-    --ion-grid-columns: --value(integer);
+    --ion-grid-columns: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
 - ion-content
 */
 @utility ion-content-offset-t-* {
-    --offset-top: --value(integer)px;
+    --offset-top: calc(var(--spacing) * --value(number));
 }
 @utility ion-content-keyboard-offset-* {
-    --keyboard-offset: --value(integer)px;
+    --keyboard-offset: calc(var(--spacing) * --value(number));
 }
 @utility ion-content-offset-b-* {
-    --offset-bottom: --value(integer)px;
+    --offset-bottom: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
 - ion-datetime
 */
 @utility ion-datetime-bg-wheel-fade-rgb-* {
-    --wheel-fade-background-rgb: --value(integer);
+    --wheel-fade-background-rgb: --value(integer); /*TODO*/
 }
 @utility ion-datetime-title-color-* {
     --title-color: --value(--color-*);
@@ -765,70 +766,70 @@ Components:
     --wheel-highlight-background: --value(--color-*);
 }
 @utility ion-datetime-wheel-highlight-rounded-* {
-    --wheel-highlight-border-radius: --value(integer)px;
+    --wheel-highlight-border-radius: --value(integer)px; /*TODO*/
 }
 /*
 Components:
 - ion-fab-button
 */
 @utility ion-fab-button-text-close-icon-size-* {
-    --close-icon-font-size: --value(integer)px;
+    --close-icon-font-size: --value(integer)px; /*TODO*/
 }
 /*
 Components:
 - ion-grid
 */
 @utility ion-grid-p-sm-* {
-    --ion-grid-padding-sm: --value(integer)px;
+    --ion-grid-padding-sm: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-p-lg-* {
-    --ion-grid-padding-lg: --value(integer)px;
+    --ion-grid-padding-lg: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-p-md-* {
-    --ion-grid-padding-md: --value(integer)px;
+    --ion-grid-padding-md: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-p-xl-* {
-    --ion-grid-padding-xl: --value(integer)px;
+    --ion-grid-padding-xl: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-p-xs-* {
-    --ion-grid-padding-xs: --value(integer)px;
+    --ion-grid-padding-xs: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-w-* {
-    --ion-grid-width: --value(integer)px;
+    --ion-grid-width: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-w-lg-* {
-    --ion-grid-width-lg: --value(integer)px;
+    --ion-grid-width-lg: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-w-md-* {
-    --ion-grid-width-md: --value(integer)px;
+    --ion-grid-width-md: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-w-sm-* {
-    --ion-grid-width-sm: --value(integer)px;
+    --ion-grid-width-sm: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-w-xl-* {
-    --ion-grid-width-xl: --value(integer)px;
+    --ion-grid-width-xl: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-w-xs-* {
-    --ion-grid-width-xs: --value(integer)px;
+    --ion-grid-width-xs: calc(var(--spacing) * --value(number));
 }
 @utility ion-grid-p-* {
-    --ion-grid-padding: --value(integer)px;
+    --ion-grid-padding: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
 - ion-item
 */
 @utility ion-item-shadow-inner-* {
-    --inner-box-shadow: --value(integer);
+    --inner-box-shadow: --value(integer); /*TODO*/
 }
 @utility ion-item-detail-icon-color-* {
     --detail-icon-color: --value(--color-*);
 }
 @utility ion-item-detail-icon-size-* {
-    --detail-icon-font-size: --value(integer)px;
+    --detail-icon-font-size: --value(integer)px; /*TODO*/
 }
 @utility ion-item-detail-icon-opacity-* {
-    --detail-icon-opacity: --value(number);
+    --detail-icon-opacity: --value(number); /*TODO*/
 }
 /*
 Components:
@@ -842,7 +843,7 @@ Components:
 - ion-picker
 */
 @utility ion-picker-bg-fade-rgb-* {
-    --fade-background-rgb: --value(integer);
+    --fade-background-rgb: --value(integer); /*TODO*/
 }
 @utility ion-picker-bg-highlight-* {
     --highlight-background: --value(--color-*);
@@ -855,10 +856,10 @@ Components:
 - ion-popover
 */
 @utility ion-popover-offset-x-* {
-    --offset-x: --value(integer)px;
+    --offset-x: calc(var(--spacing) * --value(number));
 }
 @utility ion-popover-offset-y-* {
-    --offset-y: --value(integer)px;
+    --offset-y: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -894,19 +895,19 @@ Components:
     --bar-background: --value(--color-*);
 }
 @utility ion-range-knob-size-* {
-    --knob-size: --value(integer)px;
+    --knob-size: --value(integer)px; /*TODO*/
 }
 @utility ion-range-knob-shadow-* {
-    --knob-box-shadow: --value(integer);
+    --knob-box-shadow: --value(integer); /*TODO*/
 }
 @utility ion-range-knob-rounded-* {
-    --knob-border-radius: --value(integer)px;
+    --knob-border-radius: --value(integer)px; /*TODO*/
 }
 @utility ion-range-bar-rounded-* {
-    --bar-border-radius: --value(integer)px;
+    --bar-border-radius: --value(integer)px; /*TODO*/
 }
 @utility ion-range-bar-h-* {
-    --bar-height: --value(integer)px;
+    --bar-height: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -929,13 +930,13 @@ Components:
     --indicator-box-shadow: --value(integer);
 }
 @utility ion-segment-button-indicator-h-* {
-    --indicator-height: --value(integer)px;
+    --indicator-height: calc(var(--spacing) * --value(number));
 }
 @utility ion-segment-button-indicator-transform-* {
-    --indicator-transform: --value(integer);
+    --indicator-transform: --value(integer); /*TODO*/
 }
 @utility ion-segment-button-indicator-ease-* {
-    --indicator-transition: --value(integer);
+    --indicator-transition: --value(integer); /*TODO*/
 }
 @utility ion-segment-button-bg-checked-* {
     --background-checked: --value(--color-*);
@@ -948,13 +949,13 @@ Components:
 - ion-split-pane
 */
 @utility ion-split-pane-max-w-* {
-    --side-max-width: --value(integer)px;
+    --side-max-width: calc(var(--spacing) * --value(number));
 }
 @utility ion-split-pane-w-* {
-    --side-width: --value(integer)px;
+    --side-width: calc(var(--spacing) * --value(number));
 }
 @utility ion-split-pane-min-w-* {
-    --side-min-width: --value(integer)px;
+    --side-min-width: calc(var(--spacing) * --value(number));
 }
 /*
 Components:
@@ -968,26 +969,26 @@ Components:
 - ion-toast
 */
 @utility ion-toast-white-space-* {
-    --white-space: --value(integer);
+    --white-space: --value(integer); /*TODO*/
 }
 @utility ion-toast-end-* {
-    --end: --value(integer)px;
+    --end: --value(integer)px; /*TODO*/
 }
 @utility ion-toast-start-* {
-    --start: --value(integer)px;
+    --start: --value(integer)px; /*TODO*/
 }
 /*
 Components:
 - ion-toggle
 */
 @utility ion-toggle-handle-w-* {
-    --handle-width: --value(integer)px;
+    --handle-width: calc(var(--spacing) * --value(number));
 }
 @utility ion-toggle-handle-shadow-* {
-    --handle-box-shadow: --value(integer);
+    --handle-box-shadow: --value(integer); /*TODO*/
 }
 @utility ion-toggle-handle-h-* {
-    --handle-height: --value(integer)px;
+    --handle-height: calc(var(--spacing) * --value(number));
 }
 @utility ion-toggle-track-bg-* {
     --track-background: --value(--color-*);
@@ -999,7 +1000,7 @@ Components:
     --handle-spacing: --value(integer)px;
 }
 @utility ion-toggle-handle-max-h-* {
-    --handle-max-height: --value(integer)px;
+    --handle-max-height: calc(var(--spacing) * --value(number));
 }
 @utility ion-toggle-handle-bg-* {
     --handle-background: --value(--color-*);
@@ -1011,5 +1012,5 @@ Components:
     --handle-border-radius: --value(integer)px;
 }
 @utility ion-toggle-handle-ease-* {
-    --handle-transition: --value(integer);
+    --handle-transition: --value(integer); /*TODO*/
 }
