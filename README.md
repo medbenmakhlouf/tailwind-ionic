@@ -26,7 +26,7 @@ Import into your Tailwind CSS entry file:
 </ion-chip>
 ```
 
-Using utilities like `ion-chip-bg-*` allows you to define styles declaratively with utility classes — instead of inline styles like:
+Using utilities like `ion-bg-*` allows you to define styles declaratively with utility classes — instead of inline styles like:
 
 ```html
 <ion-chip style="--background: #ddd">
