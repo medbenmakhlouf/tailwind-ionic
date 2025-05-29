@@ -5,7 +5,7 @@ Tailwind CSS v4 utility library for Ionic apps. Provides dynamic utilities using
 ## 📦 Installation
 
 ```bash
-npm install tailwind-ionic
+npm install tailwind-ionic-utils
 ```
 
 ## 🧩 Usage
@@ -13,7 +13,7 @@ npm install tailwind-ionic
 Import into your Tailwind CSS entry file:
 
 ```css
-@import "tailwind-ionic/index.css";
+@import "tailwind-ionic-utils/index.css";
 ```
 
 > Requires Tailwind CSS v4 and a build setup that supports `@utility`.
