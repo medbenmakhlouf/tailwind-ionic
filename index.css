@@ -1,25 +1,466 @@
 @import "tailwindcss/utilities.css";
 
-@utility ion-font-size-* {
-    --icon-font-size: --value(integer)px;
-}
-
-@utility ion-border-radius-* {
-    --border-radius: --value(integer)px;
-}
-
-@utility ion-opacity-* {
-    --opacity: --value(integer);
-}
-
-@utility ion-chip-* {
-    --color: --value(--color-*);
-}
-
-@utility ion-chip-bg-* {
+@utility ion-bg-* {
     --background: --value(--color-*);
 }
-
-@utility ion-tab-selected-* {
+@utility ion-min-h-* {
+    --min-height: --value(integer)px;
+}
+@utility ion-min-w-* {
+    --min-width: --value(integer)px;
+}
+@utility ion-h-* {
+    --height: --value(integer)px;
+}
+@utility ion-max-h-* {
+    --max-height: --value(integer)px;
+}
+@utility ion-max-w-* {
+    --max-width: --value(integer)px;
+}
+@utility ion-w-* {
+    --width: --value(integer)px;
+}
+@utility ion-backdrop-opacity-* {
+    --backdrop-opacity: --value(number);
+}
+@utility ion-text-* {
+    --color: --value(--color-*);
+}
+@utility ion-text-button-* {
+    --button-color: --value(--color-*);
+}
+@utility ion-rounded-* {
+    --border-radius: --value(integer)px;
+}
+@utility ion-pt-* {
+    --padding-top: --value(integer)px;
+}
+@utility ion-ps-* {
+    --padding-start: --value(integer)px;
+}
+@utility ion-pe-* {
+    --padding-end: --value(integer)px;
+}
+@utility ion-pb-* {
+    --padding-bottom: --value(integer)px;
+}
+@utility ion-text-hover-* {
+    --color-hover: --value(--color-*);
+}
+@utility ion-text-focused-* {
+    --color-focused: --value(--color-*);
+}
+@utility ion-bg-focused-* {
+    --background-focused: --value(--color-*);
+}
+@utility ion-ease-* {
+    --transition: --value(string);
+}
+@utility ion-bg-hover-opacity-* {
+    --background-hover-opacity: --value(number);
+}
+@utility ion-bg-hover-* {
+    --background-hover: --value(--color-*);
+}
+@utility ion-bg-focused-opacity-* {
+    --background-focused-opacity: --value(number);
+}
+@utility ion-text-ripple-* {
+    --ripple-color: --value(--color-*);
+}
+@utility ion-opacity-* {
+    --opacity: --value(number);
+}
+@utility ion-me-* {
+    --margin-end: --value(integer)px;
+}
+@utility ion-mb-* {
+    --margin-bottom: --value(integer)px;
+}
+@utility ion-ms-* {
+    --margin-start: --value(integer)px;
+}
+@utility ion-mt-* {
+    --margin-top: --value(integer)px;
+}
+@utility ion-border-* {
+    --border-width: --value(integer)px;
+    --border-color: --value(--color-*);
+    --border-style: --value(string);
+}
+@utility ion-text-activated-* {
+    --color-activated: --value(--color-*);
+}
+@utility ion-bg-activated-* {
+    --background-activated: --value(--color-*);
+}
+@utility ion-shadow-* {
+    --box-shadow: --value(string);
+}
+@utility ion-size-* {
+    --size: --value(integer)px;
+}
+@utility ion-bg-rgb-* {
+    --background-rgb: --value(rgb);
+}
+@utility ion-placeholder-opacity-* {
+    --placeholder-opacity: --value(number);
+}
+@utility ion-placeholder-color-* {
+    --placeholder-color: --value(--color-*);
+}
+@utility ion-placeholder-font-style-* {
+    --placeholder-font-style: --value(string);
+}
+@utility ion-placeholder-font-weight-* {
+    --placeholder-font-weight: --value(integer);
+}
+@utility ion-highlight-color-focused-* {
+    --highlight-color-focused: --value(--color-*);
+}
+@utility ion-highlight-color-invalid-* {
+    --highlight-color-invalid: --value(--color-*);
+}
+@utility ion-highlight-h-* {
+    --highlight-height: --value(integer)px;
+}
+@utility ion-highlight-color-valid-* {
+    --highlight-color-valid: --value(--color-*);
+}
+@utility ion-inner-pb-* {
+    --inner-padding-bottom: --value(integer)px;
+}
+@utility ion-inner-pt-* {
+    --inner-padding-top: --value(integer)px;
+}
+@utility ion-inner-ps-* {
+    --inner-padding-start: --value(integer)px;
+}
+@utility ion-inner-pe-* {
+    --inner-padding-end: --value(integer)px;
+}
+@utility ion-inner-border-* {
+    --inner-border-width: --value(integer)px;
+}
+@utility ion-text-checked-* {
+    --color-checked: --value(--color-*);
+}
+@utility ion-action-sheet-bg-selected-opacity-* {
+    --button-background-selected-opacity: --value(number);
+}
+@utility ion-action-sheet-text-disabled-* {
+    --button-color-disabled: --value(--color-*);
+}
+@utility ion-action-sheet-text-focused-* {
+    --button-color-focused: --value(--color-*);
+}
+@utility ion-action-sheet-text-hover-* {
+    --button-color-hover: --value(--color-*);
+}
+@utility ion-action-sheet-text-selected-* {
+    --button-color-selected: --value(--color-*);
+}
+@utility ion-action-sheet-bg-selected-* {
+    --button-background-selected: --value(--color-*);
+}
+@utility ion-action-sheet-bg-hover-opacity-* {
+    --button-background-hover-opacity: --value(number);
+}
+@utility ion-action-sheet-bg-* {
+    --button-background: --value(--color-*);
+}
+@utility ion-action-sheet-bg-activated-* {
+    --button-background-activated: --value(--color-*);
+}
+@utility ion-action-sheet-bg-activated-opacity-* {
+    --button-background-activated-opacity: --value(number);
+}
+@utility ion-action-sheet-bg-focused-* {
+    --button-background-focused: --value(--color-*);
+}
+@utility ion-action-sheet-bg-focused-opacity-* {
+    --button-background-focused-opacity: --value(number);
+}
+@utility ion-action-sheet-text-activated-* {
+    --button-color-activated: --value(--color-*);
+}
+@utility ion-action-sheet-bg-hover-* {
+    --button-background-hover: --value(--color-*);
+}
+@utility ion-back-button-pt-icon-* {
+    --icon-padding-top: --value(integer)px;
+}
+@utility ion-back-button-me-icon-* {
+    --icon-margin-end: --value(integer)px;
+}
+@utility ion-back-button-ms-icon-* {
+    --icon-margin-start: --value(integer)px;
+}
+@utility ion-back-button-mt-icon-* {
+    --icon-margin-top: --value(integer)px;
+}
+@utility ion-back-button-pb-icon-* {
+    --icon-padding-bottom: --value(integer)px;
+}
+@utility ion-back-button-pe-icon-* {
+    --icon-padding-end: --value(integer)px;
+}
+@utility ion-back-button-ps-icon-* {
+    --icon-padding-start: --value(integer)px;
+}
+@utility ion-back-button-text-icon-size-* {
+    --icon-font-size: --value(integer)px;
+}
+@utility ion-back-button-text-icon-weight-* {
+    --icon-font-weight: --value(integer);
+}
+@utility ion-back-button-mb-icon-* {
+    --icon-margin-bottom: --value(integer)px;
+}
+@utility ion-breadcrumb-text-active-* {
+    --color-active: --value(--color-*);
+}
+@utility ion-checkbox-checkmark-w-* {
+    --checkmark-width: --value(integer)px;
+}
+@utility ion-checkbox-checkmark-color-* {
+    --checkmark-color: --value(--color-*);
+}
+@utility ion-checkbox-bg-checked-* {
+    --checkbox-background-checked: --value(--color-*);
+}
+@utility ion-checkbox-bg-* {
+    --checkbox-background: --value(--color-*);
+}
+@utility ion-checkbox-border-checked-* {
+    --border-color-checked: --value(--color-*);
+}
+@utility ion-col-p-* {
+    --ion-grid-column-padding: --value(integer)px;
+}
+@utility ion-col-p-lg-* {
+    --ion-grid-column-padding-lg: --value(integer)px;
+}
+@utility ion-col-p-md-* {
+    --ion-grid-column-padding-md: --value(integer)px;
+}
+@utility ion-col-p-sm-* {
+    --ion-grid-column-padding-sm: --value(integer)px;
+}
+@utility ion-col-p-xl-* {
+    --ion-grid-column-padding-xl: --value(integer)px;
+}
+@utility ion-col-p-xs-* {
+    --ion-grid-column-padding-xs: --value(integer)px;
+}
+@utility ion-col-cols-* {
+    --ion-grid-columns: --value(integer);
+}
+@utility ion-content-offset-t-* {
+    --offset-top: --value(integer)px;
+}
+@utility ion-content-keyboard-offset-* {
+    --keyboard-offset: --value(integer)px;
+}
+@utility ion-content-offset-b-* {
+    --offset-bottom: --value(integer)px;
+}
+@utility ion-datetime-bg-wheel-fade-rgb-* {
+    --wheel-fade-background-rgb: --value(rgb);
+}
+@utility ion-datetime-title-color-* {
+    --title-color: --value(--color-*);
+}
+@utility ion-datetime-bg-wheel-highlight-* {
+    --wheel-highlight-background: --value(--color-*);
+}
+@utility ion-datetime-wheel-highlight-rounded-* {
+    --wheel-highlight-border-radius: --value(integer)px;
+}
+@utility ion-fab-button-text-close-icon-size-* {
+    --close-icon-font-size: --value(integer)px;
+}
+@utility ion-grid-p-sm-* {
+    --ion-grid-padding-sm: --value(integer)px;
+}
+@utility ion-grid-p-lg-* {
+    --ion-grid-padding-lg: --value(integer)px;
+}
+@utility ion-grid-p-md-* {
+    --ion-grid-padding-md: --value(integer)px;
+}
+@utility ion-grid-p-xl-* {
+    --ion-grid-padding-xl: --value(integer)px;
+}
+@utility ion-grid-p-xs-* {
+    --ion-grid-padding-xs: --value(integer)px;
+}
+@utility ion-grid-w-* {
+    --ion-grid-width: --value(integer)px;
+}
+@utility ion-grid-w-lg-* {
+    --ion-grid-width-lg: --value(integer)px;
+}
+@utility ion-grid-w-md-* {
+    --ion-grid-width-md: --value(integer)px;
+}
+@utility ion-grid-w-sm-* {
+    --ion-grid-width-sm: --value(integer)px;
+}
+@utility ion-grid-w-xl-* {
+    --ion-grid-width-xl: --value(integer)px;
+}
+@utility ion-grid-w-xs-* {
+    --ion-grid-width-xs: --value(integer)px;
+}
+@utility ion-grid-p-* {
+    --ion-grid-padding: --value(integer)px;
+}
+@utility ion-item-shadow-inner-* {
+    --inner-box-shadow: --value(string);
+}
+@utility ion-item-detail-icon-color-* {
+    --detail-icon-color: --value(--color-*);
+}
+@utility ion-item-detail-icon-size-* {
+    --detail-icon-font-size: --value(integer)px;
+}
+@utility ion-item-detail-icon-opacity-* {
+    --detail-icon-opacity: --value(number);
+}
+@utility ion-loading-spinner-color-* {
+    --spinner-color: --value(--color-*);
+}
+@utility ion-picker-bg-fade-rgb-* {
+    --fade-background-rgb: --value(rgb);
+}
+@utility ion-picker-bg-highlight-* {
+    --highlight-background: --value(--color-*);
+}
+@utility ion-picker-highlight-rounded-* {
+    --highlight-border-radius: --value(integer)px;
+}
+@utility ion-popover-offset-x-* {
+    --offset-x: --value(integer)px;
+}
+@utility ion-popover-offset-y-* {
+    --offset-y: --value(integer)px;
+}
+@utility ion-progress-bar-bg-* {
+    --progress-background: --value(--color-*);
+}
+@utility ion-radio-inner-rounded-* {
+    --inner-border-radius: --value(integer)px;
+}
+@utility ion-range-bar-bg-active-* {
+    --bar-background-active: --value(--color-*);
+}
+@utility ion-range-knob-bg-* {
+    --knob-background: --value(--color-*);
+}
+@utility ion-range-pin-color-* {
+    --pin-color: --value(--color-*);
+}
+@utility ion-range-pin-bg-* {
+    --pin-background: --value(--color-*);
+}
+@utility ion-range-bar-bg-* {
+    --bar-background: --value(--color-*);
+}
+@utility ion-range-knob-size-* {
+    --knob-size: --value(integer)px;
+}
+@utility ion-range-knob-shadow-* {
+    --knob-box-shadow: --value(string);
+}
+@utility ion-range-knob-rounded-* {
+    --knob-border-radius: --value(integer)px;
+}
+@utility ion-range-bar-rounded-* {
+    --bar-border-radius: --value(integer)px;
+}
+@utility ion-range-bar-h-* {
+    --bar-height: --value(integer)px;
+}
+@utility ion-searchbar-icon-color-* {
+    --icon-color: --value(--color-*);
+}
+@utility ion-searchbar-clear-btn-color-* {
+    --clear-button-color: --value(--color-*);
+}
+@utility ion-searchbar-cancel-btn-color-* {
+    --cancel-button-color: --value(--color-*);
+}
+@utility ion-segment-button-indicator-shadow-* {
+    --indicator-box-shadow: --value(string);
+}
+@utility ion-segment-button-indicator-h-* {
+    --indicator-height: --value(integer)px;
+}
+@utility ion-segment-button-indicator-transform-* {
+    --indicator-transform: --value(string);
+}
+@utility ion-segment-button-indicator-ease-* {
+    --indicator-transition: --value(string);
+}
+@utility ion-segment-button-bg-checked-* {
+    --background-checked: --value(--color-*);
+}
+@utility ion-segment-button-indicator-color-* {
+    --indicator-color: --value(--color-*);
+}
+@utility ion-split-pane-max-w-* {
+    --side-max-width: --value(integer)px;
+}
+@utility ion-split-pane-w-* {
+    --side-width: --value(integer)px;
+}
+@utility ion-split-pane-min-w-* {
+    --side-min-width: --value(integer)px;
+}
+@utility ion-tab-button-text-selected-* {
     --color-selected: --value(--color-*);
+}
+@utility ion-toast-white-space-* {
+    --white-space: --value(string);
+}
+@utility ion-toast-end-* {
+    --end: --value(integer)px;
+}
+@utility ion-toast-start-* {
+    --start: --value(integer)px;
+}
+@utility ion-toggle-handle-w-* {
+    --handle-width: --value(integer)px;
+}
+@utility ion-toggle-handle-shadow-* {
+    --handle-box-shadow: --value(string);
+}
+@utility ion-toggle-handle-h-* {
+    --handle-height: --value(integer)px;
+}
+@utility ion-toggle-track-bg-* {
+    --track-background: --value(--color-*);
+}
+@utility ion-toggle-track-bg-checked-* {
+    --track-background-checked: --value(--color-*);
+}
+@utility ion-toggle-handle-spacing-* {
+    --handle-spacing: --value(integer)px;
+}
+@utility ion-toggle-handle-max-h-* {
+    --handle-max-height: --value(integer)px;
+}
+@utility ion-toggle-handle-bg-* {
+    --handle-background: --value(--color-*);
+}
+@utility ion-toggle-handle-bg-checked-* {
+    --handle-background-checked: --value(--color-*);
+}
+@utility ion-toggle-handle-rounded-* {
+    --handle-border-radius: --value(integer)px;
+}
+@utility ion-toggle-handle-ease-* {
+    --handle-transition: --value(string);
 }
