@@ -1,151 +1,616 @@
 @import "tailwindcss/utilities.css";
-
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-back-button
+- ion-button
+- ion-card
+- ion-chip
+- ion-content
+- ion-datetime
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-item-option
+- ion-list-header
+- ion-loading
+- ion-menu
+- ion-menu-button
+- ion-modal
+- ion-popover
+- ion-progress-bar
+- ion-router-link
+- ion-searchbar
+- ion-segment
+- ion-segment-button
+- ion-select
+- ion-skeleton-text
+- ion-tab-bar
+- ion-tab-button
+- ion-textarea
+- ion-toast
+- ion-toolbar
+*/
 @utility ion-bg-* {
     --background: --value(--color-*);
 }
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-back-button
+- ion-item
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+- ion-toolbar
+*/
 @utility ion-min-h-* {
     --min-height: --value(integer)px;
 }
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-back-button
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
 @utility ion-min-w-* {
     --min-width: --value(integer)px;
 }
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-range
+- ion-toast
+*/
 @utility ion-h-* {
     --height: --value(integer)px;
 }
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
 @utility ion-max-h-* {
     --max-height: --value(integer)px;
 }
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
 @utility ion-max-w-* {
     --max-width: --value(integer)px;
 }
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
 @utility ion-w-* {
     --width: --value(integer)px;
 }
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-modal
+- ion-popover
+*/
 @utility ion-backdrop-opacity-* {
     --backdrop-opacity: --value(number);
 }
+/*
+Components:
+- ion-action-sheet
+- ion-back-button
+- ion-badge
+- ion-breadcrumb
+- ion-button
+- ion-card
+- ion-card-subtitle
+- ion-card-title
+- ion-chip
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-item-option
+- ion-label
+- ion-list-header
+- ion-menu-button
+- ion-note
+- ion-radio
+- ion-router-link
+- ion-searchbar
+- ion-segment-button
+- ion-spinner
+- ion-tab-bar
+- ion-tab-button
+- ion-textarea
+- ion-title
+- ion-toast
+- ion-toolbar
+*/
 @utility ion-text-* {
     --color: --value(--color-*);
 }
+/*
+Components:
+- ion-action-sheet
+- ion-toast
+*/
 @utility ion-text-button-* {
     --button-color: --value(--color-*);
 }
+/*
+Components:
+- ion-avatar
+- ion-back-button
+- ion-button
+- ion-checkbox
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-menu-button
+- ion-modal
+- ion-radio
+- ion-searchbar
+- ion-segment-button
+- ion-select
+- ion-skeleton-text
+- ion-textarea
+- ion-thumbnail
+- ion-toast
+- ion-toggle
+*/
 @utility ion-rounded-* {
     --border-radius: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
 @utility ion-pt-* {
     --padding-top: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
 @utility ion-ps-* {
     --padding-start: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
 @utility ion-pe-* {
     --padding-end: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
 @utility ion-pb-* {
     --padding-bottom: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-breadcrumb
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+*/
 @utility ion-text-hover-* {
     --color-hover: --value(--color-*);
 }
+/*
+Components:
+- ion-back-button
+- ion-breadcrumb
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+- ion-tab-button
+*/
 @utility ion-text-focused-* {
     --color-focused: --value(--color-*);
 }
+/*
+Components:
+- ion-back-button
+- ion-breadcrumb
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+- ion-tab-button
+*/
 @utility ion-bg-focused-* {
     --background-focused: --value(--color-*);
 }
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-checkbox
+- ion-fab-button
+- ion-item
+*/
 @utility ion-ease-* {
     --transition: --value(string);
 }
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+*/
 @utility ion-bg-hover-opacity-* {
     --background-hover-opacity: --value(number);
 }
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+*/
 @utility ion-bg-hover-* {
     --background-hover: --value(--color-*);
 }
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+- ion-tab-button
+*/
 @utility ion-bg-focused-opacity-* {
     --background-focused-opacity: --value(number);
 }
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-select
+- ion-tab-button
+*/
 @utility ion-text-ripple-* {
     --ripple-color: --value(--color-*);
 }
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-toolbar
+*/
 @utility ion-opacity-* {
     --opacity: --value(number);
 }
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
 @utility ion-me-* {
     --margin-end: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
 @utility ion-mb-* {
     --margin-bottom: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
 @utility ion-ms-* {
     --margin-start: --value(integer)px;
 }
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
 @utility ion-mt-* {
     --margin-top: --value(integer)px;
 }
+/*
+Components:
+- ion-button
+- ion-checkbox
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-list-header
+- ion-modal
+- ion-segment-button
+- ion-select
+- ion-textarea
+- ion-toast
+- ion-toolbar
+*/
 @utility ion-border-* {
     --border-width: --value(integer)px;
     --border-color: --value(--color-*);
     --border-style: --value(string);
 }
+/*
+Components:
+- ion-button
+- ion-fab-button
+- ion-item
+*/
 @utility ion-text-activated-* {
     --color-activated: --value(--color-*);
 }
+/*
+Components:
+- ion-button
+- ion-fab-button
+- ion-item
+*/
 @utility ion-bg-activated-* {
     --background-activated: --value(--color-*);
 }
+/*
+Components:
+- ion-button
+- ion-fab-button
+- ion-popover
+- ion-searchbar
+- ion-toast
+*/
 @utility ion-shadow-* {
     --box-shadow: --value(string);
 }
+/*
+Components:
+- ion-checkbox
+- ion-thumbnail
+*/
 @utility ion-size-* {
     --size: --value(integer)px;
 }
+/*
+Components:
+- ion-datetime
+- ion-skeleton-text
+*/
 @utility ion-bg-rgb-* {
     --background-rgb: --value(rgb);
 }
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-select
+- ion-textarea
+*/
 @utility ion-placeholder-opacity-* {
     --placeholder-opacity: --value(number);
 }
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-select
+- ion-textarea
+*/
 @utility ion-placeholder-color-* {
     --placeholder-color: --value(--color-*);
 }
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-textarea
+*/
 @utility ion-placeholder-font-style-* {
     --placeholder-font-style: --value(string);
 }
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-textarea
+*/
 @utility ion-placeholder-font-weight-* {
     --placeholder-font-weight: --value(integer);
 }
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
 @utility ion-highlight-color-focused-* {
     --highlight-color-focused: --value(--color-*);
 }
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
 @utility ion-highlight-color-invalid-* {
     --highlight-color-invalid: --value(--color-*);
 }
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
 @utility ion-highlight-h-* {
     --highlight-height: --value(integer)px;
 }
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
 @utility ion-highlight-color-valid-* {
     --highlight-color-valid: --value(--color-*);
 }
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
 @utility ion-inner-pb-* {
     --inner-padding-bottom: --value(integer)px;
 }
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
 @utility ion-inner-pt-* {
     --inner-padding-top: --value(integer)px;
 }
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
 @utility ion-inner-ps-* {
     --inner-padding-start: --value(integer)px;
 }
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
 @utility ion-inner-pe-* {
     --inner-padding-end: --value(integer)px;
 }
+/*
+Components:
+- ion-item
+- ion-list-header
+*/
 @utility ion-inner-border-* {
     --inner-border-width: --value(integer)px;
 }
+/*
+Components:
+- ion-radio
+- ion-segment-button
+*/
 @utility ion-text-checked-* {
     --color-checked: --value(--color-*);
 }
+/*
+Components:
+- ion-action-sheet
+*/
 @utility ion-action-sheet-bg-selected-opacity-* {
     --button-background-selected-opacity: --value(number);
 }
@@ -188,6 +653,10 @@
 @utility ion-action-sheet-bg-hover-* {
     --button-background-hover: --value(--color-*);
 }
+/*
+Components:
+- ion-back-button
+*/
 @utility ion-back-button-pt-icon-* {
     --icon-padding-top: --value(integer)px;
 }
@@ -218,9 +687,17 @@
 @utility ion-back-button-mb-icon-* {
     --icon-margin-bottom: --value(integer)px;
 }
+/*
+Components:
+- ion-breadcrumb
+*/
 @utility ion-breadcrumb-text-active-* {
     --color-active: --value(--color-*);
 }
+/*
+Components:
+- ion-checkbox
+*/
 @utility ion-checkbox-checkmark-w-* {
     --checkmark-width: --value(integer)px;
 }
@@ -236,6 +713,10 @@
 @utility ion-checkbox-border-checked-* {
     --border-color-checked: --value(--color-*);
 }
+/*
+Components:
+- ion-col
+*/
 @utility ion-col-p-* {
     --ion-grid-column-padding: --value(integer)px;
 }
@@ -257,6 +738,10 @@
 @utility ion-col-cols-* {
     --ion-grid-columns: --value(integer);
 }
+/*
+Components:
+- ion-content
+*/
 @utility ion-content-offset-t-* {
     --offset-top: --value(integer)px;
 }
@@ -266,6 +751,10 @@
 @utility ion-content-offset-b-* {
     --offset-bottom: --value(integer)px;
 }
+/*
+Components:
+- ion-datetime
+*/
 @utility ion-datetime-bg-wheel-fade-rgb-* {
     --wheel-fade-background-rgb: --value(rgb);
 }
@@ -278,9 +767,17 @@
 @utility ion-datetime-wheel-highlight-rounded-* {
     --wheel-highlight-border-radius: --value(integer)px;
 }
+/*
+Components:
+- ion-fab-button
+*/
 @utility ion-fab-button-text-close-icon-size-* {
     --close-icon-font-size: --value(integer)px;
 }
+/*
+Components:
+- ion-grid
+*/
 @utility ion-grid-p-sm-* {
     --ion-grid-padding-sm: --value(integer)px;
 }
@@ -317,6 +814,10 @@
 @utility ion-grid-p-* {
     --ion-grid-padding: --value(integer)px;
 }
+/*
+Components:
+- ion-item
+*/
 @utility ion-item-shadow-inner-* {
     --inner-box-shadow: --value(string);
 }
@@ -329,9 +830,17 @@
 @utility ion-item-detail-icon-opacity-* {
     --detail-icon-opacity: --value(number);
 }
+/*
+Components:
+- ion-loading
+*/
 @utility ion-loading-spinner-color-* {
     --spinner-color: --value(--color-*);
 }
+/*
+Components:
+- ion-picker
+*/
 @utility ion-picker-bg-fade-rgb-* {
     --fade-background-rgb: --value(rgb);
 }
@@ -341,18 +850,34 @@
 @utility ion-picker-highlight-rounded-* {
     --highlight-border-radius: --value(integer)px;
 }
+/*
+Components:
+- ion-popover
+*/
 @utility ion-popover-offset-x-* {
     --offset-x: --value(integer)px;
 }
 @utility ion-popover-offset-y-* {
     --offset-y: --value(integer)px;
 }
+/*
+Components:
+- ion-progress-bar
+*/
 @utility ion-progress-bar-bg-* {
     --progress-background: --value(--color-*);
 }
+/*
+Components:
+- ion-radio
+*/
 @utility ion-radio-inner-rounded-* {
     --inner-border-radius: --value(integer)px;
 }
+/*
+Components:
+- ion-range
+*/
 @utility ion-range-bar-bg-active-* {
     --bar-background-active: --value(--color-*);
 }
@@ -383,6 +908,10 @@
 @utility ion-range-bar-h-* {
     --bar-height: --value(integer)px;
 }
+/*
+Components:
+- ion-searchbar
+*/
 @utility ion-searchbar-icon-color-* {
     --icon-color: --value(--color-*);
 }
@@ -392,6 +921,10 @@
 @utility ion-searchbar-cancel-btn-color-* {
     --cancel-button-color: --value(--color-*);
 }
+/*
+Components:
+- ion-segment-button
+*/
 @utility ion-segment-button-indicator-shadow-* {
     --indicator-box-shadow: --value(string);
 }
@@ -410,6 +943,10 @@
 @utility ion-segment-button-indicator-color-* {
     --indicator-color: --value(--color-*);
 }
+/*
+Components:
+- ion-split-pane
+*/
 @utility ion-split-pane-max-w-* {
     --side-max-width: --value(integer)px;
 }
@@ -419,9 +956,17 @@
 @utility ion-split-pane-min-w-* {
     --side-min-width: --value(integer)px;
 }
+/*
+Components:
+- ion-tab-button
+*/
 @utility ion-tab-button-text-selected-* {
     --color-selected: --value(--color-*);
 }
+/*
+Components:
+- ion-toast
+*/
 @utility ion-toast-white-space-* {
     --white-space: --value(string);
 }
@@ -431,6 +976,10 @@
 @utility ion-toast-start-* {
     --start: --value(integer)px;
 }
+/*
+Components:
+- ion-toggle
+*/
 @utility ion-toggle-handle-w-* {
     --handle-width: --value(integer)px;
 }
