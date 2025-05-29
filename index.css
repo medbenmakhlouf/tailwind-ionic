@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss/utilities.css";
 
 @utility ion-font-size-* {
     --icon-font-size: --value(integer)px;
