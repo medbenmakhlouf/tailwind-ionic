@@ -21,7 +21,7 @@ Import into your Tailwind CSS entry file:
 ## 🧪 Example
 
 ```html
-<ion-chip class="ion-chip-bg-sky-500">
+<ion-chip class="ion-bg-sky-500">
     <ion-label>Hello Ionic + Tailwind</ion-label>
 </ion-chip>
 ```
