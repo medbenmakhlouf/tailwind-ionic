@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@utility ion-font-size-* {
+    --icon-font-size: --value(integer)px;
+}
+
+@utility ion-border-radius-* {
+    --border-radius: --value(integer)px;
+}
+
+@utility ion-opacity-* {
+    --opacity: --value(integer);
+}
+
+@utility ion-chip-* {
+    --color: --value(--color-*);
+}
+
+@utility ion-chip-bg-* {
+    --background: --value(--color-*);
+}
+
+@utility ion-tab-selected-* {
+    --color-selected: --value(--color-*);
+}
