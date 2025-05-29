@@ -328,7 +328,7 @@ Components:
 - ion-item
 */
 @utility ion-ease-* {
-    --transition: --value(string);
+    --transition: --value(integer);
 }
 /*
 Components:
@@ -438,7 +438,7 @@ Components:
 @utility ion-border-* {
     --border-width: --value(integer)px;
     --border-color: --value(--color-*);
-    --border-style: --value(string);
+    --border-style: --value(integer);
 }
 /*
 Components:
@@ -467,7 +467,7 @@ Components:
 - ion-toast
 */
 @utility ion-shadow-* {
-    --box-shadow: --value(string);
+    --box-shadow: --value(integer);
 }
 /*
 Components:
@@ -483,7 +483,7 @@ Components:
 - ion-skeleton-text
 */
 @utility ion-bg-rgb-* {
-    --background-rgb: --value(rgb);
+    --background-rgb: --value(integer);
 }
 /*
 Components:
@@ -512,7 +512,7 @@ Components:
 - ion-textarea
 */
 @utility ion-placeholder-font-style-* {
-    --placeholder-font-style: --value(string);
+    --placeholder-font-style: --value(integer);
 }
 /*
 Components:
@@ -756,7 +756,7 @@ Components:
 - ion-datetime
 */
 @utility ion-datetime-bg-wheel-fade-rgb-* {
-    --wheel-fade-background-rgb: --value(rgb);
+    --wheel-fade-background-rgb: --value(integer);
 }
 @utility ion-datetime-title-color-* {
     --title-color: --value(--color-*);
@@ -819,7 +819,7 @@ Components:
 - ion-item
 */
 @utility ion-item-shadow-inner-* {
-    --inner-box-shadow: --value(string);
+    --inner-box-shadow: --value(integer);
 }
 @utility ion-item-detail-icon-color-* {
     --detail-icon-color: --value(--color-*);
@@ -842,7 +842,7 @@ Components:
 - ion-picker
 */
 @utility ion-picker-bg-fade-rgb-* {
-    --fade-background-rgb: --value(rgb);
+    --fade-background-rgb: --value(integer);
 }
 @utility ion-picker-bg-highlight-* {
     --highlight-background: --value(--color-*);
@@ -897,7 +897,7 @@ Components:
     --knob-size: --value(integer)px;
 }
 @utility ion-range-knob-shadow-* {
-    --knob-box-shadow: --value(string);
+    --knob-box-shadow: --value(integer);
 }
 @utility ion-range-knob-rounded-* {
     --knob-border-radius: --value(integer)px;
@@ -926,16 +926,16 @@ Components:
 - ion-segment-button
 */
 @utility ion-segment-button-indicator-shadow-* {
-    --indicator-box-shadow: --value(string);
+    --indicator-box-shadow: --value(integer);
 }
 @utility ion-segment-button-indicator-h-* {
     --indicator-height: --value(integer)px;
 }
 @utility ion-segment-button-indicator-transform-* {
-    --indicator-transform: --value(string);
+    --indicator-transform: --value(integer);
 }
 @utility ion-segment-button-indicator-ease-* {
-    --indicator-transition: --value(string);
+    --indicator-transition: --value(integer);
 }
 @utility ion-segment-button-bg-checked-* {
     --background-checked: --value(--color-*);
@@ -968,7 +968,7 @@ Components:
 - ion-toast
 */
 @utility ion-toast-white-space-* {
-    --white-space: --value(string);
+    --white-space: --value(integer);
 }
 @utility ion-toast-end-* {
     --end: --value(integer)px;
@@ -984,7 +984,7 @@ Components:
     --handle-width: --value(integer)px;
 }
 @utility ion-toggle-handle-shadow-* {
-    --handle-box-shadow: --value(string);
+    --handle-box-shadow: --value(integer);
 }
 @utility ion-toggle-handle-h-* {
     --handle-height: --value(integer)px;
@@ -1011,5 +1011,5 @@ Components:
     --handle-border-radius: --value(integer)px;
 }
 @utility ion-toggle-handle-ease-* {
-    --handle-transition: --value(string);
+    --handle-transition: --value(integer);
 }
