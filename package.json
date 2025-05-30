@@ -4,7 +4,7 @@
   "description": "Tailwind v4 utility library for Ionic",
   "main": "dist/ionic-utils.css",
   "scripts": {
-    "build": "npx @tailwindcss/cli -i index.css -o ./dist/ionic-utils.css --minify",
+    "build": "npx @tailwindcss/cli -i demo.css -o ./dist/ionic-utils.css --minify",
     "publish:public": "npm publish --access public",
     "publish:alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha --access public",
     "publish:beta": "npm version prerelease --preid=beta && npm publish --tag beta --access public",
