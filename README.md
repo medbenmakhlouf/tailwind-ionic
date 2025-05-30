@@ -13,6 +13,7 @@ npm install tailwind-ionic-utils
 Import into your Tailwind CSS entry file:
 
 ```css
+@import "tailwindcss"; /* Make sure you import tailwindcss lib first */
 @import "tailwind-ionic-utils/index.css";
 ```
 
