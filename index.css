@@ -33,7 +33,7 @@ Components:
 - ion-toolbar
 */
 @utility ion-bg-* {
-    --background: --value(--color-*);
+    --background: --value(--color-*, 'transparent');
 }
 /*
 Components:
