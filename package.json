@@ -10,6 +10,10 @@
     "publish:beta": "npm version prerelease --preid=beta && npm publish --tag beta --access public",
     "publish:stable": "npm version patch && npm publish --access public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medbenmakhlouf/tailwind-ionic.git"
+  },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.0",
     "tailwindcss": "^4.1.0"
