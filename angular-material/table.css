@@ -1,4 +1,4 @@
-@utility mt-row-item-outline-width-* {
+@utility mt-row-item-outline-w-* {
     --mat-table-row-item-outline-width: calc(var(--spacing) * --value(number));
 }
 

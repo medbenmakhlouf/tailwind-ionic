@@ -11,11 +11,11 @@
     --mat-chip-elevated-container-color: calc(var(--spacing) * --value(number));
 }
 
-@utility mcp-flat-selected-outline-width-* {
+@utility mcp-flat-selected-outline-w-* {
     --mat-chip-flat-selected-outline-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mcp-outline-width-* {
+@utility mcp-outline-w-* {
     --mat-chip-outline-width: calc(var(--spacing) * --value(number));
 }
 

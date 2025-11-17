@@ -6,7 +6,7 @@
     --mat-slider-value-indicator-padding: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-value-indicator-width-* {
+@utility msr-value-indicator-w-* {
     --mat-slider-value-indicator-width: calc(var(--spacing) * --value(number));
 }
 
@@ -38,7 +38,7 @@
     --mat-slider-handle-height: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-handle-width-* {
+@utility msr-handle-w-* {
     --mat-slider-handle-width: calc(var(--spacing) * --value(number));
 }
 
@@ -46,7 +46,7 @@
     --mat-slider-inactive-track-height: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-with-overlap-handle-outline-width-* {
+@utility msr-with-overlap-handle-outline-w-* {
     --mat-slider-with-overlap-handle-outline-width: calc(var(--spacing) * --value(number));
 }
 

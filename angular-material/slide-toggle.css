@@ -18,7 +18,7 @@
     --mat-slide-toggle-disabled-unselected-icon-opacity: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-disabled-unselected-track-outline-width-* {
+@utility mst-disabled-unselected-track-outline-w-* {
     --mat-slide-toggle-disabled-unselected-track-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -58,7 +58,7 @@
     --mat-slide-toggle-selected-track-outline-color: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-selected-track-outline-width-* {
+@utility mst-selected-track-outline-w-* {
     --mat-slide-toggle-selected-track-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -74,7 +74,7 @@
     --mat-slide-toggle-track-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-track-outline-width-* {
+@utility mst-track-outline-w-* {
     --mat-slide-toggle-track-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -82,7 +82,7 @@
     --mat-slide-toggle-track-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-track-width-* {
+@utility mst-track-w-* {
     --mat-slide-toggle-track-width: calc(var(--spacing) * --value(number));
 }
 
@@ -118,7 +118,7 @@
     --mat-slide-toggle-with-icon-handle-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-handle-width-* {
+@utility mst-handle-w-* {
     --mat-slide-toggle-handle-width: calc(var(--spacing) * --value(number));
 }
 

@@ -11,11 +11,11 @@
     --mat-form-field-filled-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mff-outlined-outline-width-* {
+@utility mff-outlined-outline-w-* {
     --mat-form-field-outlined-outline-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mff-outlined-focus-outline-width-* {
+@utility mff-outlined-focus-outline-w-* {
     --mat-form-field-outlined-focus-outline-width: calc(var(--spacing) * --value(number));
 }
 

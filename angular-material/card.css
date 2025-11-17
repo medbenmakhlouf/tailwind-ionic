@@ -11,7 +11,7 @@
     --mat-card-outlined-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mc-outlined-outline-width-* {
+@utility mc-outlined-outline-w-* {
     --mat-card-outlined-outline-width: calc(var(--spacing) * --value(number));
 }
 

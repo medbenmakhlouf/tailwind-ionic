@@ -39,7 +39,7 @@
     --mat-button-outlined-icon-spacing: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-outlined-outline-width-* {
+@utility mb-outlined-outline-w-* {
     --mat-button-outlined-outline-width: calc(var(--spacing) * --value(number));
 }
 

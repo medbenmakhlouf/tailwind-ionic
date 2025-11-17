@@ -3,7 +3,7 @@
     --mat-progress-spinner-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mps-active-indicator-width-* {
+@utility mps-active-indicator-w-* {
     --mat-progress-spinner-active-indicator-width: calc(var(--spacing) * --value(number));
 }
 

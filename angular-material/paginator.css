@@ -1,5 +1,5 @@
 /* Base Type Utilities */
-@utility mp-page-size-select-width-* {
+@utility mp-page-size-select-w-* {
     --mat-paginator-page-size-select-width: calc(var(--spacing) * --value(number));
 }
 
