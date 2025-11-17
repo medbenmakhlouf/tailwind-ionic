@@ -306,7 +306,7 @@
     --mat-slide-toggle-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mst-label-text-line-height-* {
+@utility mst-label-text-leading-* {
     --mat-slide-toggle-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 

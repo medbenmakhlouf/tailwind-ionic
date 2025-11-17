@@ -78,7 +78,7 @@
     --mat-tab-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mts-label-text-line-height-* {
+@utility mts-label-text-leading-* {
     --mat-tab-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 

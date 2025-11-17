@@ -34,7 +34,7 @@
     --mat-select-trigger-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-trigger-text-line-height-* {
+@utility ms-trigger-text-leading-* {
     --mat-select-trigger-text-line-height: calc(var(--spacing) * --value(number));
 }
 

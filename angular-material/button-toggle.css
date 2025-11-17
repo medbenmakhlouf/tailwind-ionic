@@ -101,7 +101,7 @@
     --mat-button-toggle-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mbt-label-text-line-height-* {
+@utility mbt-label-text-leading-* {
     --mat-button-toggle-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
@@ -121,7 +121,7 @@
     --mat-button-toggle-legacy-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mbt-legacy-label-text-line-height-* {
+@utility mbt-legacy-label-text-leading-* {
     --mat-button-toggle-legacy-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 

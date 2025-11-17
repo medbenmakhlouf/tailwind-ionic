@@ -70,7 +70,7 @@
     --mat-radion-button-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mrb-label-text-line-height-* {
+@utility mrb-label-text-leading-* {
     --mat-radion-button-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 

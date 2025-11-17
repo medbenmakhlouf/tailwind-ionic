@@ -14,7 +14,7 @@
     --mat-tooltip-supporting-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mtt-supporting-text-line-height-* {
+@utility mtt-supporting-text-leading-* {
     --mat-tooltip-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }
 

@@ -158,7 +158,7 @@
     --mat-slider-label-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msr-label-label-text-line-height-* {
+@utility msr-label-label-text-leading-* {
     --mat-slider-label-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 

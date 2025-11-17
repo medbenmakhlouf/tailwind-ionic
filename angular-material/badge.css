@@ -81,7 +81,7 @@
 }
 
 /* Typography Tokens */
-@utility mbg-large-size-line-height-* {
+@utility mbg-large-size-leading-* {
     --mat-badge-large-size-line-height: calc(var(--spacing) * --value(number));
 }
 
@@ -89,11 +89,11 @@
     --mat-badge-large-size-text-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mbg-line-height-* {
+@utility mbg-leading-* {
     --mat-badge-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mbg-small-size-line-height-* {
+@utility mbg-small-size-leading-* {
     --mat-badge-small-size-line-height: calc(var(--spacing) * --value(number));
 }
 

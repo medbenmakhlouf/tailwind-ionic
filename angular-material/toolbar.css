@@ -10,7 +10,7 @@
     --mat-toolbar-title-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mtr-title-text-line-height-* {
+@utility mtr-title-text-leading-* {
     --mat-toolbar-title-text-line-height: calc(var(--spacing) * --value(number));
 }
 
