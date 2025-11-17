@@ -26,10 +26,10 @@
     --mat-toolbar-title-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mtr-standard-height-* {
+@utility mtr-standard-h-* {
     --mat-toolbar-standard-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mtr-mobile-height-* {
+@utility mtr-mobile-h-* {
     --mat-toolbar-mobile-height: calc(var(--spacing) * --value(number));
 }

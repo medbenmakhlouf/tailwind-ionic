@@ -23,7 +23,7 @@
     --mat-button-toggle-legacy-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
 }
 
-@utility mbt-legacy-height-* {
+@utility mbt-legacy-h-* {
     --mat-button-toggle-legacy-height: calc(var(--spacing) * --value(number));
 }
 
@@ -138,6 +138,6 @@
 }
 
 /* Density Tokens */
-@utility mbt-height-* {
+@utility mbt-h-* {
     --mat-button-toggle-height: calc(var(--spacing) * --value(number));
 }

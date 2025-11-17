@@ -94,10 +94,10 @@
 }
 
 /* Density Type Utilities */
-@utility mep-header-collapsed-state-height-* {
+@utility mep-header-collapsed-state-h-* {
     --mat-expansion-panel-header-collapsed-state-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mep-header-expanded-state-height-* {
+@utility mep-header-expanded-state-h-* {
     --mat-expansion-panel-header-expanded-state-height: calc(var(--spacing) * --value(number));
 }

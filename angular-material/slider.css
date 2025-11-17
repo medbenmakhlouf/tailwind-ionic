@@ -10,7 +10,7 @@
     --mat-slider-value-indicator-width: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-value-indicator-height-* {
+@utility msr-value-indicator-h-* {
     --mat-slider-value-indicator-height: calc(var(--spacing) * --value(number));
 }
 
@@ -30,11 +30,11 @@
     --mat-slider-value-indicator-container-transform: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-active-track-height-* {
+@utility msr-active-track-h-* {
     --mat-slider-active-track-height: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-handle-height-* {
+@utility msr-handle-h-* {
     --mat-slider-handle-height: calc(var(--spacing) * --value(number));
 }
 
@@ -42,7 +42,7 @@
     --mat-slider-handle-width: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-inactive-track-height-* {
+@utility msr-inactive-track-h-* {
     --mat-slider-inactive-track-height: calc(var(--spacing) * --value(number));
 }
 

@@ -78,14 +78,14 @@
     --mat-table-footer-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mt-header-container-height-* {
+@utility mt-header-container-h-* {
     --mat-table-header-container-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mt-footer-container-height-* {
+@utility mt-footer-container-h-* {
     --mat-table-footer-container-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mt-row-item-container-height-* {
+@utility mt-row-item-container-h-* {
     --mat-table-row-item-container-height: calc(var(--spacing) * --value(number));
 }

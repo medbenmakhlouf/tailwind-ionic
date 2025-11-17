@@ -426,11 +426,11 @@
     --mat-button-filled-touch-target-display: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-filled-container-height-* {
+@utility mb-filled-container-h-* {
     --mat-button-filled-container-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-outlined-container-height-* {
+@utility mb-outlined-container-h-* {
     --mat-button-outlined-container-height: calc(var(--spacing) * --value(number));
 }
 
@@ -442,7 +442,7 @@
     --mat-button-protected-touch-target-display: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-protected-container-height-* {
+@utility mb-protected-container-h-* {
     --mat-button-protected-container-height: calc(var(--spacing) * --value(number));
 }
 
@@ -450,11 +450,11 @@
     --mat-button-text-touch-target-display: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-text-container-height-* {
+@utility mb-text-container-h-* {
     --mat-button-text-container-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-tonal-container-height-* {
+@utility mb-tonal-container-h-* {
     --mat-button-tonal-container-height: calc(var(--spacing) * --value(number));
 }
 

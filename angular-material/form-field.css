@@ -1,9 +1,9 @@
 /* Base Tokens */
-@utility mff-filled-active-indicator-height-* {
+@utility mff-filled-active-indicator-h-* {
     --mat-form-field-filled-active-indicator-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mff-filled-focus-active-indicator-height-* {
+@utility mff-filled-focus-active-indicator-h-* {
     --mat-form-field-filled-focus-active-indicator-height: calc(var(--spacing) * --value(number));
 }
 
@@ -330,7 +330,7 @@
 }
 
 /* Density Tokens */
-@utility mff-container-height-* {
+@utility mff-container-h-* {
     --mat-form-field-container-height: calc(var(--spacing) * --value(number));
 }
 

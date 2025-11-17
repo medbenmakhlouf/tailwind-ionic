@@ -197,14 +197,14 @@
     --mat-list-list-item-leading-icon-end-space: calc(var(--spacing) * --value(number));
 }
 
-@utility ml-list-item-one-line-container-height-* {
+@utility ml-list-item-one-line-container-h-* {
     --mat-list-list-item-one-line-container-height: calc(var(--spacing) * --value(number));
 }
 
-@utility ml-list-item-two-line-container-height-* {
+@utility ml-list-item-two-line-container-h-* {
     --mat-list-list-item-two-line-container-height: calc(var(--spacing) * --value(number));
 }
 
-@utility ml-list-item-three-line-container-height-* {
+@utility ml-list-item-three-line-container-h-* {
     --mat-list-list-item-three-line-container-height: calc(var(--spacing) * --value(number));
 }

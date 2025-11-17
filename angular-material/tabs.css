@@ -1,4 +1,4 @@
-@utility mts-active-indicator-height-* {
+@utility mts-active-indicator-h-* {
     --mat-tab-active-indicator-height: calc(var(--spacing) * --value(number));
 }
 
@@ -6,7 +6,7 @@
     --mat-tab-active-indicator-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mts-divider-height-* {
+@utility mts-divider-h-* {
     --mat-tab-divider-height: calc(var(--spacing) * --value(number));
 }
 
@@ -94,6 +94,6 @@
     --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mts-container-height-* {
+@utility mts-container-h-* {
     --mat-tab-container-height: calc(var(--spacing) * --value(number));
 }

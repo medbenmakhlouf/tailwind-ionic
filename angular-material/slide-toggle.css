@@ -70,7 +70,7 @@
     --mat-slide-toggle-state-layer-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-track-height-* {
+@utility mst-track-h-* {
     --mat-slide-toggle-track-height: calc(var(--spacing) * --value(number));
 }
 
@@ -122,7 +122,7 @@
     --mat-slide-toggle-handle-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-handle-height-* {
+@utility mst-handle-h-* {
     --mat-slide-toggle-handle-height: calc(var(--spacing) * --value(number));
 }
 

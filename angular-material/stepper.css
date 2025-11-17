@@ -106,6 +106,6 @@
     --mat-stepper-header-selected-state-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msp-header-height-* {
+@utility msp-header-h-* {
     --mat-stepper-header-height: calc(var(--spacing) * --value(number));
 }

@@ -186,6 +186,6 @@
 }
 
 /* Density Type Utilities */
-@utility mcp-container-height-* {
+@utility mcp-container-h-* {
     --mat-chip-container-height: calc(var(--spacing) * --value(number));
 }

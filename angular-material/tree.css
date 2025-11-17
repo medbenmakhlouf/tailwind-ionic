@@ -18,6 +18,6 @@
     --mat-tree-node-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mtr-node-min-height-* {
+@utility mtr-node-min-h-* {
     --mat-tree-node-min-height: calc(var(--spacing) * --value(number));
 }
