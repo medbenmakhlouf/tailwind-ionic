@@ -4,11 +4,11 @@
 }
 
 /* Color Tokens */
-@utility mbs-container-text-color-* {
+@utility mbs-container-text-* {
     --mat-bottom-sheet-container-text-color: --value(--color-*);
 }
 
-@utility mbs-container-background-color-* {
+@utility mbs-container-bg-* {
     --mat-bottom-sheet-container-background-color: --value(--color-*);
 }
 

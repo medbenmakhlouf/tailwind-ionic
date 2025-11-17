@@ -52,7 +52,7 @@
     --mat-form-field-error-hover-trailing-icon-color: --value(--color-*);
 }
 
-@utility mff-error-text-color-* {
+@utility mff-error-text-* {
     --mat-form-field-error-text-color: --value(--color-*);
 }
 
@@ -80,11 +80,11 @@
     --mat-form-field-filled-disabled-container-color: --value(--color-*);
 }
 
-@utility mff-filled-disabled-input-text-color-* {
+@utility mff-filled-disabled-input-text-* {
     --mat-form-field-filled-disabled-input-text-color: --value(--color-*);
 }
 
-@utility mff-filled-disabled-label-text-color-* {
+@utility mff-filled-disabled-label-text-* {
     --mat-form-field-filled-disabled-label-text-color: --value(--color-*);
 }
 
@@ -100,7 +100,7 @@
     --mat-form-field-filled-error-focus-active-indicator-color: --value(--color-*);
 }
 
-@utility mff-filled-error-focus-label-text-color-* {
+@utility mff-filled-error-focus-label-text-* {
     --mat-form-field-filled-error-focus-label-text-color: --value(--color-*);
 }
 
@@ -108,11 +108,11 @@
     --mat-form-field-filled-error-hover-active-indicator-color: --value(--color-*);
 }
 
-@utility mff-filled-error-hover-label-text-color-* {
+@utility mff-filled-error-hover-label-text-* {
     --mat-form-field-filled-error-hover-label-text-color: --value(--color-*);
 }
 
-@utility mff-filled-error-label-text-color-* {
+@utility mff-filled-error-label-text-* {
     --mat-form-field-filled-error-label-text-color: --value(--color-*);
 }
 
@@ -120,7 +120,7 @@
     --mat-form-field-filled-focus-active-indicator-color: --value(--color-*);
 }
 
-@utility mff-filled-focus-label-text-color-* {
+@utility mff-filled-focus-label-text-* {
     --mat-form-field-filled-focus-label-text-color: --value(--color-*);
 }
 
@@ -128,11 +128,11 @@
     --mat-form-field-filled-hover-active-indicator-color: --value(--color-*);
 }
 
-@utility mff-filled-hover-label-text-color-* {
+@utility mff-filled-hover-label-text-* {
     --mat-form-field-filled-hover-label-text-color: --value(--color-*);
 }
 
-@utility mff-filled-input-text-color-* {
+@utility mff-filled-input-text-* {
     --mat-form-field-filled-input-text-color: --value(--color-*);
 }
 
@@ -140,7 +140,7 @@
     --mat-form-field-filled-input-text-placeholder-color: --value(--color-*);
 }
 
-@utility mff-filled-label-text-color-* {
+@utility mff-filled-label-text-* {
     --mat-form-field-filled-label-text-color: --value(--color-*);
 }
 
@@ -164,11 +164,11 @@
     --mat-form-field-outlined-caret-color: --value(--color-*);
 }
 
-@utility mff-outlined-disabled-input-text-color-* {
+@utility mff-outlined-disabled-input-text-* {
     --mat-form-field-outlined-disabled-input-text-color: --value(--color-*);
 }
 
-@utility mff-outlined-disabled-label-text-color-* {
+@utility mff-outlined-disabled-label-text-* {
     --mat-form-field-outlined-disabled-label-text-color: --value(--color-*);
 }
 
@@ -180,7 +180,7 @@
     --mat-form-field-outlined-error-caret-color: --value(--color-*);
 }
 
-@utility mff-outlined-error-focus-label-text-color-* {
+@utility mff-outlined-error-focus-label-text-* {
     --mat-form-field-outlined-error-focus-label-text-color: --value(--color-*);
 }
 
@@ -188,7 +188,7 @@
     --mat-form-field-outlined-error-focus-outline-color: --value(--color-*);
 }
 
-@utility mff-outlined-error-hover-label-text-color-* {
+@utility mff-outlined-error-hover-label-text-* {
     --mat-form-field-outlined-error-hover-label-text-color: --value(--color-*);
 }
 
@@ -196,7 +196,7 @@
     --mat-form-field-outlined-error-hover-outline-color: --value(--color-*);
 }
 
-@utility mff-outlined-error-label-text-color-* {
+@utility mff-outlined-error-label-text-* {
     --mat-form-field-outlined-error-label-text-color: --value(--color-*);
 }
 
@@ -204,7 +204,7 @@
     --mat-form-field-outlined-error-outline-color: --value(--color-*);
 }
 
-@utility mff-outlined-focus-label-text-color-* {
+@utility mff-outlined-focus-label-text-* {
     --mat-form-field-outlined-focus-label-text-color: --value(--color-*);
 }
 
@@ -212,7 +212,7 @@
     --mat-form-field-outlined-focus-outline-color: --value(--color-*);
 }
 
-@utility mff-outlined-hover-label-text-color-* {
+@utility mff-outlined-hover-label-text-* {
     --mat-form-field-outlined-hover-label-text-color: --value(--color-*);
 }
 
@@ -220,7 +220,7 @@
     --mat-form-field-outlined-hover-outline-color: --value(--color-*);
 }
 
-@utility mff-outlined-input-text-color-* {
+@utility mff-outlined-input-text-* {
     --mat-form-field-outlined-input-text-color: --value(--color-*);
 }
 
@@ -228,7 +228,7 @@
     --mat-form-field-outlined-input-text-placeholder-color: --value(--color-*);
 }
 
-@utility mff-outlined-label-text-color-* {
+@utility mff-outlined-label-text-* {
     --mat-form-field-outlined-label-text-color: --value(--color-*);
 }
 
@@ -236,11 +236,11 @@
     --mat-form-field-outlined-outline-color: --value(--color-*);
 }
 
-@utility mff-select-disabled-option-text-color-* {
+@utility mff-select-disabled-option-text-* {
     --mat-form-field-select-disabled-option-text-color: --value(--color-*);
 }
 
-@utility mff-select-option-text-color-* {
+@utility mff-select-option-text-* {
     --mat-form-field-select-option-text-color: --value(--color-*);
 }
 

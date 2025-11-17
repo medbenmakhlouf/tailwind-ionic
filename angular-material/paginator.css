@@ -7,11 +7,11 @@
     --mat-paginator-page-size-select-touch-target-height: calc(var(--spacing) * --value(number));
 }
 /* Color Type Utilities */
-@utility mp-container-text-color-* {
+@utility mp-container-text-* {
     --mat-paginator-container-text-color: --value(--color-*);
 }
 
-@utility mp-container-background-color-* {
+@utility mp-container-bg-* {
     --mat-paginator-container-background-color: --value(--color-*);
 }
 

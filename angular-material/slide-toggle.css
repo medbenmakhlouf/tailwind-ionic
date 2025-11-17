@@ -130,7 +130,7 @@
     --mat-slide-toggle-touch-target-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-disabled-label-text-color-* {
+@utility mst-disabled-label-text-* {
     --mat-slide-toggle-disabled-label-text-color: --value(--color-*);
 }
 
@@ -162,7 +162,7 @@
     --mat-slide-toggle-disabled-unselected-track-outline-color: --value(--color-*);
 }
 
-@utility mst-label-text-color-* {
+@utility mst-label-text-* {
     --mat-slide-toggle-label-text-color: --value(--color-*);
 }
 

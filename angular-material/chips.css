@@ -52,7 +52,7 @@
 }
 
 /* Color Type Utilities */
-@utility mcp-disabled-label-text-color-* {
+@utility mcp-disabled-label-text-* {
     --mat-chip-disabled-label-text-color: --value(--color-*);
 }
 
@@ -88,7 +88,7 @@
     --mat-chip-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mcp-label-text-color-* {
+@utility mcp-label-text-* {
     --mat-chip-label-text-color: --value(--color-*);
 }
 
@@ -116,7 +116,7 @@
     --mat-chip-selected-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mcp-selected-label-text-color-* {
+@utility mcp-selected-label-text-* {
     --mat-chip-selected-label-text-color: --value(--color-*);
 }
 

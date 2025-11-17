@@ -2,7 +2,7 @@
     --mat-table-row-item-outline-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mt-background-color-* {
+@utility mt-bg-* {
     --mat-table-background-color: --value(--color-*);
 }
 
@@ -10,7 +10,7 @@
     --mat-table-header-headline-color: --value(--color-*);
 }
 
-@utility mt-row-item-label-text-color-* {
+@utility mt-row-item-label-text-* {
     --mat-table-row-item-label-text-color: --value(--color-*);
 }
 

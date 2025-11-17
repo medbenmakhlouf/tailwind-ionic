@@ -45,7 +45,7 @@
     --mat-checkbox-disabled-unselected-icon-color: --value(--color-*);
 }
 
-@utility mck-label-text-color-* {
+@utility mck-label-text-* {
     --mat-checkbox-label-text-color: --value(--color-*);
 }
 

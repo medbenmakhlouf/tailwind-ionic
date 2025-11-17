@@ -44,7 +44,7 @@
     --mat-card-outlined-outline-color: --value(--color-*);
 }
 
-@utility mc-subtitle-text-color-* {
+@utility mc-subtitle-text-* {
     --mat-card-subtitle-text-color: --value(--color-*);
 }
 

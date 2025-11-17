@@ -15,7 +15,7 @@
     --mat-list-list-item-container-shape: --value(--color-*);
 }
 
-@utility ml-list-item-disabled-label-text-color-* {
+@utility ml-list-item-disabled-label-text-* {
     --mat-list-list-item-disabled-label-text-color: --value(--color-*);
 }
 
@@ -47,7 +47,7 @@
     --mat-list-list-item-disabled-trailing-icon-opacity: --value(--color-*);
 }
 
-@utility ml-list-item-focus-label-text-color-* {
+@utility ml-list-item-focus-label-text-* {
     --mat-list-list-item-focus-label-text-color: --value(--color-*);
 }
 
@@ -59,7 +59,7 @@
     --mat-list-list-item-focus-state-layer-opacity: --value(--color-*);
 }
 
-@utility ml-list-item-hover-label-text-color-* {
+@utility ml-list-item-hover-label-text-* {
     --mat-list-list-item-hover-label-text-color: --value(--color-*);
 }
 
@@ -71,7 +71,7 @@
     --mat-list-list-item-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility ml-list-item-label-text-color-* {
+@utility ml-list-item-label-text-* {
     --mat-list-list-item-label-text-color: --value(--color-*);
 }
 
@@ -99,7 +99,7 @@
     --mat-list-list-item-selected-trailing-icon-color: --value(--color-*);
 }
 
-@utility ml-list-item-supporting-text-color-* {
+@utility ml-list-item-supporting-text-* {
     --mat-list-list-item-supporting-text-color: --value(--color-*);
 }
 
@@ -111,7 +111,7 @@
     --mat-list-list-item-trailing-icon-size: --value(--color-*);
 }
 
-@utility ml-list-item-trailing-supporting-text-color-* {
+@utility ml-list-item-trailing-supporting-text-* {
     --mat-list-list-item-trailing-supporting-text-color: --value(--color-*);
 }
 

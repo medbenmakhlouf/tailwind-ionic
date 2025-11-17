@@ -1,8 +1,8 @@
-@utility mtr-container-background-color-* {
+@utility mtr-container-bg-* {
     --mat-tree-container-background-color: --value(--color-*);
 }
 
-@utility mtr-node-text-color-* {
+@utility mtr-node-text-* {
     --mat-tree-node-text-color: --value(--color-*);
 }
 

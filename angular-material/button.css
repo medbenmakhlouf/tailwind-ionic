@@ -136,7 +136,7 @@
     --mat-button-filled-disabled-container-color: --value(--color-*);
 }
 
-@utility mb-filled-disabled-label-text-color-* {
+@utility mb-filled-disabled-label-text-* {
     --mat-button-filled-disabled-label-text-color: --value(--color-*);
 }
 
@@ -152,7 +152,7 @@
     --mat-button-filled-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mb-filled-label-text-color-* {
+@utility mb-filled-label-text-* {
     --mat-button-filled-label-text-color: --value(--color-*);
 }
 
@@ -168,7 +168,7 @@
     --mat-button-filled-state-layer-color: --value(--color-*);
 }
 
-@utility mb-outlined-disabled-label-text-color-* {
+@utility mb-outlined-disabled-label-text-* {
     --mat-button-outlined-disabled-label-text-color: --value(--color-*);
 }
 
@@ -188,7 +188,7 @@
     --mat-button-outlined-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mb-outlined-label-text-color-* {
+@utility mb-outlined-label-text-* {
     --mat-button-outlined-label-text-color: --value(--color-*);
 }
 
@@ -224,7 +224,7 @@
     --mat-button-protected-disabled-container-elevation-shadow: --value(--color-*);
 }
 
-@utility mb-protected-disabled-label-text-color-* {
+@utility mb-protected-disabled-label-text-* {
     --mat-button-protected-disabled-label-text-color: --value(--color-*);
 }
 
@@ -248,7 +248,7 @@
     --mat-button-protected-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mb-protected-label-text-color-* {
+@utility mb-protected-label-text-* {
     --mat-button-protected-label-text-color: --value(--color-*);
 }
 
@@ -268,7 +268,7 @@
     --mat-button-protected-state-layer-color: --value(--color-*);
 }
 
-@utility mb-text-disabled-label-text-color-* {
+@utility mb-text-disabled-label-text-* {
     --mat-button-text-disabled-label-text-color: --value(--color-*);
 }
 
@@ -284,7 +284,7 @@
     --mat-button-text-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mb-text-label-text-color-* {
+@utility mb-text-label-text-* {
     --mat-button-text-label-text-color: --value(--color-*);
 }
 
@@ -308,7 +308,7 @@
     --mat-button-tonal-disabled-container-color: --value(--color-*);
 }
 
-@utility mb-tonal-disabled-label-text-color-* {
+@utility mb-tonal-disabled-label-text-* {
     --mat-button-tonal-disabled-label-text-color: --value(--color-*);
 }
 
@@ -324,7 +324,7 @@
     --mat-button-tonal-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mb-tonal-label-text-color-* {
+@utility mb-tonal-label-text-* {
     --mat-button-tonal-label-text-color: --value(--color-*);
 }
 

@@ -1,16 +1,16 @@
-@utility msc-container-background-color-* {
+@utility msc-container-bg-* {
     --mat-sidenav-content-container-background-color: --value(--color-*);
 }
 
-@utility msc-container-text-color-* {
+@utility msc-container-text-* {
     --mat-sidenav-content-container-text-color: --value(--color-*);
 }
 
-@utility msc-content-background-color-* {
+@utility msc-content-bg-* {
     --mat-sidenav-content-content-background-color: --value(--color-*);
 }
 
-@utility msc-content-text-color-* {
+@utility msc-content-text-* {
     --mat-sidenav-content-content-text-color: --value(--color-*);
 }
 

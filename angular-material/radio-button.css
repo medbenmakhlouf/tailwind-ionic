@@ -26,7 +26,7 @@
     --mat-radion-button-disabled-unselected-icon-color: --value(--color-*);
 }
 
-@utility mrb-label-text-color-* {
+@utility mrb-label-text-* {
     --mat-radion-button-label-text-color: --value(--color-*);
 }
 

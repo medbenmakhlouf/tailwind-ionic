@@ -64,19 +64,19 @@
 }
 
 /* Color Tokens */
-@utility mbg-background-color-* {
+@utility mbg-bg-* {
     --mat-badge-background-color: --value(--color-*);
 }
 
-@utility mbg-disabled-state-background-color-* {
+@utility mbg-disabled-state-bg-* {
     --mat-badge-disabled-state-background-color: --value(--color-*);
 }
 
-@utility mbg-disabled-state-text-color-* {
+@utility mbg-disabled-state-text-* {
     --mat-badge-disabled-state-text-color: --value(--color-*);
 }
 
-@utility mbg-text-color-* {
+@utility mbg-text-* {
     --mat-badge-text-color: --value(--color-*);
 }
 

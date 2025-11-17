@@ -126,7 +126,7 @@
     --mat-slider-label-container-color: --value(--color-*);
 }
 
-@utility msr-label-label-text-color-* {
+@utility msr-label-label-text-* {
     --mat-slider-label-label-text-color: --value(--color-*);
 }
 

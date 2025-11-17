@@ -6,7 +6,7 @@
     --mat-tooltip-container-shape: --value(--color-*);
 }
 
-@utility mtt-supporting-text-color-* {
+@utility mtt-supporting-text-* {
     --mat-tooltip-supporting-text-color: --value(--color-*);
 }
 

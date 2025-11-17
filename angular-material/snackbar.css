@@ -9,7 +9,7 @@
     --mat-snackbar-container-color: --value(--color-*);
 }
 
-@utility msb-supporting-text-color-* {
+@utility msb-supporting-text-* {
     --mat-snackbar-supporting-text-color: --value(--color-*);
 }
 @utility msb-supporting-text-font-* {

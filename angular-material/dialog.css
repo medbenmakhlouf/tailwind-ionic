@@ -48,7 +48,7 @@
     --mat-dialog-subhead-color: --value(--color-*);
 }
 
-@utility mdg-supporting-text-color-* {
+@utility mdg-supporting-text-* {
     --mat-dialog-supporting-text-color: --value(--color-*);
 }
 

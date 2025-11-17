@@ -1,8 +1,8 @@
-@utility mtr-container-background-color-* {
+@utility mtr-container-bg-* {
     --mat-toolbar-container-background-color: --value(--color-*);
 }
 
-@utility mtr-container-text-color-* {
+@utility mtr-container-text-* {
     --mat-toolbar-container-text-color: --value(--color-*);
 }
 
