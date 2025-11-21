@@ -326,14 +326,14 @@
     --mat-form-field-filled-label-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
-@utility mff-container-vertical-padding-* {
+@utility mff-container-vertical-p-* {
     --mat-form-field-container-vertical-padding: calc(var(--spacing) * --value(number));
 }
 
-@utility mff-filled-with-label-container-padding-top-* {
+@utility mff-filled-with-label-container-pt-* {
     --mat-form-field-filled-with-label-container-padding-top: calc(var(--spacing) * --value(number));
 }
 
-@utility mff-filled-with-label-container-padding-bottom-* {
+@utility mff-filled-with-label-container-pb-* {
     --mat-form-field-filled-with-label-container-padding-bottom: calc(var(--spacing) * --value(number));
 }

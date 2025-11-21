@@ -2,7 +2,7 @@
     --mat-slider-value-indicator-opacity: --value(number, [number]);
 }
 
-@utility msr-value-indicator-padding-* {
+@utility msr-value-indicator-p-* {
     --mat-slider-value-indicator-padding: calc(var(--spacing) * --value(number));
 }
 

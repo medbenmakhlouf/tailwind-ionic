@@ -3,7 +3,7 @@
     --mat-button-filled-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-filled-horizontal-padding-* {
+@utility mb-filled-horizontal-p-* {
     --mat-button-filled-horizontal-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -27,7 +27,7 @@
     --mat-button-outlined-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-outlined-horizontal-padding-* {
+@utility mb-outlined-horizontal-p-* {
     --mat-button-outlined-horizontal-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -55,7 +55,7 @@
     --mat-button-protected-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-protected-horizontal-padding-* {
+@utility mb-protected-horizontal-p-* {
     --mat-button-protected-horizontal-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -79,7 +79,7 @@
     --mat-button-text-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-text-horizontal-padding-* {
+@utility mb-text-horizontal-p-* {
     --mat-button-text-horizontal-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -91,7 +91,7 @@
     --mat-button-text-icon-spacing: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-text-with-icon-horizontal-padding-* {
+@utility mb-text-with-icon-horizontal-p-* {
     --mat-button-text-with-icon-horizontal-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -107,7 +107,7 @@
     --mat-button-tonal-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mb-tonal-horizontal-padding-* {
+@utility mb-tonal-horizontal-p-* {
     --mat-button-tonal-horizontal-padding: calc(var(--spacing) * --value(number));
 }
 

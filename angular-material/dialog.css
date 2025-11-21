@@ -3,7 +3,7 @@
     --mat-dialog-actions-alignment: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-actions-padding-* {
+@utility mdg-actions-p-* {
     --mat-dialog-actions-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -27,15 +27,15 @@
     --mat-dialog-container-small-max-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-content-padding-* {
+@utility mdg-content-p-* {
     --mat-dialog-content-padding: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-headline-padding-* {
+@utility mdg-headline-p-* {
     --mat-dialog-headline-padding: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-with-actions-content-padding-* {
+@utility mdg-with-actions-content-p-* {
     --mat-dialog-with-actions-content-padding: calc(var(--spacing) * --value(number));
 }
 

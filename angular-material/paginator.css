@@ -52,7 +52,7 @@
     --mat-paginator-form-field-container-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mp-form-field-container-vertical-padding-* {
+@utility mp-form-field-container-vertical-p-* {
     --mat-paginator-form-field-container-vertical-padding: calc(var(--spacing) * --value(number));
 }
 

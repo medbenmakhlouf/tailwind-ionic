@@ -7,7 +7,7 @@
     --mat-badge-container-overlap-offset: calc(var(--spacing) * --value(number));
 }
 
-@utility mbg-container-padding-* {
+@utility mbg-container-p-* {
     --mat-badge-container-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -27,7 +27,7 @@
     --mat-badge-large-size-container-overlap-offset: calc(var(--spacing) * --value(number));
 }
 
-@utility mbg-large-size-container-padding-* {
+@utility mbg-large-size-container-p-* {
     --mat-badge-large-size-container-padding: calc(var(--spacing) * --value(number));
 }
 
@@ -55,7 +55,7 @@
     --mat-badge-small-size-container-overlap-offset: calc(var(--spacing) * --value(number));
 }
 
-@utility mbg-small-size-container-padding-* {
+@utility mbg-small-size-container-p-* {
     --mat-badge-small-size-container-padding: calc(var(--spacing) * --value(number));
 }
 
