@@ -13,7 +13,8 @@
     --mat-snackbar-supporting-text-color: --value(--color-*);
 }
 @utility msb-supporting-text-font-* {
-    --mat-snackbar-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-snackbar-supporting-text-font: --value(--font-*);
+    --mat-snackbar-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msb-supporting-text-leading-* {
@@ -22,8 +23,4 @@
 
 @utility msb-supporting-text-size-* {
     --mat-snackbar-supporting-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility msb-supporting-text-weight-* {
-    --mat-snackbar-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }

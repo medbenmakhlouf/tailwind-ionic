@@ -14,7 +14,8 @@
 
 /* Typography Tokens */
 @utility mbs-container-text-font-* {
-    --mat-bottom-sheet-container-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-bottom-sheet-container-text-font: --value(--font-*);
+    --mat-bottom-sheet-container-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mbs-container-text-leading-* {
@@ -27,8 +28,4 @@
 
 @utility mbs-container-text-tracking-* {
     --mat-bottom-sheet-container-text-tracking: --value(number, [number])rem;
-}
-
-@utility mbs-container-text-weight-* {
-    --mat-bottom-sheet-container-text-weight: --value(--font-weight-*, integer, [integer]);
 }

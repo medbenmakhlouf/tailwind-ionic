@@ -78,9 +78,6 @@
 }
 
 @utility mm-item-label-text-font-* {
-    --mat-menu-item-label-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility mm-item-label-text-weight-* {
+    --mat-menu-item-label-text-font: --value(--font-*);
     --mat-menu-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }

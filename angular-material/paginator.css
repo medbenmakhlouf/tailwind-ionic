@@ -36,10 +36,7 @@
 }
 
 @utility mp-container-text-font-* {
-    --mat-paginator-container-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility mp-container-text-weight-* {
+    --mat-paginator-container-text-font: --value(--font-*);
     --mat-paginator-container-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 

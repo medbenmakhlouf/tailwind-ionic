@@ -141,10 +141,7 @@
 }
 
 @utility ml-list-item-label-text-font-* {
-    --mat-list-list-item-label-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility ml-list-item-label-text-weight-* {
+    --mat-list-list-item-label-text-font: --value(--font-*);
     --mat-list-list-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
@@ -161,10 +158,7 @@
 }
 
 @utility ml-list-item-supporting-text-font-* {
-    --mat-list-list-item-supporting-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility ml-list-item-supporting-text-weight-* {
+    --mat-list-list-item-supporting-text-font: --value(--font-*);
     --mat-list-list-item-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
@@ -181,10 +175,7 @@
 }
 
 @utility ml-list-item-trailing-supporting-text-font-* {
-    --mat-list-list-item-trailing-supporting-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility ml-list-item-trailing-supporting-text-weight-* {
+    --mat-list-list-item-trailing-supporting-text-font: --value(--font-*);
     --mat-list-list-item-trailing-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 

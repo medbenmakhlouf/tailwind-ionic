@@ -102,13 +102,10 @@
 }
 
 @utility mbg-text-font-* {
-    --mat-badge-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-badge-text-font: --value(--font-*);
+    --mat-badge-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mbg-text-size-* {
     --mat-badge-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mbg-text-weight-* {
-    --mat-badge-text-weight: --value(--font-weight-*, integer, [integer]);
 }

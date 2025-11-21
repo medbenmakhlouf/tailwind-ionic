@@ -254,7 +254,8 @@
 
 /* Typography Tokens */
 @utility mff-container-text-font-* {
-    --mat-form-field-container-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-form-field-container-text-font: --value(--font-*);
+    --mat-form-field-container-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mff-container-text-leading-* {
@@ -269,12 +270,9 @@
     --mat-form-field-container-text-tracking: --value(number, [number])rem;
 }
 
-@utility mff-container-text-weight-* {
-    --mat-form-field-container-text-weight: --value(--font-weight-*, integer, [integer]);
-}
-
 @utility mff-subscript-text-font-* {
-    --mat-form-field-subscript-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-form-field-subscript-text-font: --value(--font-*);
+    --mat-form-field-subscript-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mff-subscript-text-leading-* {
@@ -289,12 +287,9 @@
     --mat-form-field-subscript-text-tracking: --value(number, [number])rem;
 }
 
-@utility mff-subscript-text-weight-* {
-    --mat-form-field-subscript-text-weight: --value(--font-weight-*, integer, [integer]);
-}
-
 @utility mff-outlined-label-text-font-* {
-    --mat-form-field-outlined-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-form-field-outlined-label-text-font: --value(--font-*);
+    --mat-form-field-outlined-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mff-outlined-label-text-size-* {
@@ -305,12 +300,9 @@
     --mat-form-field-outlined-label-text-tracking: --value(number, [number])rem;
 }
 
-@utility mff-outlined-label-text-weight-* {
-    --mat-form-field-outlined-label-text-weight: --value(--font-weight-*, integer, [integer]);
-}
-
 @utility mff-filled-label-text-font-* {
-    --mat-form-field-filled-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-form-field-filled-label-text-font: --value(--font-*);
+    --mat-form-field-filled-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mff-filled-label-text-size-* {
@@ -319,10 +311,6 @@
 
 @utility mff-filled-label-text-tracking-* {
     --mat-form-field-filled-label-text-tracking: --value(number, [number])rem;
-}
-
-@utility mff-filled-label-text-weight-* {
-    --mat-form-field-filled-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mff-outlined-label-text-populated-size-* {

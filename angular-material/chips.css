@@ -178,10 +178,7 @@
 }
 
 @utility mcp-label-text-font-* {
-    --mat-chip-label-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility mcp-label-text-weight-* {
+    --mat-chip-label-text-font: --value(--font-*);
     --mat-chip-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 

@@ -155,7 +155,8 @@
 }
 
 @utility msr-label-label-text-font-* {
-    --mat-slider-label-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-slider-label-label-text-font: --value(--font-*);
+    --mat-slider-label-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msr-label-label-text-leading-* {
@@ -168,8 +169,4 @@
 
 @utility msr-label-label-text-tracking-* {
     --mat-slider-label-label-text-tracking: --value(number, [number])rem;
-}
-
-@utility msr-label-label-text-weight-* {
-    --mat-slider-label-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }

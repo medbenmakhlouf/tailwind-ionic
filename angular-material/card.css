@@ -50,7 +50,8 @@
 
 /* Typography Tokens */
 @utility mc-subtitle-text-font-* {
-    --mat-card-subtitle-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-card-subtitle-text-font: --value(--font-*);
+    --mat-card-subtitle-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mc-subtitle-text-leading-* {
@@ -63,10 +64,6 @@
 
 @utility mc-subtitle-text-tracking-* {
     --mat-card-subtitle-text-tracking: --value(number, [number])rem;
-}
-
-@utility mc-subtitle-text-weight-* {
-    --mat-card-subtitle-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mc-title-text-leading-* {

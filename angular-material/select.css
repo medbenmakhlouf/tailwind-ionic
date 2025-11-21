@@ -31,7 +31,8 @@
 }
 
 @utility ms-trigger-text-font-* {
-    --mat-select-trigger-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-select-trigger-text-font: --value(--font-*);
+    --mat-select-trigger-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility ms-trigger-text-leading-* {
@@ -44,10 +45,6 @@
 
 @utility ms-trigger-text-tracking-* {
     --mat-select-trigger-text-tracking: --value(number, [number])rem;
-}
-
-@utility ms-trigger-text-weight-* {
-    --mat-select-trigger-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility ms-container-elevation-shadow-* {

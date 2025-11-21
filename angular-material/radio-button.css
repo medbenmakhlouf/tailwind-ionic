@@ -67,7 +67,8 @@
 }
 
 @utility mrb-label-text-font-* {
-    --mat-radion-button-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-radion-button-label-text-font: --value(--font-*);
+    --mat-radion-button-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mrb-label-text-leading-* {
@@ -80,10 +81,6 @@
 
 @utility mrb-label-text-tracking-* {
     --mat-radion-button-label-text-tracking: --value(number, [number])rem;
-}
-
-@utility mrb-label-text-weight-* {
-    --mat-radion-button-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mrb-touch-target-display-* {

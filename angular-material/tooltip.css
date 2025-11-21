@@ -11,7 +11,8 @@
 }
 
 @utility mtt-supporting-text-font-* {
-    --mat-tooltip-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-tooltip-supporting-text-font: --value(--font-*);
+    --mat-tooltip-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mtt-supporting-text-leading-* {
@@ -24,8 +25,4 @@
 
 @utility mtt-supporting-text-tracking-* {
     --mat-tooltip-supporting-text-tracking: --value(number, [number])rem;
-}
-
-@utility mtt-supporting-text-weight-* {
-    --mat-tooltip-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }

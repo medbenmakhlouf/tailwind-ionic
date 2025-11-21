@@ -4,6 +4,7 @@ import {MatButton} from '@angular/material/button';
 import {MatLabel} from '@angular/material/form-field';
 import {MatAutocomplete, MatAutocompleteTrigger, MatOption} from '@angular/material/autocomplete';
 import {MatFormField, MatInput} from '@angular/material/input';
+import {MatBadge} from '@angular/material/badge';
 
 
 @Component({
@@ -29,6 +30,8 @@ import {MatFormField, MatInput} from '@angular/material/input';
         }
       </mat-autocomplete>
     </mat-form-field>
+
+    <div matBadge="4" matBadgeOverlap="false" class="mbg-text-font-sans mbg-text-font-semibold">Text with a badge</div>
   `,
   imports: [
     MatButton,
@@ -37,7 +40,8 @@ import {MatFormField, MatInput} from '@angular/material/input';
     MatOption,
     MatInput,
     MatFormField,
-    MatAutocompleteTrigger
+    MatAutocompleteTrigger,
+    MatBadge,
   ]
 })
 export class App {

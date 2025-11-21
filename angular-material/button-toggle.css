@@ -98,7 +98,8 @@
 
 /* Typography Tokens */
 @utility mbt-label-text-font-* {
-    --mat-button-toggle-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-button-toggle-label-text-font: --value(--font-*);
+    --mat-button-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mbt-label-text-leading-* {
@@ -113,12 +114,9 @@
     --mat-button-toggle-label-text-tracking: --value(number, [number])rem;
 }
 
-@utility mbt-label-text-weight-* {
-    --mat-button-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
-}
-
 @utility mbt-legacy-label-text-font-* {
-    --mat-button-toggle-legacy-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-button-toggle-legacy-label-text-font: --value(--font-*);
+    --mat-button-toggle-legacy-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mbt-legacy-label-text-leading-* {
@@ -131,10 +129,6 @@
 
 @utility mbt-legacy-label-text-tracking-* {
     --mat-button-toggle-legacy-label-text-tracking: --value(number, [number])rem;
-}
-
-@utility mbt-legacy-label-text-weight-* {
-    --mat-button-toggle-legacy-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Density Tokens */

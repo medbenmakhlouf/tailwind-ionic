@@ -19,7 +19,8 @@
 }
 
 @utility mt-header-headline-font-* {
-    --mat-table-header-headline-font: --value(--font-weight-*, integer, [integer]);
+    --mat-table-header-headline-font: --value(--font-*);
+    --mat-table-header-headline-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mt-header-headline-leading-* {
@@ -34,12 +35,9 @@
     --mat-table-header-headline-tracking: --value(number, [number])rem;
 }
 
-@utility mt-header-headline-weight-* {
-    --mat-table-header-headline-weight: --value(--font-weight-*, integer, [integer]);
-}
-
 @utility mt-row-item-label-text-font-* {
-    --mat-table-row-item-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-table-row-item-label-text-font: --value(--font-*);
+    --mat-table-row-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mt-row-item-label-text-leading-* {
@@ -54,12 +52,9 @@
     --mat-table-row-item-label-text-tracking: --value(number, [number])rem;
 }
 
-@utility mt-row-item-label-text-weight-* {
-    --mat-table-row-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
-}
-
 @utility mt-footer-supporting-text-font-* {
-    --mat-table-footer-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-table-footer-supporting-text-font: --value(--font-*);
+    --mat-table-footer-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mt-footer-supporting-text-leading-* {
@@ -72,10 +67,6 @@
 
 @utility mt-footer-supporting-text-tracking-* {
     --mat-table-footer-supporting-text-tracking: --value(number, [number])rem;
-}
-
-@utility mt-footer-supporting-text-weight-* {
-    --mat-table-footer-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mt-header-container-h-* {

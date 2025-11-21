@@ -75,7 +75,8 @@
 }
 
 @utility mts-label-text-font-* {
-    --mat-tab-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-tab-label-text-font: --value(--font-*);
+    --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mts-label-text-leading-* {
@@ -88,10 +89,6 @@
 
 @utility mts-label-text-tracking-* {
     --mat-tab-label-text-tracking: --value(number, [number])rem;
-}
-
-@utility mts-label-text-weight-* {
-    --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mts-container-h-* {

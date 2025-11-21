@@ -79,19 +79,16 @@
 }
 
 @utility msp-container-text-font-* {
-    --mat-stepper-container-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-stepper-container-text-font: --value(--font-*);
 }
 
 @utility msp-header-label-text-font-* {
-    --mat-stepper-header-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-stepper-header-label-text-font: --value(--font-*);
+    --mat-stepper-header-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msp-header-label-text-size-* {
     --mat-stepper-header-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility msp-header-label-text-weight-* {
-    --mat-stepper-header-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msp-header-error-state-label-text-size-* {

@@ -158,7 +158,7 @@
 }
 
 @utility md-calendar-text-font-* {
-    --mat-datepicker-calendar-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-datepicker-calendar-text-font: --value(--font-*);
 }
 
 @utility md-calendar-text-size-* {

@@ -66,10 +66,7 @@
 }
 
 @utility mdg-subhead-font-* {
-    --mat-dialog-subhead-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility mdg-subhead-weight-* {
+    --mat-dialog-subhead-font: --value(--font-*);
     --mat-dialog-subhead-weight: --value(--font-weight-*, integer, [integer]);
 }
 
@@ -86,9 +83,6 @@
 }
 
 @utility mdg-supporting-text-font-* {
-    --mat-dialog-supporting-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility mdg-supporting-font-* {
+    --mat-dialog-supporting-text-font: --value(--font-*);
     --mat-dialog-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }

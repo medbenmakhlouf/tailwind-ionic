@@ -7,7 +7,8 @@
 }
 
 @utility mtr-title-text-font-* {
-    --mat-toolbar-title-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-toolbar-title-text-font: --value(--font-*);
+    --mat-toolbar-title-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mtr-title-text-leading-* {
@@ -20,10 +21,6 @@
 
 @utility mtr-title-text-tracking-* {
     --mat-toolbar-title-text-tracking: --value(number, [number])rem;
-}
-
-@utility mtr-title-text-weight-* {
-    --mat-toolbar-title-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mtr-standard-h-* {

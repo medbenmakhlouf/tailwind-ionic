@@ -303,7 +303,8 @@
 }
 
 @utility mst-label-text-font-* {
-    --mat-slide-toggle-label-text-font: --value(--font-weight-*, integer, [integer]);
+    --mat-slide-toggle-label-text-font: --value(--font-*);
+    --mat-slide-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mst-label-text-leading-* {
@@ -316,10 +317,6 @@
 
 @utility mst-label-text-tracking-* {
     --mat-slide-toggle-label-text-tracking: --value(number, [number])rem;
-}
-
-@utility mst-label-text-weight-* {
-    --mat-slide-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mst-touch-target-display-* {

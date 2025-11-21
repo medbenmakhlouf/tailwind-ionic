@@ -118,10 +118,7 @@
 }
 
 @utility mck-label-text-font-* {
-    --mat-checkbox-label-text-font: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility mck-label-text-weight-* {
+    --mat-checkbox-label-text-font: --value(--font-*);
     --mat-checkbox-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 /* Density Type Utilities */
