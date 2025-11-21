@@ -29,7 +29,8 @@
 }
 
 @utility mo-label-text-tracking-* {
-    --mat-option-label-text-tracking: --value(number, [number])rem;
+    --mat-option-label-text-tracking: --value(--tracking-*);
+    --mat-option-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mo-label-font-* {

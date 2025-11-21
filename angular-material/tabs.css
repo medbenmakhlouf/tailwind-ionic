@@ -88,7 +88,8 @@
 }
 
 @utility mts-label-text-tracking-* {
-    --mat-tab-label-text-tracking: --value(number, [number])rem;
+    --mat-tab-label-text-tracking: --value(--tracking-*);
+    --mat-tab-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mts-container-h-* {

@@ -114,7 +114,8 @@
 }
 
 @utility mck-label-text-tracking-* {
-    --mat-checkbox-label-text-tracking: --value(number, [number])rem;
+    --mat-checkbox-label-text-tracking: --value(--tracking-*);
+    --mat-checkbox-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mck-label-text-font-* {

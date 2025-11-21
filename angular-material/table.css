@@ -32,7 +32,8 @@
 }
 
 @utility mt-header-headline-tracking-* {
-    --mat-table-header-headline-tracking: --value(number, [number])rem;
+    --mat-table-header-headline-tracking: --value(--tracking-*);
+    --mat-table-header-headline-tracking: --value(number, [number])em;
 }
 
 @utility mt-row-item-label-text-font-* {
@@ -49,7 +50,8 @@
 }
 
 @utility mt-row-item-label-text-tracking-* {
-    --mat-table-row-item-label-text-tracking: --value(number, [number])rem;
+    --mat-table-row-item-label-text-tracking: --value(--tracking-*);
+    --mat-table-row-item-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mt-footer-supporting-text-font-* {
@@ -66,7 +68,8 @@
 }
 
 @utility mt-footer-supporting-text-tracking-* {
-    --mat-table-footer-supporting-text-tracking: --value(number, [number])rem;
+    --mat-table-footer-supporting-text-tracking: --value(--tracking-*);
+    --mat-table-footer-supporting-text-tracking: --value(number, [number])em;
 }
 
 @utility mt-header-container-h-* {

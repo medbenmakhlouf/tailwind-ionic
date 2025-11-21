@@ -137,7 +137,8 @@
 }
 
 @utility ml-list-item-label-text-tracking-* {
-    --mat-list-list-item-label-text-tracking: --value(number, [number])rem;
+    --mat-list-list-item-label-text-tracking: --value(--tracking-*);
+    --mat-list-list-item-label-text-tracking: --value(number, [number])em;
 }
 
 @utility ml-list-item-label-text-font-* {
@@ -154,7 +155,8 @@
 }
 
 @utility ml-list-item-supporting-text-tracking-* {
-    --mat-list-list-item-supporting-text-tracking: --value(number, [number])rem;
+    --mat-list-list-item-supporting-text-tracking: --value(--tracking-*);
+    --mat-list-list-item-supporting-text-tracking: --value(number, [number])em;
 }
 
 @utility ml-list-item-supporting-text-font-* {
@@ -171,7 +173,8 @@
 }
 
 @utility ml-list-item-trailing-supporting-text-tracking-* {
-    --mat-list-list-item-trailing-supporting-text-tracking: --value(number, [number])rem;
+    --mat-list-list-item-trailing-supporting-text-tracking: --value(--tracking-*);
+    --mat-list-list-item-trailing-supporting-text-tracking: --value(number, [number])em;
 }
 
 @utility ml-list-item-trailing-supporting-text-font-* {

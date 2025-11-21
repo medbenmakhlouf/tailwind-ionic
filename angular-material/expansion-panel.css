@@ -62,7 +62,8 @@
 }
 
 @utility mep-container-text-tracking-* {
-    --mat-expansion-panel-container-text-tracking: --value(number, [number])rem;
+    --mat-expansion-panel-container-text-tracking: --value(--tracking-*);
+    --mat-expansion-panel-container-text-tracking: --value(number, [number])em;
 }
 
 @utility mep-container-text-font-* {
@@ -79,7 +80,8 @@
 }
 
 @utility mep-header-text-tracking-* {
-    --mat-expansion-panel-header-text-tracking: --value(number, [number])rem;
+    --mat-expansion-panel-header-text-tracking: --value(--tracking-*);
+    --mat-expansion-panel-header-text-tracking: --value(number, [number])em;
 }
 
 @utility mep-header-text-font-* {

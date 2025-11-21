@@ -63,7 +63,8 @@
 }
 
 @utility mc-subtitle-text-tracking-* {
-    --mat-card-subtitle-text-tracking: --value(number, [number])rem;
+    --mat-card-subtitle-text-tracking: --value(--tracking-*);
+    --mat-card-subtitle-text-tracking: --value(number, [number])em;
 }
 
 @utility mc-title-text-leading-* {
@@ -75,7 +76,8 @@
 }
 
 @utility mc-title-text-tracking-* {
-    --mat-card-title-text-tracking: --value(number, [number])rem;
+    --mat-card-title-text-tracking: --value(--tracking-*);
+    --mat-card-title-text-tracking: --value(number, [number])em;
 }
 
 @utility mc-title-font-* {

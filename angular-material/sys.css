@@ -160,7 +160,8 @@
     --mat-sys-body-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-lg-tracking-* {
-    --mat-sys-body-large-tracking: --value(number, [number])rem;
+    --mat-sys-body-large-tracking: --value(--tracking-*);
+    --mat-sys-body-large-tracking: --value(number, [number])em;
 }
 @utility msys-body-lg-font-* {
     --mat-sys-body-large-weight: --value(--font-weight-*, integer, [integer]);
@@ -173,7 +174,8 @@
     --mat-sys-body-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-md-tracking-* {
-    --mat-sys-body-medium-tracking: --value(number, [number])rem;
+    --mat-sys-body-medium-tracking: --value(--tracking-*);
+    --mat-sys-body-medium-tracking: --value(number, [number])em;
 }
 @utility msys-body-md-font-* {
     --mat-sys-body-medium-weight: --value(--font-weight-*, integer, [integer]);
@@ -186,7 +188,8 @@
     --mat-sys-body-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-sm-tracking-* {
-    --mat-sys-body-small-tracking: --value(number, [number])rem;
+    --mat-sys-body-small-tracking: --value(--tracking-*);
+    --mat-sys-body-small-tracking: --value(number, [number])em;
 }
 @utility msys-body-sm-font-* {
     --mat-sys-body-small-weight: --value(--font-weight-*, integer, [integer]);
@@ -200,7 +203,8 @@
     --mat-sys-display-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-lg-tracking-* {
-    --mat-sys-display-large-tracking: --value(number, [number])rem;
+    --mat-sys-display-large-tracking: --value(--tracking-*);
+    --mat-sys-display-large-tracking: --value(number, [number])em;
 }
 @utility msys-display-lg-font-* {
     --mat-sys-display-large-weight: --value(--font-weight-*, integer, [integer]);
@@ -213,7 +217,8 @@
     --mat-sys-display-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-md-tracking-* {
-    --mat-sys-display-medium-tracking: --value(number, [number])rem;
+    --mat-sys-display-medium-tracking: --value(--tracking-*);
+    --mat-sys-display-medium-tracking: --value(number, [number])em;
 }
 @utility msys-display-md-font-* {
     --mat-sys-display-medium-weight: --value(--font-weight-*, integer, [integer]);
@@ -226,7 +231,8 @@
     --mat-sys-display-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-sm-tracking-* {
-    --mat-sys-display-small-tracking: --value(number, [number])rem;
+    --mat-sys-display-small-tracking: --value(--tracking-*);
+    --mat-sys-display-small-tracking: --value(number, [number])em;
 }
 @utility msys-display-sm-font-* {
     --mat-sys-display-small-weight: --value(--font-weight-*, integer, [integer]);
@@ -240,7 +246,8 @@
     --mat-sys-headline-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-lg-tracking-* {
-    --mat-sys-headline-large-tracking: --value(number, [number])rem;
+    --mat-sys-headline-large-tracking: --value(--tracking-*);
+    --mat-sys-headline-large-tracking: --value(number, [number])em;
 }
 @utility msys-headline-lg-font-* {
     --mat-sys-headline-large-weight: --value(--font-weight-*, integer, [integer]);
@@ -253,7 +260,8 @@
     --mat-sys-headline-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-md-tracking-* {
-    --mat-sys-headline-medium-tracking: --value(number, [number])rem;
+    --mat-sys-headline-medium-tracking: --value(--tracking-*);
+    --mat-sys-headline-medium-tracking: --value(number, [number])em;
 }
 @utility msys-headline-md-font-* {
     --mat-sys-headline-medium-weight: --value(--font-weight-*, integer, [integer]);
@@ -266,7 +274,8 @@
     --mat-sys-headline-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-sm-tracking-* {
-    --mat-sys-headline-small-tracking: --value(number, [number])rem;
+    --mat-sys-headline-small-tracking: --value(--tracking-*);
+    --mat-sys-headline-small-tracking: --value(number, [number])em;
 }
 @utility msys-headline-sm-font-* {
     --mat-sys-headline-small-weight: --value(--font-weight-*, integer, [integer]);
@@ -280,7 +289,8 @@
     --mat-sys-label-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-lg-tracking-* {
-    --mat-sys-label-large-tracking: --value(number, [number])rem;
+    --mat-sys-label-large-tracking: --value(--tracking-*);
+    --mat-sys-label-large-tracking: --value(number, [number])em;
 }
 @utility msys-label-lg-font-* {
     --mat-sys-label-large-weight: --value(--font-weight-*, integer, [integer]);
@@ -296,7 +306,8 @@
     --mat-sys-label-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-md-tracking-* {
-    --mat-sys-label-medium-tracking: --value(number, [number])rem;
+    --mat-sys-label-medium-tracking: --value(--tracking-*);
+    --mat-sys-label-medium-tracking: --value(number, [number])em;
 }
 @utility msys-label-md-font-* {
     --mat-sys-label-medium-weight: --value(--font-weight-*, integer, [integer]);
@@ -312,7 +323,8 @@
     --mat-sys-label-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-sm-tracking-* {
-    --mat-sys-label-small-tracking: --value(number, [number])rem;
+    --mat-sys-label-small-tracking: --value(--tracking-*);
+    --mat-sys-label-small-tracking: --value(number, [number])em;
 }
 @utility msys-label-sm-font-* {
     --mat-sys-label-small-weight: --value(--font-weight-*, integer, [integer]);
@@ -326,7 +338,8 @@
     --mat-sys-title-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-lg-tracking-* {
-    --mat-sys-title-large-tracking: --value(number, [number])rem;
+    --mat-sys-title-large-tracking: --value(--tracking-*);
+    --mat-sys-title-large-tracking: --value(number, [number])em;
 }
 @utility msys-title-lg-font-* {
     --mat-sys-title-large-weight: --value(--font-weight-*, integer, [integer]);
@@ -339,7 +352,8 @@
     --mat-sys-title-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-md-tracking-* {
-    --mat-sys-title-medium-tracking: --value(number, [number])rem;
+    --mat-sys-title-medium-tracking: --value(--tracking-*);
+    --mat-sys-title-medium-tracking: --value(number, [number])em;
 }
 @utility msys-title-md-font-* {
     --mat-sys-title-medium-weight: --value(--font-weight-*, integer, [integer]);
@@ -352,7 +366,8 @@
     --mat-sys-title-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-sm-tracking-* {
-    --mat-sys-title-small-tracking: --value(number, [number])rem;
+    --mat-sys-title-small-tracking: --value(--tracking-*);
+    --mat-sys-title-small-tracking: --value(number, [number])em;
 }
 @utility msys-title-sm-font-* {
     --mat-sys-title-small-weight: --value(--font-weight-*, integer, [integer]);

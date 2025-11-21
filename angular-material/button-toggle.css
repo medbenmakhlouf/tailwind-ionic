@@ -111,7 +111,8 @@
 }
 
 @utility mbt-label-text-tracking-* {
-    --mat-button-toggle-label-text-tracking: --value(number, [number])rem;
+    --mat-button-toggle-label-text-tracking: --value(--tracking-*);
+    --mat-button-toggle-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mbt-legacy-label-text-font-* {
@@ -128,7 +129,8 @@
 }
 
 @utility mbt-legacy-label-text-tracking-* {
-    --mat-button-toggle-legacy-label-text-tracking: --value(number, [number])rem;
+    --mat-button-toggle-legacy-label-text-tracking: --value(--tracking-*);
+    --mat-button-toggle-legacy-label-text-tracking: --value(number, [number])em;
 }
 
 /* Density Tokens */

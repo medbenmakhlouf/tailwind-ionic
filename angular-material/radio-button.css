@@ -80,7 +80,8 @@
 }
 
 @utility mrb-label-text-tracking-* {
-    --mat-radion-button-label-text-tracking: --value(number, [number])rem;
+    --mat-radion-button-label-text-tracking: --value(--tracking-*);
+    --mat-radion-button-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mrb-touch-target-display-* {

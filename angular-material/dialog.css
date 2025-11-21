@@ -62,7 +62,8 @@
 }
 
 @utility mdg-subhead-tracking-* {
-    --mat-dialog-subhead-tracking: --value(number, [number])rem;
+    --mat-dialog-subhead-tracking: --value(--tracking-*);
+    --mat-dialog-subhead-tracking: --value(number, [number])em;
 }
 
 @utility mdg-subhead-font-* {
@@ -79,7 +80,8 @@
 }
 
 @utility mdg-supporting-text-tracking-* {
-    --mat-dialog-supporting-text-tracking: --value(number, [number])rem;
+    --mat-dialog-supporting-text-tracking: --value(--tracking-*);
+    --mat-dialog-supporting-text-tracking: --value(number, [number])em;
 }
 
 @utility mdg-supporting-text-font-* {

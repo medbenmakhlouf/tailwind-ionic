@@ -24,5 +24,6 @@
 }
 
 @utility mtt-supporting-text-tracking-* {
-    --mat-tooltip-supporting-text-tracking: --value(number, [number])rem;
+    --mat-tooltip-supporting-text-tracking: --value(--tracking-*);
+    --mat-tooltip-supporting-text-tracking: --value(number, [number])em;
 }

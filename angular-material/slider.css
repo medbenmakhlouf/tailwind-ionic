@@ -168,5 +168,5 @@
 }
 
 @utility msr-label-label-text-tracking-* {
-    --mat-slider-label-label-text-tracking: --value(number, [number])rem;
+    --mat-slider-label-label-text-tracking: --value(number, [number])em;
 }

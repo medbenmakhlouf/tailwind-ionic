@@ -27,5 +27,6 @@
 }
 
 @utility mbs-container-text-tracking-* {
-    --mat-bottom-sheet-container-text-tracking: --value(number, [number])rem;
+    --mat-bottom-sheet-container-text-tracking: --value(--tracking-*);
+    --mat-bottom-sheet-container-text-tracking: --value(number, [number])em;
 }

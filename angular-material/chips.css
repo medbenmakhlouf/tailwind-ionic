@@ -174,7 +174,8 @@
 }
 
 @utility mcp-label-text-tracking-* {
-    --mat-chip-label-text-tracking: --value(number, [number])rem;
+    --mat-chip-label-text-tracking: --value(--tracking-*);
+    --mat-chip-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mcp-label-text-font-* {

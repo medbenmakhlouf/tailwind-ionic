@@ -32,7 +32,8 @@
 }
 
 @utility mp-container-text-tracking-* {
-    --mat-paginator-container-text-tracking: --value(number, [number])rem;
+    --mat-paginator-container-text-tracking: --value(--tracking-*);
+    --mat-paginator-container-text-tracking: --value(number, [number])em;
 }
 
 @utility mp-container-text-font-* {

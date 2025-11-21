@@ -74,7 +74,8 @@
 }
 
 @utility mm-item-label-text-tracking-* {
-    --mat-menu-item-label-text-tracking: --value(number, [number])rem;
+    --mat-menu-item-label-text-tracking: --value(--tracking-*);
+    --mat-menu-item-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mm-item-label-text-font-* {

@@ -20,7 +20,8 @@
 }
 
 @utility mtr-title-text-tracking-* {
-    --mat-toolbar-title-text-tracking: --value(number, [number])rem;
+    --mat-toolbar-title-text-tracking: --value(--tracking-*);
+    --mat-toolbar-title-text-tracking: --value(number, [number])em;
 }
 
 @utility mtr-standard-h-* {

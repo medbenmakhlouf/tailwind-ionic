@@ -44,7 +44,8 @@
 }
 
 @utility ms-trigger-text-tracking-* {
-    --mat-select-trigger-text-tracking: --value(number, [number])rem;
+    --mat-select-trigger-text-tracking: --value(--tracking-*);
+    --mat-select-trigger-text-tracking: --value(number, [number])em;
 }
 
 @utility ms-container-elevation-shadow-* {

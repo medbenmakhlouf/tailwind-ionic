@@ -12,7 +12,8 @@
 }
 
 @utility mog-label-text-tracking-* {
-    --mat-optgroup-label-text-tracking: --value(number, [number])rem;
+    --mat-optgroup-label-text-tracking: --value(--tracking-*);
+    --mat-optgroup-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mog-label-font-* {

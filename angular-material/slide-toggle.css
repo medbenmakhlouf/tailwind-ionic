@@ -316,7 +316,8 @@
 }
 
 @utility mst-label-text-tracking-* {
-    --mat-slide-toggle-label-text-tracking: --value(number, [number])rem;
+    --mat-slide-toggle-label-text-tracking: --value(--tracking-*);
+    --mat-slide-toggle-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mst-touch-target-display-* {

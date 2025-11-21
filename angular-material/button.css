@@ -351,7 +351,8 @@
 }
 
 @utility mb-filled-label-text-tracking-* {
-    --mat-button-filled-label-text-tracking: --value(number, [number])rem;
+    --mat-button-filled-label-text-tracking: --value(--tracking-*);
+    --mat-button-filled-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mb-outlined-label-text-font-* {
@@ -364,7 +365,8 @@
 }
 
 @utility mb-outlined-label-text-tracking-* {
-    --mat-button-outlined-label-text-tracking: --value(number, [number])rem;
+    --mat-button-outlined-label-text-tracking: --value(--tracking-*);
+    --mat-button-outlined-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mb-protected-label-text-font-* {
@@ -377,7 +379,8 @@
 }
 
 @utility mb-protected-label-text-tracking-* {
-    --mat-button-protected-label-text-tracking: --value(number, [number])rem;
+    --mat-button-protected-label-text-tracking: --value(--tracking-*);
+    --mat-button-protected-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mb-text-label-text-font-* {
@@ -390,7 +393,8 @@
 }
 
 @utility mb-text-label-text-tracking-* {
-    --mat-button-text-label-text-tracking: --value(number, [number])rem;
+    --mat-button-text-label-text-tracking: --value(--tracking-*);
+    --mat-button-text-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mb-tonal-label-text-font-* {
@@ -403,7 +407,8 @@
 }
 
 @utility mb-tonal-label-text-tracking-* {
-    --mat-button-tonal-label-text-tracking: --value(number, [number])rem;
+    --mat-button-tonal-label-text-tracking: --value(--tracking-*);
+    --mat-button-tonal-label-text-tracking: --value(number, [number])em;
 }
 
 /* Density Tokens */
