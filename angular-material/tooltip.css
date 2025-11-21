@@ -8,6 +8,8 @@
 
 @utility mtt-supporting-text-* {
     --mat-tooltip-supporting-text-color: --value(--color-*);
+    --mat-tooltip-supporting-text-size: --value(--text-*);
+    --mat-tooltip-supporting-text-size: --value(number, [number])rem;
 }
 
 @utility mtt-supporting-text-font-* {
@@ -17,10 +19,6 @@
 
 @utility mtt-supporting-text-leading-* {
     --mat-tooltip-supporting-text-line-height: calc(var(--spacing) * --value(number));
-}
-
-@utility mtt-supporting-text-size-* {
-    --mat-tooltip-supporting-text-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mtt-supporting-text-tracking-* {
