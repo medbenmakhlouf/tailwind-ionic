@@ -57,5 +57,5 @@
 }
 
 @utility mp-touch-target-display-* {
-    --mat-paginator-touch-target-display: calc(var(--spacing) * --value(number));
+    --mat-paginator-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }

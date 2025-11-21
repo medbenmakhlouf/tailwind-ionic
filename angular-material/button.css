@@ -408,7 +408,7 @@
 
 /* Density Tokens */
 @utility mb-filled-touch-target-display-* {
-    --mat-button-filled-touch-target-display: calc(var(--spacing) * --value(number));
+    --mat-button-filled-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mb-filled-container-h-* {
@@ -420,11 +420,11 @@
 }
 
 @utility mb-outlined-touch-target-display-* {
-    --mat-button-outlined-touch-target-display: calc(var(--spacing) * --value(number));
+    --mat-button-outlined-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mb-protected-touch-target-display-* {
-    --mat-button-protected-touch-target-display: calc(var(--spacing) * --value(number));
+    --mat-button-protected-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mb-protected-container-h-* {
@@ -432,7 +432,7 @@
 }
 
 @utility mb-text-touch-target-display-* {
-    --mat-button-text-touch-target-display: calc(var(--spacing) * --value(number));
+    --mat-button-text-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mb-text-container-h-* {
@@ -444,5 +444,5 @@
 }
 
 @utility mb-tonal-touch-target-display-* {
-    --mat-button-tonal-touch-target-display: calc(var(--spacing) * --value(number));
+    --mat-button-tonal-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }

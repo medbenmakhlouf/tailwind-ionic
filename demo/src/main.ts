@@ -5,6 +5,7 @@ import {MatLabel} from '@angular/material/form-field';
 import {MatAutocomplete, MatAutocompleteTrigger, MatOption} from '@angular/material/autocomplete';
 import {MatFormField, MatInput} from '@angular/material/input';
 import {MatBadge} from '@angular/material/badge';
+import {MatCheckbox} from '@angular/material/checkbox';
 
 
 @Component({
@@ -32,6 +33,7 @@ import {MatBadge} from '@angular/material/badge';
     </mat-form-field>
 
     <div matBadge="4" matBadgeOverlap="false" class="mbg-text-font-sans mbg-text-font-semibold">Text with a badge</div>
+    <mat-checkbox class="mck-touch-target-display-flex"> click me </mat-checkbox>
   `,
   imports: [
     MatButton,
@@ -42,6 +44,7 @@ import {MatBadge} from '@angular/material/badge';
     MatFormField,
     MatAutocompleteTrigger,
     MatBadge,
+    MatCheckbox,
   ]
 })
 export class App {

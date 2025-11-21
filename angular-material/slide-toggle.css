@@ -320,5 +320,5 @@
 }
 
 @utility mst-touch-target-display-* {
-    --mat-slide-toggle-touch-target-display: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
