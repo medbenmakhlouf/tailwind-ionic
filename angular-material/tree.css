@@ -4,15 +4,13 @@
 
 @utility mtr-node-text-* {
     --mat-tree-node-text-color: --value(--color-*);
+    --mat-tree-node-text-size: --value(--text-*);
+    --mat-tree-node-text-size: --value(number, [number])rem;
 }
 
 @utility mtr-node-text-font-* {
     --mat-tree-node-text-font: --value(--font-*);
     --mat-tree-node-text-weight: --value(--font-weight-*, integer, [integer]);
-}
-
-@utility mtr-node-text-size-* {
-    --mat-tree-node-text-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mtr-node-min-h-* {
