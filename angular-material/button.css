@@ -145,11 +145,11 @@
 }
 
 @utility mb-filled-focus-state-layer-opacity-* {
-    --mat-button-filled-focus-state-layer-opacity: --value(--color-*);
+    --mat-button-filled-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-filled-hover-state-layer-opacity-* {
-    --mat-button-filled-hover-state-layer-opacity: --value(--color-*);
+    --mat-button-filled-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-filled-label-text-* {
@@ -157,7 +157,7 @@
 }
 
 @utility mb-filled-pressed-state-layer-opacity-* {
-    --mat-button-filled-pressed-state-layer-opacity: --value(--color-*);
+    --mat-button-filled-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-filled-ripple-color-* {
@@ -181,11 +181,11 @@
 }
 
 @utility mb-outlined-focus-state-layer-opacity-* {
-    --mat-button-outlined-focus-state-layer-opacity: --value(--color-*);
+    --mat-button-outlined-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-outlined-hover-state-layer-opacity-* {
-    --mat-button-outlined-hover-state-layer-opacity: --value(--color-*);
+    --mat-button-outlined-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-outlined-label-text-* {
@@ -197,7 +197,7 @@
 }
 
 @utility mb-outlined-pressed-state-layer-opacity-* {
-    --mat-button-outlined-pressed-state-layer-opacity: --value(--color-*);
+    --mat-button-outlined-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-outlined-ripple-color-* {
@@ -237,7 +237,7 @@
 }
 
 @utility mb-protected-focus-state-layer-opacity-* {
-    --mat-button-protected-focus-state-layer-opacity: --value(--color-*);
+    --mat-button-protected-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-protected-hover-container-elevation-shadow-* {
@@ -245,7 +245,7 @@
 }
 
 @utility mb-protected-hover-state-layer-opacity-* {
-    --mat-button-protected-hover-state-layer-opacity: --value(--color-*);
+    --mat-button-protected-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-protected-label-text-* {
@@ -257,7 +257,7 @@
 }
 
 @utility mb-protected-pressed-state-layer-opacity-* {
-    --mat-button-protected-pressed-state-layer-opacity: --value(--color-*);
+    --mat-button-protected-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-protected-ripple-color-* {
@@ -277,11 +277,11 @@
 }
 
 @utility mb-text-focus-state-layer-opacity-* {
-    --mat-button-text-focus-state-layer-opacity: --value(--color-*);
+    --mat-button-text-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-text-hover-state-layer-opacity-* {
-    --mat-button-text-hover-state-layer-opacity: --value(--color-*);
+    --mat-button-text-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-text-label-text-* {
@@ -289,7 +289,7 @@
 }
 
 @utility mb-text-pressed-state-layer-opacity-* {
-    --mat-button-text-pressed-state-layer-opacity: --value(--color-*);
+    --mat-button-text-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-text-ripple-color-* {
@@ -317,11 +317,11 @@
 }
 
 @utility mb-tonal-focus-state-layer-opacity-* {
-    --mat-button-tonal-focus-state-layer-opacity: --value(--color-*);
+    --mat-button-tonal-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-tonal-hover-state-layer-opacity-* {
-    --mat-button-tonal-hover-state-layer-opacity: --value(--color-*);
+    --mat-button-tonal-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-tonal-label-text-* {
@@ -329,7 +329,7 @@
 }
 
 @utility mb-tonal-pressed-state-layer-opacity-* {
-    --mat-button-tonal-pressed-state-layer-opacity: --value(--color-*);
+    --mat-button-tonal-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mb-tonal-ripple-color-* {

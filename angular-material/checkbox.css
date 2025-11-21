@@ -1,26 +1,26 @@
 /* Base Type Utilities */
 @utility mck-selected-focus-state-layer-opacity-* {
-    --mat-checkbox-selected-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-checkbox-selected-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-selected-hover-state-layer-opacity-* {
-    --mat-checkbox-selected-hover-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-checkbox-selected-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-selected-pressed-state-layer-opacity-* {
-    --mat-checkbox-selected-pressed-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-checkbox-selected-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-unselected-focus-state-layer-opacity-* {
-    --mat-checkbox-unselected-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-checkbox-unselected-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-unselected-hover-state-layer-opacity-* {
-    --mat-checkbox-unselected-hover-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-checkbox-unselected-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-unselected-pressed-state-layer-opacity-* {
-    --mat-checkbox-unselected-pressed-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-checkbox-unselected-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-touch-target-size-* {

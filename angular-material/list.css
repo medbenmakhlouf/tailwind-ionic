@@ -20,7 +20,7 @@
 }
 
 @utility ml-list-item-disabled-label-text-opacity-* {
-    --mat-list-list-item-disabled-label-text-opacity: --value(--color-*);
+    --mat-list-list-item-disabled-label-text-opacity: --value(number, [number]);
 }
 
 @utility ml-list-item-disabled-leading-icon-color-* {
@@ -28,7 +28,7 @@
 }
 
 @utility ml-list-item-disabled-leading-icon-opacity-* {
-    --mat-list-list-item-disabled-leading-icon-opacity: --value(--color-*);
+    --mat-list-list-item-disabled-leading-icon-opacity: --value(number, [number]);
 }
 
 @utility ml-list-item-disabled-state-layer-color-* {
@@ -36,7 +36,7 @@
 }
 
 @utility ml-list-item-disabled-state-layer-opacity-* {
-    --mat-list-list-item-disabled-state-layer-opacity: --value(--color-*);
+    --mat-list-list-item-disabled-state-layer-opacity: --value(number, [number]);
 }
 
 @utility ml-list-item-disabled-trailing-icon-color-* {
@@ -44,7 +44,7 @@
 }
 
 @utility ml-list-item-disabled-trailing-icon-opacity-* {
-    --mat-list-list-item-disabled-trailing-icon-opacity: --value(--color-*);
+    --mat-list-list-item-disabled-trailing-icon-opacity: --value(number, [number]);
 }
 
 @utility ml-list-item-focus-label-text-* {
@@ -56,7 +56,7 @@
 }
 
 @utility ml-list-item-focus-state-layer-opacity-* {
-    --mat-list-list-item-focus-state-layer-opacity: --value(--color-*);
+    --mat-list-list-item-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility ml-list-item-hover-label-text-* {
@@ -68,7 +68,7 @@
 }
 
 @utility ml-list-item-hover-state-layer-opacity-* {
-    --mat-list-list-item-hover-state-layer-opacity: --value(--color-*);
+    --mat-list-list-item-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility ml-list-item-label-text-* {

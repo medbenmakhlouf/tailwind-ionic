@@ -1,9 +1,9 @@
 @utility mrb-disabled-unselected-icon-opacity-* {
-    --mat-radion-button-disabled-unselected-icon-opacity: calc(var(--spacing) * --value(number));
+    --mat-radion-button-disabled-unselected-icon-opacity: --value(number, [number]);
 }
 
 @utility mrb-disabled-selected-icon-opacity-* {
-    --mat-radion-button-disabled-selected-icon-opacity: calc(var(--spacing) * --value(number));
+    --mat-radion-button-disabled-selected-icon-opacity: --value(number, [number]);
 }
 
 @utility mrb-touch-target-size-* {

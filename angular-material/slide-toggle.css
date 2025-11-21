@@ -1,21 +1,21 @@
 @utility mst-disabled-selected-handle-opacity-* {
-    --mat-slide-toggle-disabled-selected-handle-opacity: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-disabled-selected-handle-opacity: --value(number, [number]);
 }
 
 @utility mst-disabled-selected-icon-opacity-* {
-    --mat-slide-toggle-disabled-selected-icon-opacity: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-disabled-selected-icon-opacity: --value(number, [number]);
 }
 
 @utility mst-disabled-track-opacity-* {
-    --mat-slide-toggle-disabled-track-opacity: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-disabled-track-opacity: --value(number, [number]);
 }
 
 @utility mst-disabled-unselected-handle-opacity-* {
-    --mat-slide-toggle-disabled-unselected-handle-opacity: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-disabled-unselected-handle-opacity: --value(number, [number]);
 }
 
 @utility mst-disabled-unselected-icon-opacity-* {
-    --mat-slide-toggle-disabled-unselected-icon-opacity: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-disabled-unselected-icon-opacity: --value(number, [number]);
 }
 
 @utility mst-disabled-unselected-track-outline-w-* {
@@ -27,7 +27,7 @@
 }
 
 @utility mst-hidden-track-opacity-* {
-    --mat-slide-toggle-hidden-track-opacity: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-hidden-track-opacity: --value(number, [number]);
 }
 
 @utility mst-hidden-track-transition-* {
@@ -107,7 +107,7 @@
 }
 
 @utility mst-visible-track-opacity-* {
-    --mat-slide-toggle-visible-track-opacity: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-visible-track-opacity: --value(number, [number]);
 }
 
 @utility mst-visible-track-transition-* {
@@ -175,7 +175,7 @@
 }
 
 @utility mst-selected-focus-state-layer-opacity-* {
-    --mat-slide-toggle-selected-focus-state-layer-opacity: --value(--color-*);
+    --mat-slide-toggle-selected-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mst-selected-focus-track-color-* {
@@ -195,7 +195,7 @@
 }
 
 @utility mst-selected-hover-state-layer-opacity-* {
-    --mat-slide-toggle-selected-hover-state-layer-opacity: --value(--color-*);
+    --mat-slide-toggle-selected-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mst-selected-hover-track-color-* {
@@ -215,7 +215,7 @@
 }
 
 @utility mst-selected-pressed-state-layer-opacity-* {
-    --mat-slide-toggle-selected-pressed-state-layer-opacity: --value(--color-*);
+    --mat-slide-toggle-selected-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mst-selected-pressed-track-color-* {
@@ -239,7 +239,7 @@
 }
 
 @utility mst-unselected-focus-state-layer-opacity-* {
-    --mat-slide-toggle-unselected-focus-state-layer-opacity: --value(--color-*);
+    --mat-slide-toggle-unselected-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mst-unselected-focus-track-color-* {
@@ -259,7 +259,7 @@
 }
 
 @utility mst-unselected-hover-state-layer-opacity-* {
-    --mat-slide-toggle-unselected-hover-state-layer-opacity: --value(--color-*);
+    --mat-slide-toggle-unselected-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mst-unselected-hover-track-color-* {
@@ -279,7 +279,7 @@
 }
 
 @utility mst-unselected-pressed-state-layer-opacity-* {
-    --mat-slide-toggle-unselected-pressed-state-layer-opacity: --value(--color-*);
+    --mat-slide-toggle-unselected-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mst-unselected-pressed-track-color-* {

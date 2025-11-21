@@ -1,5 +1,5 @@
 @utility msr-value-indicator-opacity-* {
-    --mat-slider-value-indicator-opacity: calc(var(--spacing) * --value(number));
+    --mat-slider-value-indicator-opacity: --value(number, [number]);
 }
 
 @utility msr-value-indicator-padding-* {
@@ -51,7 +51,7 @@
 }
 
 @utility msr-with-tick-marks-active-container-opacity-* {
-    --mat-slider-with-tick-marks-active-container-opacity: calc(var(--spacing) * --value(number));
+    --mat-slider-with-tick-marks-active-container-opacity: --value(number, [number]);
 }
 
 @utility msr-with-tick-marks-container-size-* {
@@ -59,7 +59,7 @@
 }
 
 @utility msr-with-tick-marks-inactive-container-opacity-* {
-    --mat-slider-with-tick-marks-inactive-container-opacity: calc(var(--spacing) * --value(number));
+    --mat-slider-with-tick-marks-inactive-container-opacity: --value(number, [number]);
 }
 
 @utility msr-value-indicator-transform-origin-* {

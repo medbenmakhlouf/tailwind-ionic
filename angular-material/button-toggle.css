@@ -1,10 +1,10 @@
 /* Base Tokens */
 @utility mbt-focus-state-layer-opacity-* {
-    --mat-button-toggle-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-button-toggle-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mbt-hover-state-layer-opacity-* {
-    --mat-button-toggle-hover-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-button-toggle-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mbt-shape-* {
@@ -20,7 +20,7 @@
 }
 
 @utility mbt-legacy-focus-state-layer-opacity-* {
-    --mat-button-toggle-legacy-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+    --mat-button-toggle-legacy-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mbt-legacy-h-* {

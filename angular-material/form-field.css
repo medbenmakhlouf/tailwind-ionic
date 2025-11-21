@@ -149,11 +149,11 @@
 }
 
 @utility mff-focus-state-layer-opacity-* {
-    --mat-form-field-focus-state-layer-opacity: --value(--color-*);
+    --mat-form-field-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mff-hover-state-layer-opacity-* {
-    --mat-form-field-hover-state-layer-opacity: --value(--color-*);
+    --mat-form-field-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mff-leading-icon-color-* {
