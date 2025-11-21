@@ -70,24 +70,25 @@
     --mat-tab-background-color: --value(--color-*);
 }
 
-@utility mts-foreground-color-* {
+@utility mts-fg-* {
     --mat-tab-foreground-color: --value(--color-*);
 }
 
-@utility mts-label-text-font-* {
+@utility mts-label-font-* {
     --mat-tab-label-text-font: --value(--font-*);
     --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mts-label-text-leading-* {
+@utility mts-label-leading-* {
     --mat-tab-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mts-label-text-size-* {
-    --mat-tab-label-text-size: calc(var(--spacing) * --value(number));
+@utility mts-label-text-* {
+    --mat-tab-label-text-size: --value(--text-*);
+    --mat-tab-label-text-size: --value(number, [number])rem;
 }
 
-@utility mts-label-text-tracking-* {
+@utility mts-label-tracking-* {
     --mat-tab-label-text-tracking: --value(--tracking-*);
     --mat-tab-label-text-tracking: --value(number, [number])em;
 }
