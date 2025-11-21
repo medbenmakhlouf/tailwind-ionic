@@ -6,7 +6,7 @@
     --mat-tooltip-container-shape: --value(--color-*);
 }
 
-@utility mtt-supporting-text-color-* {
+@utility mtt-supporting-text-* {
     --mat-tooltip-supporting-text-color: --value(--color-*);
 }
 
@@ -14,7 +14,7 @@
     --mat-tooltip-supporting-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mtt-supporting-text-line-height-* {
+@utility mtt-supporting-text-leading-* {
     --mat-tooltip-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }
 

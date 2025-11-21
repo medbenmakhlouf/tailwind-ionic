@@ -11,7 +11,7 @@
     --mat-card-outlined-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mc-outlined-outline-width-* {
+@utility mc-outlined-outline-w-* {
     --mat-card-outlined-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -44,7 +44,7 @@
     --mat-card-outlined-outline-color: --value(--color-*);
 }
 
-@utility mc-subtitle-text-color-* {
+@utility mc-subtitle-text-* {
     --mat-card-subtitle-text-color: --value(--color-*);
 }
 

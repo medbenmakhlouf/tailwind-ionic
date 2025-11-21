@@ -7,11 +7,11 @@
     --mat-option-hover-state-layer-color: --value(--color-*);
 }
 
-@utility mo-label-text-color-* {
+@utility mo-label-text-* {
     --mat-option-label-text-color: --value(--color-*);
 }
 
-@utility mo-selected-state-label-text-color-* {
+@utility mo-selected-state-label-text-* {
     --mat-option-selected-state-label-text-color: --value(--color-*);
 }
 

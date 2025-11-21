@@ -1,4 +1,4 @@
-@utility msp-header-error-state-icon-background-color-* {
+@utility msp-header-error-state-icon-bg-* {
     --mat-stepper-header-error-state-icon-background-color: calc(var(--spacing) * --value(number));
 }
 
@@ -14,7 +14,7 @@
     --mat-stepper-container-color: --value(--color-*);
 }
 
-@utility msp-header-done-state-icon-background-color-* {
+@utility msp-header-done-state-icon-bg-* {
     --mat-stepper-header-done-state-icon-background-color: --value(--color-*);
 }
 
@@ -22,7 +22,7 @@
     --mat-stepper-header-done-state-icon-foreground-color: --value(--color-*);
 }
 
-@utility msp-header-edit-state-icon-background-color-* {
+@utility msp-header-edit-state-icon-bg-* {
     --mat-stepper-header-edit-state-icon-background-color: --value(--color-*);
 }
 
@@ -34,7 +34,7 @@
     --mat-stepper-header-error-state-icon-foreground-color: --value(--color-*);
 }
 
-@utility msp-header-error-state-label-text-color-* {
+@utility msp-header-error-state-label-text-* {
     --mat-stepper-header-error-state-label-text-color: --value(--color-*);
 }
 
@@ -46,7 +46,7 @@
     --mat-stepper-header-hover-state-layer-color: --value(--color-*);
 }
 
-@utility msp-header-icon-background-color-* {
+@utility msp-header-icon-bg-* {
     --mat-stepper-header-icon-background-color: --value(--color-*);
 }
 
@@ -54,15 +54,15 @@
     --mat-stepper-header-icon-foreground-color: --value(--color-*);
 }
 
-@utility msp-header-label-text-color-* {
+@utility msp-header-label-text-* {
     --mat-stepper-header-label-text-color: --value(--color-*);
 }
 
-@utility msp-header-optional-label-text-color-* {
+@utility msp-header-optional-label-text-* {
     --mat-stepper-header-optional-label-text-color: --value(--color-*);
 }
 
-@utility msp-header-selected-state-icon-background-color-* {
+@utility msp-header-selected-state-icon-bg-* {
     --mat-stepper-header-selected-state-icon-background-color: --value(--color-*);
 }
 
@@ -70,7 +70,7 @@
     --mat-stepper-header-selected-state-icon-foreground-color: --value(--color-*);
 }
 
-@utility msp-header-selected-state-label-text-color-* {
+@utility msp-header-selected-state-label-text-* {
     --mat-stepper-header-selected-state-label-text-color: --value(--color-*);
 }
 
@@ -106,6 +106,6 @@
     --mat-stepper-header-selected-state-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msp-header-height-* {
+@utility msp-header-h-* {
     --mat-stepper-header-height: calc(var(--spacing) * --value(number));
 }

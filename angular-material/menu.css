@@ -40,7 +40,7 @@
     --mat-menu-divider-color: --value(--color-*);
 }
 
-@utility mm-item-label-text-color-* {
+@utility mm-item-label-text-* {
     --mat-menu-item-label-text-color: --value(--color-*);
 }
 

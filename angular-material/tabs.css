@@ -1,4 +1,4 @@
-@utility mts-active-indicator-height-* {
+@utility mts-active-indicator-h-* {
     --mat-tab-active-indicator-height: calc(var(--spacing) * --value(number));
 }
 
@@ -6,7 +6,7 @@
     --mat-tab-active-indicator-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mts-divider-height-* {
+@utility mts-divider-h-* {
     --mat-tab-divider-height: calc(var(--spacing) * --value(number));
 }
 
@@ -14,7 +14,7 @@
     --mat-tab-active-focus-indicator-color: --value(--color-*);
 }
 
-@utility mts-active-focus-label-text-color-* {
+@utility mts-active-focus-label-text-* {
     --mat-tab-active-focus-label-text-color: --value(--color-*);
 }
 
@@ -22,7 +22,7 @@
     --mat-tab-active-hover-indicator-color: --value(--color-*);
 }
 
-@utility mts-active-hover-label-text-color-* {
+@utility mts-active-hover-label-text-* {
     --mat-tab-active-hover-label-text-color: --value(--color-*);
 }
 
@@ -30,7 +30,7 @@
     --mat-tab-active-indicator-color: --value(--color-*);
 }
 
-@utility mts-active-label-text-color-* {
+@utility mts-active-label-text-* {
     --mat-tab-active-label-text-color: --value(--color-*);
 }
 
@@ -42,15 +42,15 @@
     --mat-tab-divider-color: --value(--color-*);
 }
 
-@utility mts-inactive-focus-label-text-color-* {
+@utility mts-inactive-focus-label-text-* {
     --mat-tab-inactive-focus-label-text-color: --value(--color-*);
 }
 
-@utility mts-inactive-hover-label-text-color-* {
+@utility mts-inactive-hover-label-text-* {
     --mat-tab-inactive-hover-label-text-color: --value(--color-*);
 }
 
-@utility mts-inactive-label-text-color-* {
+@utility mts-inactive-label-text-* {
     --mat-tab-inactive-label-text-color: --value(--color-*);
 }
 
@@ -66,7 +66,7 @@
     --mat-tab-disabled-ripple-color: --value(--color-*);
 }
 
-@utility mts-background-color-* {
+@utility mts-bg-* {
     --mat-tab-background-color: --value(--color-*);
 }
 
@@ -78,7 +78,7 @@
     --mat-tab-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mts-label-text-line-height-* {
+@utility mts-label-text-leading-* {
     --mat-tab-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
@@ -94,6 +94,6 @@
     --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mts-container-height-* {
+@utility mts-container-h-* {
     --mat-tab-container-height: calc(var(--spacing) * --value(number));
 }

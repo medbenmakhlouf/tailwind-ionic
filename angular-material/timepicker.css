@@ -2,7 +2,7 @@
     --mat-timepicker-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mtp-container-background-color-* {
+@utility mtp-container-bg-* {
     --mat-timepicker-container-background-color: --value(--color-*);
 }
 

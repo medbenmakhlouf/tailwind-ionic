@@ -1,9 +1,9 @@
 /* Base Type Utilities */
-@utility mpb-active-indicator-height-* {
+@utility mpb-active-indicator-h-* {
     --mat-progress-bar-active-indicator-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mpb-track-height-* {
+@utility mpb-track-h-* {
     --mat-progress-bar-track-height: calc(var(--spacing) * --value(number));
 }
 

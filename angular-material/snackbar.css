@@ -9,14 +9,14 @@
     --mat-snackbar-container-color: --value(--color-*);
 }
 
-@utility msb-supporting-text-color-* {
+@utility msb-supporting-text-* {
     --mat-snackbar-supporting-text-color: --value(--color-*);
 }
 @utility msb-supporting-text-font-* {
     --mat-snackbar-supporting-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msb-supporting-text-line-height-* {
+@utility msb-supporting-text-leading-* {
     --mat-snackbar-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }
 

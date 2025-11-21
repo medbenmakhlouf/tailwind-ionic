@@ -1,8 +1,8 @@
-@utility mtr-container-background-color-* {
+@utility mtr-container-bg-* {
     --mat-toolbar-container-background-color: --value(--color-*);
 }
 
-@utility mtr-container-text-color-* {
+@utility mtr-container-text-* {
     --mat-toolbar-container-text-color: --value(--color-*);
 }
 
@@ -10,7 +10,7 @@
     --mat-toolbar-title-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mtr-title-text-line-height-* {
+@utility mtr-title-text-leading-* {
     --mat-toolbar-title-text-line-height: calc(var(--spacing) * --value(number));
 }
 
@@ -26,10 +26,10 @@
     --mat-toolbar-title-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mtr-standard-height-* {
+@utility mtr-standard-h-* {
     --mat-toolbar-standard-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mtr-mobile-height-* {
+@utility mtr-mobile-h-* {
     --mat-toolbar-mobile-height: calc(var(--spacing) * --value(number));
 }

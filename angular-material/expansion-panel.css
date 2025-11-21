@@ -20,11 +20,11 @@
     --mat-expansion-panel-actions-divider-color: --value(--color-*);
 }
 
-@utility mep-container-background-color-* {
+@utility mep-container-bg-* {
     --mat-expansion-panel-container-background-color: --value(--color-*);
 }
 
-@utility mep-container-text-color-* {
+@utility mep-container-text-* {
     --mat-expansion-panel-container-text-color: --value(--color-*);
 }
 
@@ -32,7 +32,7 @@
     --mat-expansion-panel-header-description-color: --value(--color-*);
 }
 
-@utility mep-header-disabled-state-text-color-* {
+@utility mep-header-disabled-state-text-* {
     --mat-expansion-panel-header-disabled-state-text-color: --value(--color-*);
 }
 
@@ -48,7 +48,7 @@
     --mat-expansion-panel-header-indicator-color: --value(--color-*);
 }
 
-@utility mep-header-text-color-* {
+@utility mep-header-text-* {
     --mat-expansion-panel-header-text-color: --value(--color-*);
 }
 
@@ -94,10 +94,10 @@
 }
 
 /* Density Type Utilities */
-@utility mep-header-collapsed-state-height-* {
+@utility mep-header-collapsed-state-h-* {
     --mat-expansion-panel-header-collapsed-state-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mep-header-expanded-state-height-* {
+@utility mep-header-expanded-state-h-* {
     --mat-expansion-panel-header-expanded-state-height: calc(var(--spacing) * --value(number));
 }

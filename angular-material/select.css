@@ -1,16 +1,16 @@
-@utility ms-panel-background-color-* {
+@utility ms-panel-bg-* {
     --mat-select-panel-background-color: --value(--color-*);
 }
 
-@utility ms-enabled-trigger-text-color-* {
+@utility ms-enabled-trigger-text-* {
     --mat-select-enabled-trigger-text-color: --value(--color-*);
 }
 
-@utility ms-disabled-trigger-text-color-* {
+@utility ms-disabled-trigger-text-* {
     --mat-select-disabled-trigger-text-color: --value(--color-*);
 }
 
-@utility ms-placeholder-text-color-* {
+@utility ms-placeholder-text-* {
     --mat-select-placeholder-text-color: --value(--color-*);
 }
 
@@ -34,7 +34,7 @@
     --mat-select-trigger-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-trigger-text-line-height-* {
+@utility ms-trigger-text-leading-* {
     --mat-select-trigger-text-line-height: calc(var(--spacing) * --value(number));
 }
 

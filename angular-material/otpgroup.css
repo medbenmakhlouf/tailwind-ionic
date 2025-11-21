@@ -1,5 +1,5 @@
 /* Color Type Utilities */
-@utility mog-label-text-color-* {
+@utility mog-label-text-* {
     --mat-optgroup-label-text-color: --value(--color-*);
 }
 /* Typography Type Utilities */

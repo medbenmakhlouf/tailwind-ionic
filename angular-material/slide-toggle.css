@@ -18,7 +18,7 @@
     --mat-slide-toggle-disabled-unselected-icon-opacity: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-disabled-unselected-track-outline-width-* {
+@utility mst-disabled-unselected-track-outline-w-* {
     --mat-slide-toggle-disabled-unselected-track-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -58,7 +58,7 @@
     --mat-slide-toggle-selected-track-outline-color: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-selected-track-outline-width-* {
+@utility mst-selected-track-outline-w-* {
     --mat-slide-toggle-selected-track-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -70,11 +70,11 @@
     --mat-slide-toggle-state-layer-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-track-height-* {
+@utility mst-track-h-* {
     --mat-slide-toggle-track-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-track-outline-width-* {
+@utility mst-track-outline-w-* {
     --mat-slide-toggle-track-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -82,7 +82,7 @@
     --mat-slide-toggle-track-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-track-width-* {
+@utility mst-track-w-* {
     --mat-slide-toggle-track-width: calc(var(--spacing) * --value(number));
 }
 
@@ -118,11 +118,11 @@
     --mat-slide-toggle-with-icon-handle-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-handle-width-* {
+@utility mst-handle-w-* {
     --mat-slide-toggle-handle-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-handle-height-* {
+@utility mst-handle-h-* {
     --mat-slide-toggle-handle-height: calc(var(--spacing) * --value(number));
 }
 
@@ -130,7 +130,7 @@
     --mat-slide-toggle-touch-target-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-disabled-label-text-color-* {
+@utility mst-disabled-label-text-* {
     --mat-slide-toggle-disabled-label-text-color: --value(--color-*);
 }
 
@@ -162,7 +162,7 @@
     --mat-slide-toggle-disabled-unselected-track-outline-color: --value(--color-*);
 }
 
-@utility mst-label-text-color-* {
+@utility mst-label-text-* {
     --mat-slide-toggle-label-text-color: --value(--color-*);
 }
 
@@ -306,7 +306,7 @@
     --mat-slide-toggle-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mst-label-text-line-height-* {
+@utility mst-label-text-leading-* {
     --mat-slide-toggle-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 

@@ -11,11 +11,11 @@
     --mat-dialog-container-elevation-shadow: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-container-max-width-* {
+@utility mdg-container-max-w-* {
     --mat-dialog-container-max-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-container-min-width-* {
+@utility mdg-container-min-w-* {
     --mat-dialog-container-min-width: calc(var(--spacing) * --value(number));
 }
 
@@ -23,7 +23,7 @@
     --mat-dialog-container-shape: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-container-small-max-width-* {
+@utility mdg-container-small-max-w-* {
     --mat-dialog-container-small-max-width: calc(var(--spacing) * --value(number));
 }
 
@@ -48,7 +48,7 @@
     --mat-dialog-subhead-color: --value(--color-*);
 }
 
-@utility mdg-supporting-text-color-* {
+@utility mdg-supporting-text-* {
     --mat-dialog-supporting-text-color: --value(--color-*);
 }
 

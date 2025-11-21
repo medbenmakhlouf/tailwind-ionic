@@ -6,11 +6,11 @@
     --mat-slider-value-indicator-padding: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-value-indicator-width-* {
+@utility msr-value-indicator-w-* {
     --mat-slider-value-indicator-width: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-value-indicator-height-* {
+@utility msr-value-indicator-h-* {
     --mat-slider-value-indicator-height: calc(var(--spacing) * --value(number));
 }
 
@@ -30,23 +30,23 @@
     --mat-slider-value-indicator-container-transform: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-active-track-height-* {
+@utility msr-active-track-h-* {
     --mat-slider-active-track-height: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-handle-height-* {
+@utility msr-handle-h-* {
     --mat-slider-handle-height: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-handle-width-* {
+@utility msr-handle-w-* {
     --mat-slider-handle-width: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-inactive-track-height-* {
+@utility msr-inactive-track-h-* {
     --mat-slider-inactive-track-height: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-with-overlap-handle-outline-width-* {
+@utility msr-with-overlap-handle-outline-w-* {
     --mat-slider-with-overlap-handle-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -126,7 +126,7 @@
     --mat-slider-label-container-color: --value(--color-*);
 }
 
-@utility msr-label-label-text-color-* {
+@utility msr-label-label-text-* {
     --mat-slider-label-label-text-color: --value(--color-*);
 }
 
@@ -158,7 +158,7 @@
     --mat-slider-label-label-text-font: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msr-label-label-text-line-height-* {
+@utility msr-label-label-text-leading-* {
     --mat-slider-label-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 

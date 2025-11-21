@@ -11,11 +11,11 @@
     --mat-chip-elevated-container-color: calc(var(--spacing) * --value(number));
 }
 
-@utility mcp-flat-selected-outline-width-* {
+@utility mcp-flat-selected-outline-w-* {
     --mat-chip-flat-selected-outline-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mcp-outline-width-* {
+@utility mcp-outline-w-* {
     --mat-chip-outline-width: calc(var(--spacing) * --value(number));
 }
 
@@ -52,7 +52,7 @@
 }
 
 /* Color Type Utilities */
-@utility mcp-disabled-label-text-color-* {
+@utility mcp-disabled-label-text-* {
     --mat-chip-disabled-label-text-color: --value(--color-*);
 }
 
@@ -88,7 +88,7 @@
     --mat-chip-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mcp-label-text-color-* {
+@utility mcp-label-text-* {
     --mat-chip-label-text-color: --value(--color-*);
 }
 
@@ -116,7 +116,7 @@
     --mat-chip-selected-hover-state-layer-opacity: --value(--color-*);
 }
 
-@utility mcp-selected-label-text-color-* {
+@utility mcp-selected-label-text-* {
     --mat-chip-selected-label-text-color: --value(--color-*);
 }
 
@@ -186,6 +186,6 @@
 }
 
 /* Density Type Utilities */
-@utility mcp-container-height-* {
+@utility mcp-container-h-* {
     --mat-chip-container-height: calc(var(--spacing) * --value(number));
 }

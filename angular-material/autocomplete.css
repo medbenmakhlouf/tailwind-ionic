@@ -8,6 +8,6 @@
 }
 
 /* Color Tokens */
-@utility ma-background-color-* {
+@utility ma-bg-* {
     --mat-autocomplete-background-color: --value(--color-*);
 }
