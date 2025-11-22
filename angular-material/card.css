@@ -46,36 +46,35 @@
 
 @utility mc-subtitle-text-* {
     --mat-card-subtitle-text-color: --value(--color-*);
+    --mat-card-subtitle-text-size: --value(--text-*);
+    --mat-card-subtitle-text-size: --value(number, [number])rem;
 }
 
 /* Typography Tokens */
-@utility mc-subtitle-text-font-* {
+@utility mc-subtitle-font-* {
     --mat-card-subtitle-text-font: --value(--font-*);
     --mat-card-subtitle-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mc-subtitle-text-leading-* {
+@utility mc-subtitle-leading-* {
     --mat-card-subtitle-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mc-subtitle-text-size-* {
-    --mat-card-subtitle-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mc-subtitle-text-tracking-* {
+@utility mc-subtitle-tracking-* {
     --mat-card-subtitle-text-tracking: --value(--tracking-*);
     --mat-card-subtitle-text-tracking: --value(number, [number])em;
 }
 
-@utility mc-title-text-leading-* {
+@utility mc-title-leading-* {
     --mat-card-title-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mc-title-text-size-* {
-    --mat-card-title-text-size: calc(var(--spacing) * --value(number));
+@utility mc-title-text-* {
+    --mat-card-title-text-size: --value(--text-*);
+    --mat-card-title-text-size: --value(number, [number])rem;
 }
 
-@utility mc-title-text-tracking-* {
+@utility mc-title-tracking-* {
     --mat-card-title-text-tracking: --value(--tracking-*);
     --mat-card-title-text-tracking: --value(number, [number])em;
 }
