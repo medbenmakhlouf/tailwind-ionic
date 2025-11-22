@@ -89,16 +89,19 @@
 
 @utility msp-header-label-text-* {
     --mat-stepper-header-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-stepper-header-label-text-size: --value(number, [number])rem;
 }
 
 @utility msp-header-error-state-label-text-* {
     --mat-stepper-header-error-state-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-stepper-header-error-state-label-text-size: --value(number, [number])rem;
 }
 
 @utility msp-header-selected-state-label-text-* {
     --mat-stepper-header-selected-state-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-stepper-header-selected-state-label-text-size: --value(number, [number])rem;
 }
 

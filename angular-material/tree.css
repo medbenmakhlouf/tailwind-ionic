@@ -5,6 +5,7 @@
 @utility mtr-node-text-* {
     --mat-tree-node-text-color: --value(--color-*);
     --mat-tree-node-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-tree-node-text-size: --value(number, [number])rem;
 }
 

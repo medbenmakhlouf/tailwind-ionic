@@ -21,6 +21,7 @@
 @utility md-calendar-body-label-text-* {
     --mat-datepicker-calendar-body-label-text-color: --value(--color-*);
     --mat-datepicker-calendar-body-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-datepicker-calendar-body-label-text-size: --value(number, [number])rem;
 }
 
@@ -105,6 +106,7 @@
 @utility md-calendar-header-text-* {
     --mat-datepicker-calendar-header-text-color: --value(--color-*);
     --mat-datepicker-calendar-header-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-datepicker-calendar-header-text-size: --value(number, [number])rem;
 }
 
@@ -119,6 +121,7 @@
 @utility md-calendar-period-button-text-* {
     --mat-datepicker-calendar-period-button-text-color: --value(--color-*);
     --mat-datepicker-calendar-period-button-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-datepicker-calendar-period-button-text-size: --value(number, [number])rem;
 }
 
@@ -165,5 +168,6 @@
 
 @utility md-calendar-text-* {
     --mat-datepicker-calendar-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-datepicker-calendar-text-size: --value(number, [number])rem;
 }

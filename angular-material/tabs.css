@@ -85,11 +85,13 @@
 
 @utility mts-label-text-* {
     --mat-tab-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-tab-label-text-size: --value(number, [number])rem;
 }
 
 @utility mts-label-tracking-* {
     --mat-tab-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-tab-label-text-tracking: --value(number, [number])em;
 }
 

@@ -51,6 +51,7 @@
 @utility mdg-supporting-text-* {
     --mat-dialog-supporting-text-color: --value(--color-*);
     --mat-dialog-supporting-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-dialog-supporting-text-size: --value(number, [number])rem;
 }
 
@@ -65,6 +66,7 @@
 
 @utility mdg-subhead-tracking-* {
     --mat-dialog-subhead-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-dialog-subhead-tracking: --value(number, [number])em;
 }
 
@@ -79,6 +81,7 @@
 
 @utility mdg-supporting-tracking-* {
     --mat-dialog-supporting-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-dialog-supporting-text-tracking: --value(number, [number])em;
 }
 

@@ -47,6 +47,7 @@
 @utility mc-subtitle-text-* {
     --mat-card-subtitle-text-color: --value(--color-*);
     --mat-card-subtitle-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-card-subtitle-text-size: --value(number, [number])rem;
 }
 
@@ -62,6 +63,7 @@
 
 @utility mc-subtitle-tracking-* {
     --mat-card-subtitle-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-card-subtitle-text-tracking: --value(number, [number])em;
 }
 
@@ -71,11 +73,13 @@
 
 @utility mc-title-text-* {
     --mat-card-title-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-card-title-text-size: --value(number, [number])rem;
 }
 
 @utility mc-title-tracking-* {
     --mat-card-title-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-card-title-text-tracking: --value(number, [number])em;
 }
 

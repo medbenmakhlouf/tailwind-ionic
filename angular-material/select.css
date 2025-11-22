@@ -41,11 +41,13 @@
 
 @utility ms-trigger-text-* {
     --mat-select-trigger-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-select-trigger-text-size: --value(number, [number])rem;
 }
 
 @utility ms-trigger-tracking-* {
     --mat-select-trigger-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-select-trigger-text-tracking: --value(number, [number])em;
 }
 

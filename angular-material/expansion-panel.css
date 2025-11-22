@@ -61,6 +61,7 @@
 @utility mep-container-text-* {
     --mat-expansion-panel-container-text-color: --value(--color-*);
     --mat-expansion-panel-container-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-expansion-panel-container-text-size: --value(number, [number])rem;
 }
 
@@ -87,6 +88,7 @@
 @utility mep-header-text-* {
     --mat-expansion-panel-header-text-color: --value(--color-*);
     --mat-expansion-panel-header-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-expansion-panel-header-text-size: --value(number, [number])rem;
 }
 
@@ -97,6 +99,7 @@
 
 @utility mep-container-tracking-* {
     --mat-expansion-panel-container-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-expansion-panel-container-text-tracking: --value(number, [number])em;
 }
 
@@ -111,6 +114,7 @@
 
 @utility mep-header-tracking-* {
     --mat-expansion-panel-header-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-expansion-panel-header-text-tracking: --value(number, [number])em;
 }
 

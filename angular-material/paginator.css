@@ -10,6 +10,7 @@
 @utility mp-container-text-* {
     --mat-paginator-container-text-color: --value(--color-*);
     --mat-paginator-container-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-paginator-container-text-size: --value(number, [number])rem;
 }
 
@@ -31,6 +32,7 @@
 
 @utility mp-container-tracking-* {
     --mat-paginator-container-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-paginator-container-text-tracking: --value(number, [number])em;
 }
 
@@ -41,6 +43,7 @@
 
 @utility mp-select-trigger-text-* {
     --mat-paginator-select-trigger-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-paginator-select-trigger-text-size: --value(number, [number])rem;
 }
 

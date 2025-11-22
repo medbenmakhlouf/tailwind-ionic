@@ -47,6 +47,7 @@
 @utility mck-label-text-* {
     --mat-checkbox-label-text-color: --value(--color-*);
     --mat-checkbox-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-checkbox-label-text-size: --value(number, [number])rem;
 }
 
@@ -112,6 +113,7 @@
 
 @utility mck-label-tracking-* {
     --mat-checkbox-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-checkbox-label-text-tracking: --value(number, [number])em;
 }
 

@@ -79,6 +79,7 @@
 @utility mbg-text-* {
     --mat-badge-text-color: --value(--color-*);
     --mat-badge-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-badge-text-size: --value(number, [number])rem;
 }
 
@@ -89,6 +90,7 @@
 
 @utility mbg-large-size-text-size-* {
     --mat-badge-large-size-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-badge-large-size-text-size: --value(number, [number])rem;
 }
 
@@ -102,6 +104,7 @@
 
 @utility mbg-small-size-text-size-* {
     --mat-badge-small-size-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-badge-small-size-text-size: --value(number, [number])rem;
 }
 

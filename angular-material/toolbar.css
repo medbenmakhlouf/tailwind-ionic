@@ -17,11 +17,13 @@
 
 @utility mtr-title-text-* {
     --mat-toolbar-title-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-toolbar-title-text-size: --value(number, [number])rem;
 }
 
 @utility mtr-title-tracking-* {
     --mat-toolbar-title-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-toolbar-title-text-tracking: --value(number, [number])em;
 }
 

@@ -108,11 +108,13 @@
 
 @utility mbt-label-text-* {
     --mat-button-toggle-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-button-toggle-label-text-size: --value(number, [number])rem;
 }
 
 @utility mbt-label-tracking-* {
     --mat-button-toggle-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-button-toggle-label-text-tracking: --value(number, [number])em;
 }
 
@@ -127,11 +129,13 @@
 
 @utility mbt-legacy-label-text-* {
     --mat-button-toggle-legacy-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-button-toggle-legacy-label-text-size: --value(number, [number])rem;
 }
 
 @utility mbt-legacy-label-tracking-* {
     --mat-button-toggle-legacy-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-button-toggle-legacy-label-text-tracking: --value(number, [number])em;
 }
 

@@ -43,6 +43,7 @@
 @utility mm-item-label-text-* {
     --mat-menu-item-label-text-color: --value(--color-*);
     --mat-menu-item-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-menu-item-label-text-size: --value(number, [number])rem;
 }
 
@@ -73,6 +74,7 @@
 
 @utility mm-item-label-tracking-* {
     --mat-menu-item-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-menu-item-label-text-tracking: --value(number, [number])em;
 }
 

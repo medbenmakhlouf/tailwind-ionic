@@ -155,6 +155,7 @@
 @utility mb-filled-label-text-* {
     --mat-button-filled-label-text-color: --value(--color-*);
     --mat-button-filled-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-button-filled-label-text-size: --value(number, [number])rem;
 }
 
@@ -193,6 +194,7 @@
 @utility mb-outlined-label-text-* {
     --mat-button-outlined-label-text-color: --value(--color-*);
     --mat-button-outlined-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-button-outlined-label-text-size: --value(number, [number])rem;
 }
 
@@ -255,6 +257,7 @@
 @utility mb-protected-label-text-* {
     --mat-button-protected-label-text-color: --value(--color-*);
     --mat-button-protected-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-button-protected-label-text-size: --value(number, [number])rem;
 }
 
@@ -293,6 +296,7 @@
 @utility mb-text-label-text-* {
     --mat-button-text-label-text-color: --value(--color-*);
     --mat-button-text-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-button-text-label-text-size: --value(number, [number])rem;
 }
 
@@ -335,6 +339,7 @@
 @utility mb-tonal-label-text-* {
     --mat-button-tonal-label-text-color: --value(--color-*);
     --mat-button-tonal-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-button-tonal-label-text-size: --value(number, [number])rem;
 }
 
@@ -358,6 +363,7 @@
 
 @utility mb-filled-label-tracking-* {
     --mat-button-filled-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-button-filled-label-text-tracking: --value(number, [number])em;
 }
 
@@ -368,6 +374,7 @@
 
 @utility mb-outlined-label-tracking-* {
     --mat-button-outlined-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-button-outlined-label-text-tracking: --value(number, [number])em;
 }
 
@@ -378,6 +385,7 @@
 
 @utility mb-protected-label-tracking-* {
     --mat-button-protected-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-button-protected-label-text-tracking: --value(number, [number])em;
 }
 
@@ -388,6 +396,7 @@
 
 @utility mb-text-label-tracking-* {
     --mat-button-text-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-button-text-label-text-tracking: --value(number, [number])em;
 }
 
@@ -398,6 +407,7 @@
 
 @utility mb-tonal-label-tracking-* {
     --mat-button-tonal-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-button-tonal-label-text-tracking: --value(number, [number])em;
 }
 

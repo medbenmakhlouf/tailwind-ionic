@@ -10,6 +10,7 @@
 @utility mo-label-text-* {
     --mat-option-label-text-color: --value(--color-*);
     --mat-option-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-option-label-text-size: --value(number, [number])rem;
 }
 
@@ -28,6 +29,7 @@
 
 @utility mo-label-tracking-* {
     --mat-option-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-option-label-text-tracking: --value(number, [number])em;
 }
 

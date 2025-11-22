@@ -91,6 +91,7 @@
 @utility mcp-label-text-* {
     --mat-chip-label-text-color: --value(--color-*);
     --mat-chip-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-chip-label-text-size: --value(number, [number])rem;
 }
 
@@ -173,6 +174,7 @@
 
 @utility mcp-label-tracking-* {
     --mat-chip-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-chip-label-text-tracking: --value(number, [number])em;
 }
 

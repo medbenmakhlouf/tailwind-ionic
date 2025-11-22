@@ -146,6 +146,7 @@
 @utility msr-label-label-text-* {
     --mat-slider-label-label-text-color: --value(--color-*);
     --mat-slider-label-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-slider-label-label-text-size: --value(number, [number])rem;
 }
 
@@ -183,5 +184,6 @@
 }
 
 @utility msr-label-label-tracking-* {
+    /* prettier-ignore */
     --mat-slider-label-label-text-tracking: --value(number, [number])em;
 }

@@ -29,6 +29,7 @@
 @utility mrb-label-text-* {
     --mat-radion-button-label-text-color: --value(--color-*);
     --mat-radion-button-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-radion-button-label-text-size: --value(number, [number])rem;
 }
 
@@ -79,6 +80,7 @@
 
 @utility mrb-label-tracking-* {
     --mat-radion-button-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-radion-button-label-text-tracking: --value(number, [number])em;
 }
 

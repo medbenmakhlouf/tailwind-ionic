@@ -74,6 +74,7 @@
 @utility ml-list-item-label-text-* {
     --mat-list-list-item-label-text-color: --value(--color-*);
     --mat-list-list-item-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-list-list-item-label-text-size: --value(number, [number])rem;
 }
 
@@ -104,6 +105,7 @@
 @utility ml-list-item-supporting-text-* {
     --mat-list-list-item-supporting-text-color: --value(--color-*);
     --mat-list-list-item-supporting-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-list-list-item-supporting-text-size: --value(number, [number])rem;
 }
 
@@ -118,6 +120,7 @@
 @utility ml-list-item-trailing-supporting-text-* {
     --mat-list-list-item-trailing-supporting-text-color: --value(--color-*);
     --mat-list-list-item-trailing-supporting-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-list-list-item-trailing-supporting-text-size: --value(number, [number])rem;
 }
 
@@ -140,6 +143,7 @@
 
 @utility ml-list-item-label-tracking-* {
     --mat-list-list-item-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-list-list-item-label-text-tracking: --value(number, [number])em;
 }
 
@@ -154,6 +158,7 @@
 
 @utility ml-list-item-supporting-tracking-* {
     --mat-list-list-item-supporting-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-list-list-item-supporting-text-tracking: --value(number, [number])em;
 }
 
@@ -170,6 +175,7 @@
 
 @utility ml-list-item-trailing-supporting-tracking-* {
     --mat-list-list-item-trailing-supporting-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-list-list-item-trailing-supporting-text-tracking: --value(number, [number])em;
 }
 

@@ -161,6 +161,7 @@
 }
 @utility msys-body-lg-tracking-* {
     --mat-sys-body-large-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-body-large-tracking: --value(number, [number])em;
 }
 @utility msys-body-lg-font-* {
@@ -175,6 +176,7 @@
 }
 @utility msys-body-md-tracking-* {
     --mat-sys-body-medium-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-body-medium-tracking: --value(number, [number])em;
 }
 @utility msys-body-md-font-* {
@@ -189,6 +191,7 @@
 }
 @utility msys-body-sm-tracking-* {
     --mat-sys-body-small-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-body-small-tracking: --value(number, [number])em;
 }
 @utility msys-body-sm-font-* {
@@ -204,6 +207,7 @@
 }
 @utility msys-display-lg-tracking-* {
     --mat-sys-display-large-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-display-large-tracking: --value(number, [number])em;
 }
 @utility msys-display-lg-font-* {
@@ -218,6 +222,7 @@
 }
 @utility msys-display-md-tracking-* {
     --mat-sys-display-medium-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-display-medium-tracking: --value(number, [number])em;
 }
 @utility msys-display-md-font-* {
@@ -232,6 +237,7 @@
 }
 @utility msys-display-sm-tracking-* {
     --mat-sys-display-small-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-display-small-tracking: --value(number, [number])em;
 }
 @utility msys-display-sm-font-* {
@@ -247,6 +253,7 @@
 }
 @utility msys-headline-lg-tracking-* {
     --mat-sys-headline-large-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-headline-large-tracking: --value(number, [number])em;
 }
 @utility msys-headline-lg-font-* {
@@ -261,6 +268,7 @@
 }
 @utility msys-headline-md-tracking-* {
     --mat-sys-headline-medium-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-headline-medium-tracking: --value(number, [number])em;
 }
 @utility msys-headline-md-font-* {
@@ -275,6 +283,7 @@
 }
 @utility msys-headline-sm-tracking-* {
     --mat-sys-headline-small-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-headline-small-tracking: --value(number, [number])em;
 }
 @utility msys-headline-sm-font-* {
@@ -290,6 +299,7 @@
 }
 @utility msys-label-lg-tracking-* {
     --mat-sys-label-large-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-label-large-tracking: --value(number, [number])em;
 }
 @utility msys-label-lg-font-* {
@@ -307,6 +317,7 @@
 }
 @utility msys-label-md-tracking-* {
     --mat-sys-label-medium-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-label-medium-tracking: --value(number, [number])em;
 }
 @utility msys-label-md-font-* {
@@ -324,6 +335,7 @@
 }
 @utility msys-label-sm-tracking-* {
     --mat-sys-label-small-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-label-small-tracking: --value(number, [number])em;
 }
 @utility msys-label-sm-font-* {
@@ -339,6 +351,7 @@
 }
 @utility msys-title-lg-tracking-* {
     --mat-sys-title-large-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-title-large-tracking: --value(number, [number])em;
 }
 @utility msys-title-lg-font-* {
@@ -353,6 +366,7 @@
 }
 @utility msys-title-md-tracking-* {
     --mat-sys-title-medium-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-title-medium-tracking: --value(number, [number])em;
 }
 @utility msys-title-md-font-* {
@@ -367,6 +381,7 @@
 }
 @utility msys-title-sm-tracking-* {
     --mat-sys-title-small-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-sys-title-small-tracking: --value(number, [number])em;
 }
 @utility msys-title-sm-font-* {
@@ -377,6 +392,7 @@
     --mat-sys-corner-medium: calc(var(--radius) * --value(number));
 }
 @utility msys-corner-none-* {
+    /* prettier-ignore */
     --mat-sys-corner-none: --value(number, [number])px;
 }
 @utility msys-corner-sm-* {

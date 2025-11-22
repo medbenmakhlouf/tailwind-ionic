@@ -7,6 +7,7 @@
 @utility mbs-container-text-* {
     --mat-bottom-sheet-container-text-color: --value(--color-*);
     --mat-bottom-sheet-container-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-bottom-sheet-container-text-size: --value(number, [number])rem;
 }
 
@@ -26,5 +27,6 @@
 
 @utility mbs-container-tracking-* {
     --mat-bottom-sheet-container-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-bottom-sheet-container-text-tracking: --value(number, [number])em;
 }

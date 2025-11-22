@@ -9,6 +9,7 @@
 @utility mtt-supporting-text-* {
     --mat-tooltip-supporting-text-color: --value(--color-*);
     --mat-tooltip-supporting-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-tooltip-supporting-text-size: --value(number, [number])rem;
 }
 
@@ -23,5 +24,6 @@
 
 @utility mtt-supporting-text-tracking-* {
     --mat-tooltip-supporting-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-tooltip-supporting-text-tracking: --value(number, [number])em;
 }

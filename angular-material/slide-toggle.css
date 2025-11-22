@@ -175,6 +175,7 @@
 @utility mst-label-text-* {
     --mat-slide-toggle-label-text-color: --value(--color-*);
     --mat-slide-toggle-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-slide-toggle-label-text-size: --value(number, [number])rem;
 }
 
@@ -325,6 +326,7 @@
 
 @utility mst-label-tracking-* {
     --mat-slide-toggle-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-slide-toggle-label-text-tracking: --value(number, [number])em;
 }
 

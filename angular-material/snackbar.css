@@ -12,6 +12,7 @@
 @utility msb-supporting-text-* {
     --mat-snackbar-supporting-text-color: --value(--color-*);
     --mat-snackbar-supporting-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-snackbar-supporting-text-size: --value(number, [number])rem;
 }
 @utility msb-supporting-font-* {

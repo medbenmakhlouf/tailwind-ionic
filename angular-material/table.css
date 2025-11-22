@@ -13,6 +13,7 @@
 @utility mt-row-item-label-text-* {
     --mat-table-row-item-label-text-color: --value(--color-*);
     --mat-table-row-item-label-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-table-row-item-label-text-size: --value(number, [number])rem;
 }
 
@@ -35,6 +36,7 @@
 
 @utility mt-header-headline-tracking-* {
     --mat-table-header-headline-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-table-header-headline-tracking: --value(number, [number])em;
 }
 
@@ -49,6 +51,7 @@
 
 @utility mt-row-item-label-tracking-* {
     --mat-table-row-item-label-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-table-row-item-label-text-tracking: --value(number, [number])em;
 }
 
@@ -63,11 +66,13 @@
 
 @utility mt-footer-supporting-text-* {
     --mat-table-footer-supporting-text-size: --value(--text-*);
+    /* prettier-ignore */
     --mat-table-footer-supporting-text-size: --value(number, [number])rem;
 }
 
 @utility mt-footer-supporting-tracking-* {
     --mat-table-footer-supporting-text-tracking: --value(--tracking-*);
+    /* prettier-ignore */
     --mat-table-footer-supporting-text-tracking: --value(number, [number])em;
 }
 
