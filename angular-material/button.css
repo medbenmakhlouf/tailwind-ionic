@@ -154,6 +154,8 @@
 
 @utility mb-filled-label-text-* {
     --mat-button-filled-label-text-color: --value(--color-*);
+    --mat-button-filled-label-text-size: --value(--text-*);
+    --mat-button-filled-label-text-size: --value(number, [number])rem;
 }
 
 @utility mb-filled-pressed-state-layer-opacity-* {
@@ -190,6 +192,8 @@
 
 @utility mb-outlined-label-text-* {
     --mat-button-outlined-label-text-color: --value(--color-*);
+    --mat-button-outlined-label-text-size: --value(--text-*);
+    --mat-button-outlined-label-text-size: --value(number, [number])rem;
 }
 
 @utility mb-outlined-outline-color-* {
@@ -250,6 +254,8 @@
 
 @utility mb-protected-label-text-* {
     --mat-button-protected-label-text-color: --value(--color-*);
+    --mat-button-protected-label-text-size: --value(--text-*);
+    --mat-button-protected-label-text-size: --value(number, [number])rem;
 }
 
 @utility mb-protected-pressed-container-elevation-shadow-* {
@@ -286,6 +292,8 @@
 
 @utility mb-text-label-text-* {
     --mat-button-text-label-text-color: --value(--color-*);
+    --mat-button-text-label-text-size: --value(--text-*);
+    --mat-button-text-label-text-size: --value(number, [number])rem;
 }
 
 @utility mb-text-pressed-state-layer-opacity-* {
@@ -326,6 +334,8 @@
 
 @utility mb-tonal-label-text-* {
     --mat-button-tonal-label-text-color: --value(--color-*);
+    --mat-button-tonal-label-text-size: --value(--text-*);
+    --mat-button-tonal-label-text-size: --value(number, [number])rem;
 }
 
 @utility mb-tonal-pressed-state-layer-opacity-* {
@@ -341,79 +351,76 @@
 }
 
 /* Typography Tokens */
-@utility mb-filled-label-text-font-* {
+@utility mb-filled-label-font-* {
     --mat-button-filled-label-text-font: --value(--font-*);
     --mat-button-filled-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mb-filled-label-text-size-* {
-    --mat-button-filled-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mb-filled-label-text-tracking-* {
+@utility mb-filled-label-tracking-* {
     --mat-button-filled-label-text-tracking: --value(--tracking-*);
     --mat-button-filled-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mb-outlined-label-text-font-* {
+@utility mb-outlined-label-font-* {
     --mat-button-outlined-label-text-font: --value(--font-*);
     --mat-button-outlined-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mb-outlined-label-text-size-* {
-    --mat-button-outlined-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mb-outlined-label-text-tracking-* {
+@utility mb-outlined-label-tracking-* {
     --mat-button-outlined-label-text-tracking: --value(--tracking-*);
     --mat-button-outlined-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mb-protected-label-text-font-* {
+@utility mb-protected-label-font-* {
     --mat-button-protected-label-text-font: --value(--font-*);
     --mat-button-protected-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mb-protected-label-text-size-* {
-    --mat-button-protected-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mb-protected-label-text-tracking-* {
+@utility mb-protected-label-tracking-* {
     --mat-button-protected-label-text-tracking: --value(--tracking-*);
     --mat-button-protected-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mb-text-label-text-font-* {
+@utility mb-text-label-font-* {
     --mat-button-text-label-text-font: --value(--font-*);
     --mat-button-text-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mb-text-label-text-size-* {
-    --mat-button-text-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mb-text-label-text-tracking-* {
+@utility mb-text-label-tracking-* {
     --mat-button-text-label-text-tracking: --value(--tracking-*);
     --mat-button-text-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mb-tonal-label-text-font-* {
+@utility mb-tonal-label-font-* {
     --mat-button-tonal-label-text-font: --value(--font-*);
     --mat-button-tonal-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mb-tonal-label-text-size-* {
-    --mat-button-tonal-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mb-tonal-label-text-tracking-* {
+@utility mb-tonal-label-tracking-* {
     --mat-button-tonal-label-text-tracking: --value(--tracking-*);
     --mat-button-tonal-label-text-tracking: --value(number, [number])em;
 }
 
 /* Density Tokens */
 @utility mb-filled-touch-target-display-* {
-    --mat-button-filled-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-button-filled-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
 
 @utility mb-filled-container-h-* {
@@ -425,11 +432,45 @@
 }
 
 @utility mb-outlined-touch-target-display-* {
-    --mat-button-outlined-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-button-outlined-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
 
 @utility mb-protected-touch-target-display-* {
-    --mat-button-protected-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-button-protected-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
 
 @utility mb-protected-container-h-* {
@@ -437,7 +478,24 @@
 }
 
 @utility mb-text-touch-target-display-* {
-    --mat-button-text-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-button-text-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
 
 @utility mb-text-container-h-* {
@@ -449,5 +507,22 @@
 }
 
 @utility mb-tonal-touch-target-display-* {
-    --mat-button-tonal-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-button-tonal-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
