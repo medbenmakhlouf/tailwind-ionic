@@ -42,6 +42,8 @@
 
 @utility mm-item-label-text-* {
     --mat-menu-item-label-text-color: --value(--color-*);
+    --mat-menu-item-label-text-size: --value(--text-*);
+    --mat-menu-item-label-text-size: --value(number, [number])rem;
 }
 
 @utility mm-item-icon-color-* {
@@ -65,20 +67,16 @@
 }
 
 /* Typography Type Utilities */
-@utility mm-item-label-text-leading-* {
+@utility mm-item-label-leading-* {
     --mat-menu-item-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mm-item-label-text-size-* {
-    --mat-menu-item-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mm-item-label-text-tracking-* {
+@utility mm-item-label-tracking-* {
     --mat-menu-item-label-text-tracking: --value(--tracking-*);
     --mat-menu-item-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mm-item-label-text-font-* {
+@utility mm-item-label-font-* {
     --mat-menu-item-label-text-font: --value(--font-*);
     --mat-menu-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
