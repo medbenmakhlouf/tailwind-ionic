@@ -28,6 +28,8 @@
 
 @utility mrb-label-text-* {
     --mat-radion-button-label-text-color: --value(--color-*);
+    --mat-radion-button-label-text-size: --value(--text-*);
+    --mat-radion-button-label-text-size: --value(number, [number])rem;
 }
 
 @utility mrb-ripple-color-* {
@@ -66,26 +68,39 @@
     --mat-radion-button-unselected-pressed-icon-color: --value(--color-*);
 }
 
-@utility mrb-label-text-font-* {
+@utility mrb-label-font-* {
     --mat-radion-button-label-text-font: --value(--font-*);
     --mat-radion-button-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mrb-label-text-leading-* {
+@utility mrb-label-leading-* {
     --mat-radion-button-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mrb-label-text-size-* {
-    --mat-radion-button-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mrb-label-text-tracking-* {
+@utility mrb-label-tracking-* {
     --mat-radion-button-label-text-tracking: --value(--tracking-*);
     --mat-radion-button-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mrb-touch-target-display-* {
-    --mat-radion-button-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-radion-button-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
 
 @utility mrb-state-layer-size-* {
