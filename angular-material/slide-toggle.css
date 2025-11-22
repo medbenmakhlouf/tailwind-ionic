@@ -38,7 +38,7 @@
   --mat-slide-toggle-pressed-handle-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-selected-handle-horizontal-margin-* {
+@utility mst-selected-handle-horizontal-m-* {
   --mat-slide-toggle-selected-handle-horizontal-margin: calc(var(--spacing) * --value(number));
 }
 
@@ -50,7 +50,7 @@
   --mat-slide-toggle-selected-icon-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-selected-pressed-handle-horizontal-margin-* {
+@utility mst-selected-pressed-handle-horizontal-m-* {
   --mat-slide-toggle-selected-pressed-handle-horizontal-margin: calc(var(--spacing) * --value(number));
 }
 
@@ -62,7 +62,7 @@
   --mat-slide-toggle-selected-track-outline-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-selected-with-icon-handle-horizontal-margin-* {
+@utility mst-selected-with-icon-handle-horizontal-m-* {
   --mat-slide-toggle-selected-with-icon-handle-horizontal-margin: calc(var(--spacing) * --value(number));
 }
 
@@ -86,7 +86,7 @@
   --mat-slide-toggle-track-width: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-unselected-handle-horizontal-margin-* {
+@utility mst-unselected-handle-horizontal-m-* {
   --mat-slide-toggle-unselected-handle-horizontal-margin: calc(var(--spacing) * --value(number));
 }
 
@@ -98,11 +98,11 @@
   --mat-slide-toggle-unselected-icon-size: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-unselected-pressed-handle-horizontal-margin-* {
+@utility mst-unselected-pressed-handle-horizontal-m-* {
   --mat-slide-toggle-unselected-pressed-handle-horizontal-margin: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-unselected-with-icon-handle-horizontal-margin-* {
+@utility mst-unselected-with-icon-handle-horizontal-m-* {
   --mat-slide-toggle-unselected-with-icon-handle-horizontal-margin: calc(var(--spacing) * --value(number));
 }
 
