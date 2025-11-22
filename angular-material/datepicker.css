@@ -8,9 +8,7 @@
 }
 
 @utility md-calendar-container-touch-elevation-shadow-* {
-  --mat-datepicker-calendar-container-touch-elevation-shadow: calc(
-    var(--spacing) * --value(number)
-  );
+  --mat-datepicker-calendar-container-touch-elevation-shadow: calc(var(--spacing) * --value(number));
 }
 
 @utility md-calendar-container-touch-shape-* {
@@ -50,9 +48,7 @@
 }
 
 @utility md-calendar-date-in-overlap-range-selected-state-bg-* {
-  --mat-datepicker-calendar-date-in-overlap-range-selected-state-background-color: --value(
-    --color-*
-  );
+  --mat-datepicker-calendar-date-in-overlap-range-selected-state-background-color: --value(--color-*);
 }
 
 @utility md-calendar-date-in-overlap-range-state-bg-* {

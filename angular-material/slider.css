@@ -15,24 +15,7 @@
 }
 
 @utility msr-value-indicator-caret-display-* {
-  --mat-slider-value-indicator-caret-display: --value(
-    'none',
-    'block',
-    'inline',
-    'inline-block',
-    'flex',
-    'inline-flex',
-    'grid',
-    'inline-grid',
-    'run-in',
-    'table',
-    'table-row',
-    'table-cell',
-    'list-item',
-    'inherit',
-    'initial',
-    'unset'
-  );
+  --mat-slider-value-indicator-caret-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility msr-value-indicator-border-radius-* {

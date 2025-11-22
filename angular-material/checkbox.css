@@ -123,24 +123,7 @@
 }
 /* Density Type Utilities */
 @utility mck-touch-target-display-* {
-  --mat-checkbox-touch-target-display: --value(
-    'none',
-    'block',
-    'inline',
-    'inline-block',
-    'flex',
-    'inline-flex',
-    'grid',
-    'inline-grid',
-    'run-in',
-    'table',
-    'table-row',
-    'table-cell',
-    'list-item',
-    'inherit',
-    'initial',
-    'unset'
-  );
+  --mat-checkbox-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mck-state-layer-size-* {

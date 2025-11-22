@@ -85,24 +85,7 @@
 }
 
 @utility mrb-touch-target-display-* {
-  --mat-radion-button-touch-target-display: --value(
-    'none',
-    'block',
-    'inline',
-    'inline-block',
-    'flex',
-    'inline-flex',
-    'grid',
-    'inline-grid',
-    'run-in',
-    'table',
-    'table-row',
-    'table-cell',
-    'list-item',
-    'inherit',
-    'initial',
-    'unset'
-  );
+  --mat-radion-button-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mrb-state-layer-size-* {

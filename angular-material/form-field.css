@@ -333,24 +333,7 @@
 }
 
 @utility mff-filled-label-display-* {
-  --mat-form-field-filled-label-display: --value(
-    'none',
-    'block',
-    'inline',
-    'inline-block',
-    'flex',
-    'inline-flex',
-    'grid',
-    'inline-grid',
-    'run-in',
-    'table',
-    'table-row',
-    'table-cell',
-    'list-item',
-    'inherit',
-    'initial',
-    'unset'
-  );
+  --mat-form-field-filled-label-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mff-container-vertical-p-* {
@@ -362,7 +345,5 @@
 }
 
 @utility mff-filled-with-label-container-pb-* {
-  --mat-form-field-filled-with-label-container-padding-bottom: calc(
-    var(--spacing) * --value(number)
-  );
+  --mat-form-field-filled-with-label-container-padding-bottom: calc(var(--spacing) * --value(number));
 }

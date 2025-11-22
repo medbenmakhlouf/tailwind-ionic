@@ -179,11 +179,7 @@
 
 @utility ml-list-item-trailing-supporting-font-* {
   --mat-list-list-item-trailing-supporting-text-font: --value(--font-*);
-  --mat-list-list-item-trailing-supporting-text-weight: --value(
-    --font-weight-*,
-    integer,
-    [integer]
-  );
+  --mat-list-list-item-trailing-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Density Type Utilities */
