@@ -97,38 +97,40 @@
 }
 
 /* Typography Tokens */
-@utility mbt-label-text-font-* {
+@utility mbt-label-font-* {
     --mat-button-toggle-label-text-font: --value(--font-*);
     --mat-button-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mbt-label-text-leading-* {
+@utility mbt-label-leading-* {
     --mat-button-toggle-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mbt-label-text-size-* {
-    --mat-button-toggle-label-text-size: calc(var(--spacing) * --value(number));
+@utility mbt-label-text-* {
+    --mat-button-toggle-label-text-size: --value(--text-*);
+    --mat-button-toggle-label-text-size: --value(number, [number])rem;
 }
 
-@utility mbt-label-text-tracking-* {
+@utility mbt-label-tracking-* {
     --mat-button-toggle-label-text-tracking: --value(--tracking-*);
     --mat-button-toggle-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mbt-legacy-label-text-font-* {
+@utility mbt-legacy-label-font-* {
     --mat-button-toggle-legacy-label-text-font: --value(--font-*);
     --mat-button-toggle-legacy-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mbt-legacy-label-text-leading-* {
+@utility mbt-legacy-label-leading-* {
     --mat-button-toggle-legacy-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mbt-legacy-label-text-size-* {
-    --mat-button-toggle-legacy-label-text-size: calc(var(--spacing) * --value(number));
+@utility mbt-legacy-label-text-* {
+    --mat-button-toggle-legacy-label-text-size: --value(--text-*);
+    --mat-button-toggle-legacy-label-text-size: --value(number, [number])rem;
 }
 
-@utility mbt-legacy-label-text-tracking-* {
+@utility mbt-legacy-label-tracking-* {
     --mat-button-toggle-legacy-label-text-tracking: --value(--tracking-*);
     --mat-button-toggle-legacy-label-text-tracking: --value(number, [number])em;
 }
