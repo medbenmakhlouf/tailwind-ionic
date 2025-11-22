@@ -27,7 +27,6 @@
     --mat-checkbox-touch-target-size: calc(var(--spacing) * --value(number));
 }
 
-
 /* Color Type Utilities */
 @utility mck-disabled-label-color-* {
     --mat-checkbox-disabled-label-color: --value(--color-*);
@@ -47,6 +46,8 @@
 
 @utility mck-label-text-* {
     --mat-checkbox-label-text-color: --value(--color-*);
+    --mat-checkbox-label-text-size: --value(--text-*);
+    --mat-checkbox-label-text-size: --value(number, [number])rem;
 }
 
 @utility mck-selected-checkmark-color-* {
@@ -105,30 +106,41 @@
     --mat-checkbox-unselected-pressed-state-layer-color: --value(--color-*);
 }
 /* Typography Type Utilities */
-@utility mck-label-text-leading-* {
+@utility mck-label-leading-* {
     --mat-checkbox-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mck-label-text-size-* {
-    --mat-checkbox-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mck-label-text-tracking-* {
+@utility mck-label-tracking-* {
     --mat-checkbox-label-text-tracking: --value(--tracking-*);
     --mat-checkbox-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mck-label-text-font-* {
+@utility mck-label-font-* {
     --mat-checkbox-label-text-font: --value(--font-*);
     --mat-checkbox-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 /* Density Type Utilities */
 @utility mck-touch-target-display-* {
-    --mat-checkbox-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-checkbox-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
 
 @utility mck-state-layer-size-* {
     --mat-checkbox-state-layer-size: calc(var(--spacing) * --value(number));
 }
-
-
