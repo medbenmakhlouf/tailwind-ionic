@@ -32,7 +32,7 @@ import {MatCheckbox} from '@angular/material/checkbox';
       </mat-autocomplete>
     </mat-form-field>
 
-    <div matBadge="4" matBadgeOverlap="false" class="mbg-text-font-sans mbg-text-font-semibold">Text with a badge</div>
+    <div matBadge="4" matBadgeOverlap="false" class="mbg-font-sans mbg-font-semibold mbg-text-sky-500">Text with a badge</div>
     <mat-checkbox class="mck-touch-target-display-flex mck-label-text-tracking-wider mck-label-text-tracking-0.5"> click me </mat-checkbox>
   `,
   imports: [
