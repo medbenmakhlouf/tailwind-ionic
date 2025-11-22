@@ -7,7 +7,7 @@
 @utility mbs-container-text-* {
     --mat-bottom-sheet-container-text-color: --value(--color-*);
     --mat-bottom-sheet-container-text-size: --value(--text-*);
-    --mat-bottom-sheet-container-text-size: --value(number, [number]) rem;
+    --mat-bottom-sheet-container-text-size: --value(number, [number])rem;
 }
 
 @utility mbs-container-bg-* {
@@ -15,16 +15,16 @@
 }
 
 /* Typography Tokens */
-@utility mbs-container-text-font-* {
+@utility mbs-container-font-* {
     --mat-bottom-sheet-container-text-font: --value(--font-*);
     --mat-bottom-sheet-container-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mbs-container-text-leading-* {
+@utility mbs-container-leading-* {
     --mat-bottom-sheet-container-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mbs-container-text-tracking-* {
+@utility mbs-container-tracking-* {
     --mat-bottom-sheet-container-text-tracking: --value(--tracking-*);
-    --mat-bottom-sheet-container-text-tracking: --value(number, [number]) em;
+    --mat-bottom-sheet-container-text-tracking: --value(number, [number])em;
 }
