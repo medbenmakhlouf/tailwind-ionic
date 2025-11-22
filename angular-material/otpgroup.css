@@ -1,17 +1,15 @@
 /* Color Type Utilities */
 @utility mog-label-text-* {
     --mat-optgroup-label-text-color: --value(--color-*);
+    --mat-optgroup-label-text-size: --value(--text-*);
+    --mat-optgroup-label-text-size: --value(number, [number])rem;
 }
 /* Typography Type Utilities */
-@utility mog-label-text-leading-* {
+@utility mog-label-leading-* {
     --mat-optgroup-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mog-label-text-size-* {
-    --mat-optgroup-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mog-label-text-tracking-* {
+@utility mog-label-tracking-* {
     --mat-optgroup-label-text-tracking: --value(--tracking-*);
     --mat-optgroup-label-text-tracking: --value(number, [number])em;
 }
