@@ -15,7 +15,24 @@
 }
 
 @utility msr-value-indicator-caret-display-* {
-    --mat-slider-value-indicator-caret-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-slider-value-indicator-caret-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
 
 @utility msr-value-indicator-border-radius-* {
@@ -128,6 +145,8 @@
 
 @utility msr-label-label-text-* {
     --mat-slider-label-label-text-color: --value(--color-*);
+    --mat-slider-label-label-text-size: --value(--text-*);
+    --mat-slider-label-label-text-size: --value(number, [number])rem;
 }
 
 @utility msr-ripple-color-* {
@@ -154,19 +173,15 @@
     --mat-slider-with-tick-marks-inactive-container-color: --value(--color-*);
 }
 
-@utility msr-label-label-text-font-* {
+@utility msr-label-label-font-* {
     --mat-slider-label-label-text-font: --value(--font-*);
     --mat-slider-label-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msr-label-label-text-leading-* {
+@utility msr-label-label-leading-* {
     --mat-slider-label-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility msr-label-label-text-size-* {
-    --mat-slider-label-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility msr-label-label-text-tracking-* {
+@utility msr-label-label-tracking-* {
     --mat-slider-label-label-text-tracking: --value(number, [number])em;
 }
