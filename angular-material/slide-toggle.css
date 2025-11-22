@@ -19,7 +19,9 @@
 }
 
 @utility mst-disabled-unselected-track-outline-w-* {
-    --mat-slide-toggle-disabled-unselected-track-outline-width: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-disabled-unselected-track-outline-width: calc(
+        var(--spacing) * --value(number)
+    );
 }
 
 @utility mst-handle-shape-* {
@@ -51,7 +53,9 @@
 }
 
 @utility mst-selected-pressed-handle-horizontal-margin-* {
-    --mat-slide-toggle-selected-pressed-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-selected-pressed-handle-horizontal-margin: calc(
+        var(--spacing) * --value(number)
+    );
 }
 
 @utility mst-selected-track-outline-color-* {
@@ -63,7 +67,9 @@
 }
 
 @utility mst-selected-with-icon-handle-horizontal-margin-* {
-    --mat-slide-toggle-selected-with-icon-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-selected-with-icon-handle-horizontal-margin: calc(
+        var(--spacing) * --value(number)
+    );
 }
 
 @utility mst-state-layer-size-* {
@@ -99,11 +105,15 @@
 }
 
 @utility mst-unselected-pressed-handle-horizontal-margin-* {
-    --mat-slide-toggle-unselected-pressed-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-unselected-pressed-handle-horizontal-margin: calc(
+        var(--spacing) * --value(number)
+    );
 }
 
 @utility mst-unselected-with-icon-handle-horizontal-margin-* {
-    --mat-slide-toggle-unselected-with-icon-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+    --mat-slide-toggle-unselected-with-icon-handle-horizontal-margin: calc(
+        var(--spacing) * --value(number)
+    );
 }
 
 @utility mst-visible-track-opacity-* {
@@ -164,6 +174,8 @@
 
 @utility mst-label-text-* {
     --mat-slide-toggle-label-text-color: --value(--color-*);
+    --mat-slide-toggle-label-text-size: --value(--text-*);
+    --mat-slide-toggle-label-text-size: --value(number, [number])rem;
 }
 
 @utility mst-selected-focus-handle-color-* {
@@ -302,24 +314,37 @@
     --mat-slide-toggle-disabled-handle-elevation-shadow: --value(--color-*);
 }
 
-@utility mst-label-text-font-* {
+@utility mst-label-font-* {
     --mat-slide-toggle-label-text-font: --value(--font-*);
     --mat-slide-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mst-label-text-leading-* {
+@utility mst-label-leading-* {
     --mat-slide-toggle-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mst-label-text-size-* {
-    --mat-slide-toggle-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mst-label-text-tracking-* {
+@utility mst-label-tracking-* {
     --mat-slide-toggle-label-text-tracking: --value(--tracking-*);
     --mat-slide-toggle-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mst-touch-target-display-* {
-    --mat-slide-toggle-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-slide-toggle-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
