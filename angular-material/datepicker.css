@@ -8,7 +8,9 @@
 }
 
 @utility md-calendar-container-touch-elevation-shadow-* {
-    --mat-datepicker-calendar-container-touch-elevation-shadow: calc(var(--spacing) * --value(number));
+    --mat-datepicker-calendar-container-touch-elevation-shadow: calc(
+        var(--spacing) * --value(number)
+    );
 }
 
 @utility md-calendar-container-touch-shape-* {
@@ -18,6 +20,8 @@
 /* Color Type Utilities */
 @utility md-calendar-body-label-text-* {
     --mat-datepicker-calendar-body-label-text-color: --value(--color-*);
+    --mat-datepicker-calendar-body-label-text-size: --value(--text-*);
+    --mat-datepicker-calendar-body-label-text-size: --value(number, [number])rem;
 }
 
 @utility md-calendar-container-bg-* {
@@ -45,7 +49,9 @@
 }
 
 @utility md-calendar-date-in-overlap-range-selected-state-bg-* {
-    --mat-datepicker-calendar-date-in-overlap-range-selected-state-background-color: --value(--color-*);
+    --mat-datepicker-calendar-date-in-overlap-range-selected-state-background-color: --value(
+        --color-*
+    );
 }
 
 @utility md-calendar-date-in-overlap-range-state-bg-* {
@@ -98,6 +104,8 @@
 
 @utility md-calendar-header-text-* {
     --mat-datepicker-calendar-header-text-color: --value(--color-*);
+    --mat-datepicker-calendar-header-text-size: --value(--text-*);
+    --mat-datepicker-calendar-header-text-size: --value(number, [number])rem;
 }
 
 @utility md-calendar-navigation-button-icon-color-* {
@@ -110,6 +118,8 @@
 
 @utility md-calendar-period-button-text-* {
     --mat-datepicker-calendar-period-button-text-color: --value(--color-*);
+    --mat-datepicker-calendar-period-button-text-size: --value(--text-*);
+    --mat-datepicker-calendar-period-button-text-size: --value(number, [number])rem;
 }
 
 @utility md-range-input-disabled-state-separator-color-* {
@@ -133,34 +143,27 @@
 }
 
 /* Typography Type Utilities */
-@utility md-calendar-body-label-text-size-* {
-    --mat-datepicker-calendar-body-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility md-calendar-body-label-font-*{
+@utility md-calendar-body-label-font-* {
     --mat-datepicker-calendar-body-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility md-calendar-header-text-size-* {
-    --mat-datepicker-calendar-header-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility md-calendar-header-font-*{
+@utility md-calendar-header-font-* {
     --mat-datepicker-calendar-header-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility md-calendar-period-button-text-size-* {
-    --mat-datepicker-calendar-period-button-text-size: calc(var(--spacing) * --value(number));
-}
-
 @utility md-calendar-period-button-font-* {
-    --mat-datepicker-calendar-period-button-text-weight: --value(--font-weight-*, integer, [integer]);
+    --mat-datepicker-calendar-period-button-text-weight: --value(
+        --font-weight-*,
+        integer,
+        [integer]
+    );
 }
 
-@utility md-calendar-text-font-* {
+@utility md-calendar-font-* {
     --mat-datepicker-calendar-text-font: --value(--font-*);
 }
 
-@utility md-calendar-text-size-* {
-    --mat-datepicker-calendar-text-size: calc(var(--spacing) * --value(number));
+@utility md-calendar-text-* {
+    --mat-datepicker-calendar-text-size: --value(--text-*);
+    --mat-datepicker-calendar-text-size: --value(number, [number])rem;
 }
