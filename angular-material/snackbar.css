@@ -11,16 +11,14 @@
 
 @utility msb-supporting-text-* {
     --mat-snackbar-supporting-text-color: --value(--color-*);
+    --mat-snackbar-supporting-text-size: --value(--text-*);
+    --mat-snackbar-supporting-text-size: --value(number, [number])rem;
 }
-@utility msb-supporting-text-font-* {
+@utility msb-supporting-font-* {
     --mat-snackbar-supporting-text-font: --value(--font-*);
     --mat-snackbar-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msb-supporting-text-leading-* {
+@utility msb-supporting-leading-* {
     --mat-snackbar-supporting-text-line-height: calc(var(--spacing) * --value(number));
-}
-
-@utility msb-supporting-text-size-* {
-    --mat-snackbar-supporting-text-size: calc(var(--spacing) * --value(number));
 }
