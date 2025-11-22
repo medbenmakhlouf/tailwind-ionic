@@ -79,7 +79,7 @@
 @utility mbg-text-* {
     --mat-badge-text-color: --value(--color-*);
     --mat-badge-text-size: --value(--text-*);
-    --mat-badge-text-size: --value(number, [number]) rem;
+    --mat-badge-text-size: --value(number, [number])rem;
 }
 
 /* Typography Tokens */
@@ -89,7 +89,7 @@
 
 @utility mbg-large-size-text-size-* {
     --mat-badge-large-size-text-size: --value(--text-*);
-    --mat-badge-large-size-text-size: --value(number, [number]) rem;
+    --mat-badge-large-size-text-size: --value(number, [number])rem;
 }
 
 @utility mbg-leading-* {
@@ -102,7 +102,7 @@
 
 @utility mbg-small-size-text-size-* {
     --mat-badge-small-size-text-size: --value(--text-*);
-    --mat-badge-small-size-text-size: --value(number, [number]) rem;
+    --mat-badge-small-size-text-size: --value(number, [number])rem;
 }
 
 @utility mbg-font-* {
