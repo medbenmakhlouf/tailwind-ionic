@@ -50,6 +50,8 @@
 
 @utility mdg-supporting-text-* {
     --mat-dialog-supporting-text-color: --value(--color-*);
+    --mat-dialog-supporting-text-size: --value(--text-*);
+    --mat-dialog-supporting-text-size: --value(number, [number])rem;
 }
 
 /* Typography Type Utilities */
@@ -71,20 +73,16 @@
     --mat-dialog-subhead-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mdg-supporting-text-leading-* {
+@utility mdg-supporting-leading-* {
     --mat-dialog-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mdg-supporting-text-size-* {
-    --mat-dialog-supporting-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mdg-supporting-text-tracking-* {
+@utility mdg-supporting-tracking-* {
     --mat-dialog-supporting-text-tracking: --value(--tracking-*);
     --mat-dialog-supporting-text-tracking: --value(number, [number])em;
 }
 
-@utility mdg-supporting-text-font-* {
+@utility mdg-supporting-font-* {
     --mat-dialog-supporting-text-font: --value(--font-*);
     --mat-dialog-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
