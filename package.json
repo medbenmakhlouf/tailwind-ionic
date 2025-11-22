@@ -40,7 +40,7 @@
     "typescript": "~5.9.2"
   },
   "prettier": {
-    "printWidth": 100,
+    "printWidth": 10000,
     "singleQuote": true,
     "overrides": [
       {
