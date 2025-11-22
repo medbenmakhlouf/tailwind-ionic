@@ -12,6 +12,8 @@
 
 @utility mt-row-item-label-text-* {
     --mat-table-row-item-label-text-color: --value(--color-*);
+    --mat-table-row-item-label-text-size: --value(--text-*);
+    --mat-table-row-item-label-text-size: --value(number, [number])rem;
 }
 
 @utility mt-row-item-outline-color-* {
@@ -36,38 +38,35 @@
     --mat-table-header-headline-tracking: --value(number, [number])em;
 }
 
-@utility mt-row-item-label-text-font-* {
+@utility mt-row-item-label-font-* {
     --mat-table-row-item-label-text-font: --value(--font-*);
     --mat-table-row-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mt-row-item-label-text-leading-* {
+@utility mt-row-item-label-leading-* {
     --mat-table-row-item-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mt-row-item-label-text-size-* {
-    --mat-table-row-item-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mt-row-item-label-text-tracking-* {
+@utility mt-row-item-label-tracking-* {
     --mat-table-row-item-label-text-tracking: --value(--tracking-*);
     --mat-table-row-item-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mt-footer-supporting-text-font-* {
+@utility mt-footer-supporting-font-* {
     --mat-table-footer-supporting-text-font: --value(--font-*);
     --mat-table-footer-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mt-footer-supporting-text-leading-* {
+@utility mt-footer-supporting-leading-* {
     --mat-table-footer-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mt-footer-supporting-text-size-* {
-    --mat-table-footer-supporting-text-size: calc(var(--spacing) * --value(number));
+@utility mt-footer-supporting-text-* {
+    --mat-table-footer-supporting-text-size: --value(--text-*);
+    --mat-table-footer-supporting-text-size: --value(number, [number])rem;
 }
 
-@utility mt-footer-supporting-text-tracking-* {
+@utility mt-footer-supporting-tracking-* {
     --mat-table-footer-supporting-text-tracking: --value(--tracking-*);
     --mat-table-footer-supporting-text-tracking: --value(number, [number])em;
 }
