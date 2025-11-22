@@ -78,29 +78,36 @@
     --mat-stepper-line-color: --value(--color-*);
 }
 
-@utility msp-container-text-font-* {
+@utility msp-container-font-* {
     --mat-stepper-container-text-font: --value(--font-*);
 }
 
-@utility msp-header-label-text-font-* {
+@utility msp-header-label-font-* {
     --mat-stepper-header-label-text-font: --value(--font-*);
     --mat-stepper-header-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility msp-header-label-text-size-* {
-    --mat-stepper-header-label-text-size: calc(var(--spacing) * --value(number));
+@utility msp-header-label-text-* {
+    --mat-stepper-header-label-text-size: --value(--text-*);
+    --mat-stepper-header-label-text-size: --value(number, [number])rem;
 }
 
-@utility msp-header-error-state-label-text-size-* {
-    --mat-stepper-header-error-state-label-text-size: calc(var(--spacing) * --value(number));
+@utility msp-header-error-state-label-text-* {
+    --mat-stepper-header-error-state-label-text-size: --value(--text-*);
+    --mat-stepper-header-error-state-label-text-size: --value(number, [number])rem;
 }
 
-@utility msp-header-selected-state-label-text-size-* {
-    --mat-stepper-header-selected-state-label-text-size: calc(var(--spacing) * --value(number));
+@utility msp-header-selected-state-label-text-* {
+    --mat-stepper-header-selected-state-label-text-size: --value(--text-*);
+    --mat-stepper-header-selected-state-label-text-size: --value(number, [number])rem;
 }
 
-@utility msp-header-selected-state-label-text-weight-* {
-    --mat-stepper-header-selected-state-label-text-weight: --value(--font-weight-*, integer, [integer]);
+@utility msp-header-selected-state-label-font-* {
+    --mat-stepper-header-selected-state-label-text-weight: --value(
+        --font-weight-*,
+        integer,
+        [integer]
+    );
 }
 
 @utility msp-header-h-* {
