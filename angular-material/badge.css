@@ -88,7 +88,7 @@
   --mat-badge-large-size-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mbg-large-size-text-size-* {
+@utility mbg-large-size-text-* {
   --mat-badge-large-size-text-size: --value(--text-*);
   /* prettier-ignore */
   --mat-badge-large-size-text-size: --value(number, [number])rem;
@@ -102,7 +102,7 @@
   --mat-badge-small-size-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mbg-small-size-text-size-* {
+@utility mbg-small-size-text-* {
   --mat-badge-small-size-text-size: --value(--text-*);
   /* prettier-ignore */
   --mat-badge-small-size-text-size: --value(number, [number])rem;
