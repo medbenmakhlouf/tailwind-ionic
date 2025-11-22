@@ -1,82 +1,82 @@
 /* Base Type Utilities */
 @utility mp-page-size-select-w-* {
-    --mat-paginator-page-size-select-width: calc(var(--spacing) * --value(number));
+  --mat-paginator-page-size-select-width: calc(var(--spacing) * --value(number));
 }
 
 @utility mp-page-size-select-touch-target-h-* {
-    --mat-paginator-page-size-select-touch-target-height: calc(var(--spacing) * --value(number));
+  --mat-paginator-page-size-select-touch-target-height: calc(var(--spacing) * --value(number));
 }
 /* Color Type Utilities */
 @utility mp-container-text-* {
-    --mat-paginator-container-text-color: --value(--color-*);
-    --mat-paginator-container-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-paginator-container-text-size: --value(number, [number])rem;
+  --mat-paginator-container-text-color: --value(--color-*);
+  --mat-paginator-container-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-paginator-container-text-size: --value(number, [number])rem;
 }
 
 @utility mp-container-bg-* {
-    --mat-paginator-container-background-color: --value(--color-*);
+  --mat-paginator-container-background-color: --value(--color-*);
 }
 
 @utility mp-disabled-icon-color-* {
-    --mat-paginator-disabled-icon-color: --value(--color-*);
+  --mat-paginator-disabled-icon-color: --value(--color-*);
 }
 
 @utility mp-enabled-icon-color-* {
-    --mat-paginator-enabled-icon-color: --value(--color-*);
+  --mat-paginator-enabled-icon-color: --value(--color-*);
 }
 /* Typography Type Utilities */
 @utility mp-container-leading-* {
-    --mat-paginator-container-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-paginator-container-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mp-container-tracking-* {
-    --mat-paginator-container-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-paginator-container-text-tracking: --value(number, [number])em;
+  --mat-paginator-container-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-paginator-container-text-tracking: --value(number, [number])em;
 }
 
 @utility mp-container-font-* {
-    --mat-paginator-container-text-font: --value(--font-*);
-    --mat-paginator-container-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-paginator-container-text-font: --value(--font-*);
+  --mat-paginator-container-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mp-select-trigger-text-* {
-    --mat-paginator-select-trigger-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-paginator-select-trigger-text-size: --value(number, [number])rem;
+  --mat-paginator-select-trigger-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-paginator-select-trigger-text-size: --value(number, [number])rem;
 }
 
 /* Density Type Utilities */
 @utility mp-container-size-* {
-    --mat-paginator-container-size: calc(var(--spacing) * --value(number));
+  --mat-paginator-container-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mp-form-field-container-h-* {
-    --mat-paginator-form-field-container-height: calc(var(--spacing) * --value(number));
+  --mat-paginator-form-field-container-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mp-form-field-container-vertical-p-* {
-    --mat-paginator-form-field-container-vertical-padding: calc(var(--spacing) * --value(number));
+  --mat-paginator-form-field-container-vertical-padding: calc(var(--spacing) * --value(number));
 }
 
 @utility mp-touch-target-display-* {
-    --mat-paginator-touch-target-display: --value(
-        'none',
-        'block',
-        'inline',
-        'inline-block',
-        'flex',
-        'inline-flex',
-        'grid',
-        'inline-grid',
-        'run-in',
-        'table',
-        'table-row',
-        'table-cell',
-        'list-item',
-        'inherit',
-        'initial',
-        'unset'
-    );
+  --mat-paginator-touch-target-display: --value(
+    'none',
+    'block',
+    'inline',
+    'inline-block',
+    'flex',
+    'inline-flex',
+    'grid',
+    'inline-grid',
+    'run-in',
+    'table',
+    'table-row',
+    'table-cell',
+    'list-item',
+    'inherit',
+    'initial',
+    'unset'
+  );
 }

@@ -1,100 +1,100 @@
 @utility mts-active-indicator-h-* {
-    --mat-tab-active-indicator-height: calc(var(--spacing) * --value(number));
+  --mat-tab-active-indicator-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mts-active-indicator-shape-* {
-    --mat-tab-active-indicator-shape: calc(var(--spacing) * --value(number));
+  --mat-tab-active-indicator-shape: calc(var(--spacing) * --value(number));
 }
 
 @utility mts-divider-h-* {
-    --mat-tab-divider-height: calc(var(--spacing) * --value(number));
+  --mat-tab-divider-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mts-active-focus-indicator-color-* {
-    --mat-tab-active-focus-indicator-color: --value(--color-*);
+  --mat-tab-active-focus-indicator-color: --value(--color-*);
 }
 
 @utility mts-active-focus-label-text-* {
-    --mat-tab-active-focus-label-text-color: --value(--color-*);
+  --mat-tab-active-focus-label-text-color: --value(--color-*);
 }
 
 @utility mts-active-hover-indicator-color-* {
-    --mat-tab-active-hover-indicator-color: --value(--color-*);
+  --mat-tab-active-hover-indicator-color: --value(--color-*);
 }
 
 @utility mts-active-hover-label-text-* {
-    --mat-tab-active-hover-label-text-color: --value(--color-*);
+  --mat-tab-active-hover-label-text-color: --value(--color-*);
 }
 
 @utility mts-active-indicator-color-* {
-    --mat-tab-active-indicator-color: --value(--color-*);
+  --mat-tab-active-indicator-color: --value(--color-*);
 }
 
 @utility mts-active-label-text-* {
-    --mat-tab-active-label-text-color: --value(--color-*);
+  --mat-tab-active-label-text-color: --value(--color-*);
 }
 
 @utility mts-active-ripple-color-* {
-    --mat-tab-active-ripple-color: --value(--color-*);
+  --mat-tab-active-ripple-color: --value(--color-*);
 }
 
 @utility mts-divider-color-* {
-    --mat-tab-divider-color: --value(--color-*);
+  --mat-tab-divider-color: --value(--color-*);
 }
 
 @utility mts-inactive-focus-label-text-* {
-    --mat-tab-inactive-focus-label-text-color: --value(--color-*);
+  --mat-tab-inactive-focus-label-text-color: --value(--color-*);
 }
 
 @utility mts-inactive-hover-label-text-* {
-    --mat-tab-inactive-hover-label-text-color: --value(--color-*);
+  --mat-tab-inactive-hover-label-text-color: --value(--color-*);
 }
 
 @utility mts-inactive-label-text-* {
-    --mat-tab-inactive-label-text-color: --value(--color-*);
+  --mat-tab-inactive-label-text-color: --value(--color-*);
 }
 
 @utility mts-inactive-ripple-color-* {
-    --mat-tab-inactive-ripple-color: --value(--color-*);
+  --mat-tab-inactive-ripple-color: --value(--color-*);
 }
 
 @utility mts-pagination-icon-color-* {
-    --mat-tab-pagination-icon-color: --value(--color-*);
+  --mat-tab-pagination-icon-color: --value(--color-*);
 }
 
 @utility mts-disabled-ripple-color-* {
-    --mat-tab-disabled-ripple-color: --value(--color-*);
+  --mat-tab-disabled-ripple-color: --value(--color-*);
 }
 
 @utility mts-bg-* {
-    --mat-tab-background-color: --value(--color-*);
+  --mat-tab-background-color: --value(--color-*);
 }
 
 @utility mts-fg-* {
-    --mat-tab-foreground-color: --value(--color-*);
+  --mat-tab-foreground-color: --value(--color-*);
 }
 
 @utility mts-label-font-* {
-    --mat-tab-label-text-font: --value(--font-*);
-    --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-tab-label-text-font: --value(--font-*);
+  --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mts-label-leading-* {
-    --mat-tab-label-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-tab-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mts-label-text-* {
-    --mat-tab-label-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-tab-label-text-size: --value(number, [number])rem;
+  --mat-tab-label-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-tab-label-text-size: --value(number, [number])rem;
 }
 
 @utility mts-label-tracking-* {
-    --mat-tab-label-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-tab-label-text-tracking: --value(number, [number])em;
+  --mat-tab-label-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-tab-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mts-container-h-* {
-    --mat-tab-container-height: calc(var(--spacing) * --value(number));
+  --mat-tab-container-height: calc(var(--spacing) * --value(number));
 }

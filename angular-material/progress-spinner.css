@@ -1,13 +1,13 @@
 /* Base Type Utilities */
 @utility mps-size-* {
-    --mat-progress-spinner-size: calc(var(--spacing) * --value(number));
+  --mat-progress-spinner-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mps-active-indicator-w-* {
-    --mat-progress-spinner-active-indicator-width: calc(var(--spacing) * --value(number));
+  --mat-progress-spinner-active-indicator-width: calc(var(--spacing) * --value(number));
 }
 
 /* Color Type Utilities */
 @utility mps-active-indicator-color-* {
-    --mat-progress-spinner-active-indicator-color: --value(--color-*);
+  --mat-progress-spinner-active-indicator-color: --value(--color-*);
 }

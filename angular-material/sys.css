@@ -1,414 +1,414 @@
 /* colors */
 @utility msys-bg-* {
-    --mat-sys-background: --value(--color-*);
+  --mat-sys-background: --value(--color-*);
 }
 @utility msys-error-* {
-    --mat-sys-error: --value(--color-*);
+  --mat-sys-error: --value(--color-*);
 }
 @utility msys-error-container-* {
-    --mat-sys-error-container: --value(--color-*);
+  --mat-sys-error-container: --value(--color-*);
 }
 @utility msys-inverse-on-surface-* {
-    --mat-sys-inverse-on-surface: --value(--color-*);
+  --mat-sys-inverse-on-surface: --value(--color-*);
 }
 @utility msys-inverse-primary-* {
-    --mat-sys-inverse-primary: --value(--color-*);
+  --mat-sys-inverse-primary: --value(--color-*);
 }
 @utility msys-inverse-surface-* {
-    --mat-sys-inverse-surface: --value(--color-*);
+  --mat-sys-inverse-surface: --value(--color-*);
 }
 @utility msys-on-bg-* {
-    --mat-sys-on-background: --value(--color-*);
+  --mat-sys-on-background: --value(--color-*);
 }
 @utility msys-on-error-* {
-    --mat-sys-on-error: --value(--color-*);
+  --mat-sys-on-error: --value(--color-*);
 }
 @utility msys-on-error-container-* {
-    --mat-sys-on-error-container: --value(--color-*);
+  --mat-sys-on-error-container: --value(--color-*);
 }
 @utility msys-on-primary-* {
-    --mat-sys-on-primary: --value(--color-*);
+  --mat-sys-on-primary: --value(--color-*);
 }
 @utility msys-on-primary-container-* {
-    --mat-sys-on-primary-container: --value(--color-*);
+  --mat-sys-on-primary-container: --value(--color-*);
 }
 @utility msys-on-primary-fixed-* {
-    --mat-sys-on-primary-fixed: --value(--color-*);
+  --mat-sys-on-primary-fixed: --value(--color-*);
 }
 @utility msys-on-primary-fixed-variant-* {
-    --mat-sys-on-primary-fixed-variant: --value(--color-*);
+  --mat-sys-on-primary-fixed-variant: --value(--color-*);
 }
 @utility msys-on-secondary-* {
-    --mat-sys-on-secondary: --value(--color-*);
+  --mat-sys-on-secondary: --value(--color-*);
 }
 @utility msys-on-secondary-container-* {
-    --mat-sys-on-secondary-container: --value(--color-*);
+  --mat-sys-on-secondary-container: --value(--color-*);
 }
 @utility msys-on-secondary-fixed-* {
-    --mat-sys-on-secondary-fixed: --value(--color-*);
+  --mat-sys-on-secondary-fixed: --value(--color-*);
 }
 @utility msys-on-secondary-fixed-variant-* {
-    --mat-sys-on-secondary-fixed-variant: --value(--color-*);
+  --mat-sys-on-secondary-fixed-variant: --value(--color-*);
 }
 @utility msys-on-surface-* {
-    --mat-sys-on-surface: --value(--color-*);
+  --mat-sys-on-surface: --value(--color-*);
 }
 @utility msys-on-surface-variant-* {
-    --mat-sys-on-surface-variant: --value(--color-*);
+  --mat-sys-on-surface-variant: --value(--color-*);
 }
 @utility msys-on-tertiary-* {
-    --mat-sys-on-tertiary: --value(--color-*);
+  --mat-sys-on-tertiary: --value(--color-*);
 }
 @utility msys-on-tertiary-container-* {
-    --mat-sys-on-tertiary-container: --value(--color-*);
+  --mat-sys-on-tertiary-container: --value(--color-*);
 }
 @utility msys-on-tertiary-fixed-* {
-    --mat-sys-on-tertiary-fixed: --value(--color-*);
+  --mat-sys-on-tertiary-fixed: --value(--color-*);
 }
 @utility msys-on-tertiary-fixed-variant-* {
-    --mat-sys-on-tertiary-fixed-variant: --value(--color-*);
+  --mat-sys-on-tertiary-fixed-variant: --value(--color-*);
 }
 @utility msys-outline-* {
-    --mat-sys-outline: --value(--color-*);
+  --mat-sys-outline: --value(--color-*);
 }
 @utility msys-outline-variant-* {
-    --mat-sys-outline-variant: --value(--color-*);
+  --mat-sys-outline-variant: --value(--color-*);
 }
 @utility msys-primary-* {
-    --mat-sys-primary: --value(--color-*);
+  --mat-sys-primary: --value(--color-*);
 }
 @utility msys-primary-container-* {
-    --mat-sys-primary-container: --value(--color-*);
+  --mat-sys-primary-container: --value(--color-*);
 }
 @utility msys-primary-fixed-* {
-    --mat-sys-primary-fixed: --value(--color-*);
+  --mat-sys-primary-fixed: --value(--color-*);
 }
 @utility msys-primary-fixed-dim-* {
-    --mat-sys-primary-fixed-dim: --value(--color-*);
+  --mat-sys-primary-fixed-dim: --value(--color-*);
 }
 @utility msys-scrim-* {
-    --mat-sys-scrim: --value(--color-*);
+  --mat-sys-scrim: --value(--color-*);
 }
 @utility msys-secondary-* {
-    --mat-sys-secondary: --value(--color-*);
+  --mat-sys-secondary: --value(--color-*);
 }
 @utility msys-secondary-container-* {
-    --mat-sys-secondary-container: --value(--color-*);
+  --mat-sys-secondary-container: --value(--color-*);
 }
 @utility msys-secondary-fixed-* {
-    --mat-sys-secondary-fixed: --value(--color-*);
+  --mat-sys-secondary-fixed: --value(--color-*);
 }
 @utility msys-secondary-fixed-dim-* {
-    --mat-sys-secondary-fixed-dim: --value(--color-*);
+  --mat-sys-secondary-fixed-dim: --value(--color-*);
 }
 @utility msys-shadow-* {
-    --mat-sys-shadow: --value(--color-*);
+  --mat-sys-shadow: --value(--color-*);
 }
 @utility msys-surface-* {
-    --mat-sys-surface: --value(--color-*);
+  --mat-sys-surface: --value(--color-*);
 }
 @utility msys-surface-bright-* {
-    --mat-sys-surface-bright: --value(--color-*);
+  --mat-sys-surface-bright: --value(--color-*);
 }
 @utility msys-surface-container-* {
-    --mat-sys-surface-container: --value(--color-*);
+  --mat-sys-surface-container: --value(--color-*);
 }
 @utility msys-surface-container-high-* {
-    --mat-sys-surface-container-high: --value(--color-*);
+  --mat-sys-surface-container-high: --value(--color-*);
 }
 @utility msys-surface-container-highest-* {
-    --mat-sys-surface-container-highest: --value(--color-*);
+  --mat-sys-surface-container-highest: --value(--color-*);
 }
 @utility msys-surface-container-low-* {
-    --mat-sys-surface-container-low: --value(--color-*);
+  --mat-sys-surface-container-low: --value(--color-*);
 }
 @utility msys-surface-container-lowest-* {
-    --mat-sys-surface-container-lowest: --value(--color-*);
+  --mat-sys-surface-container-lowest: --value(--color-*);
 }
 @utility msys-surface-dim-* {
-    --mat-sys-surface-dim: --value(--color-*);
+  --mat-sys-surface-dim: --value(--color-*);
 }
 @utility msys-surface-tint-* {
-    --mat-sys-surface-tint: --value(--color-*);
+  --mat-sys-surface-tint: --value(--color-*);
 }
 @utility msys-surface-variant-* {
-    --mat-sys-surface-variant: --value(--color-*);
+  --mat-sys-surface-variant: --value(--color-*);
 }
 @utility msys-tertiary-* {
-    --mat-sys-tertiary: --value(--color-*);
+  --mat-sys-tertiary: --value(--color-*);
 }
 @utility msys-tertiary-container-* {
-    --mat-sys-tertiary-container: --value(--color-*);
+  --mat-sys-tertiary-container: --value(--color-*);
 }
 @utility msys-tertiary-fixed-* {
-    --mat-sys-tertiary-fixed: --value(--color-*);
+  --mat-sys-tertiary-fixed: --value(--color-*);
 }
 @utility msys-tertiary-fixed-dim-* {
-    --mat-sys-tertiary-fixed-dim: --value(--color-*);
+  --mat-sys-tertiary-fixed-dim: --value(--color-*);
 }
 @utility msys-neutral-variant20-* {
-    --mat-sys-neutral-variant20: --value(--color-*);
+  --mat-sys-neutral-variant20: --value(--color-*);
 }
 @utility msys-neutral10-* {
-    --mat-sys-neutral10: --value(--color-*);
+  --mat-sys-neutral10: --value(--color-*);
 }
 /* Body */
 @utility msys-body-lg-leading-* {
-    --mat-sys-body-large-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-body-large-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-lg-size-* {
-    --mat-sys-body-large-size: calc(var(--spacing) * --value(number));
+  --mat-sys-body-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-lg-tracking-* {
-    --mat-sys-body-large-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-body-large-tracking: --value(number, [number])em;
+  --mat-sys-body-large-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-body-large-tracking: --value(number, [number])em;
 }
 @utility msys-body-lg-font-* {
-    --mat-sys-body-large-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-body-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-body-md-leading-* {
-    --mat-sys-body-medium-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-body-medium-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-md-size-* {
-    --mat-sys-body-medium-size: calc(var(--spacing) * --value(number));
+  --mat-sys-body-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-md-tracking-* {
-    --mat-sys-body-medium-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-body-medium-tracking: --value(number, [number])em;
+  --mat-sys-body-medium-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-body-medium-tracking: --value(number, [number])em;
 }
 @utility msys-body-md-font-* {
-    --mat-sys-body-medium-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-body-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-body-sm-leading-* {
-    --mat-sys-body-small-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-body-small-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-sm-size-* {
-    --mat-sys-body-small-size: calc(var(--spacing) * --value(number));
+  --mat-sys-body-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-body-sm-tracking-* {
-    --mat-sys-body-small-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-body-small-tracking: --value(number, [number])em;
+  --mat-sys-body-small-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-body-small-tracking: --value(number, [number])em;
 }
 @utility msys-body-sm-font-* {
-    --mat-sys-body-small-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-body-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Display */
 @utility msys-display-lg-leading-* {
-    --mat-sys-display-large-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-display-large-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-lg-size-* {
-    --mat-sys-display-large-size: calc(var(--spacing) * --value(number));
+  --mat-sys-display-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-lg-tracking-* {
-    --mat-sys-display-large-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-display-large-tracking: --value(number, [number])em;
+  --mat-sys-display-large-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-display-large-tracking: --value(number, [number])em;
 }
 @utility msys-display-lg-font-* {
-    --mat-sys-display-large-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-display-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-display-md-leading-* {
-    --mat-sys-display-medium-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-display-medium-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-md-size-* {
-    --mat-sys-display-medium-size: calc(var(--spacing) * --value(number));
+  --mat-sys-display-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-md-tracking-* {
-    --mat-sys-display-medium-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-display-medium-tracking: --value(number, [number])em;
+  --mat-sys-display-medium-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-display-medium-tracking: --value(number, [number])em;
 }
 @utility msys-display-md-font-* {
-    --mat-sys-display-medium-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-display-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-display-sm-leading-* {
-    --mat-sys-display-small-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-display-small-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-sm-size-* {
-    --mat-sys-display-small-size: calc(var(--spacing) * --value(number));
+  --mat-sys-display-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-display-sm-tracking-* {
-    --mat-sys-display-small-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-display-small-tracking: --value(number, [number])em;
+  --mat-sys-display-small-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-display-small-tracking: --value(number, [number])em;
 }
 @utility msys-display-sm-font-* {
-    --mat-sys-display-small-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-display-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Headline */
 @utility msys-headline-lg-leading-* {
-    --mat-sys-headline-large-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-headline-large-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-lg-size-* {
-    --mat-sys-headline-large-size: calc(var(--spacing) * --value(number));
+  --mat-sys-headline-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-lg-tracking-* {
-    --mat-sys-headline-large-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-headline-large-tracking: --value(number, [number])em;
+  --mat-sys-headline-large-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-headline-large-tracking: --value(number, [number])em;
 }
 @utility msys-headline-lg-font-* {
-    --mat-sys-headline-large-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-headline-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-headline-md-leading-* {
-    --mat-sys-headline-medium-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-headline-medium-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-md-size-* {
-    --mat-sys-headline-medium-size: calc(var(--spacing) * --value(number));
+  --mat-sys-headline-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-md-tracking-* {
-    --mat-sys-headline-medium-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-headline-medium-tracking: --value(number, [number])em;
+  --mat-sys-headline-medium-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-headline-medium-tracking: --value(number, [number])em;
 }
 @utility msys-headline-md-font-* {
-    --mat-sys-headline-medium-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-headline-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-headline-sm-leading-* {
-    --mat-sys-headline-small-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-headline-small-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-sm-size-* {
-    --mat-sys-headline-small-size: calc(var(--spacing) * --value(number));
+  --mat-sys-headline-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-headline-sm-tracking-* {
-    --mat-sys-headline-small-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-headline-small-tracking: --value(number, [number])em;
+  --mat-sys-headline-small-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-headline-small-tracking: --value(number, [number])em;
 }
 @utility msys-headline-sm-font-* {
-    --mat-sys-headline-small-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-headline-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Label */
 @utility msys-label-lg-leading-* {
-    --mat-sys-label-large-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-label-large-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-lg-size-* {
-    --mat-sys-label-large-size: calc(var(--spacing) * --value(number));
+  --mat-sys-label-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-lg-tracking-* {
-    --mat-sys-label-large-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-label-large-tracking: --value(number, [number])em;
+  --mat-sys-label-large-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-label-large-tracking: --value(number, [number])em;
 }
 @utility msys-label-lg-font-* {
-    --mat-sys-label-large-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-label-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 @utility msys-label-lg-font-prominent-* {
-    --mat-sys-label-large-weight-prominent: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-label-large-weight-prominent: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-label-md-leading-* {
-    --mat-sys-label-medium-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-label-medium-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-md-size-* {
-    --mat-sys-label-medium-size: calc(var(--spacing) * --value(number));
+  --mat-sys-label-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-md-tracking-* {
-    --mat-sys-label-medium-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-label-medium-tracking: --value(number, [number])em;
+  --mat-sys-label-medium-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-label-medium-tracking: --value(number, [number])em;
 }
 @utility msys-label-md-font-* {
-    --mat-sys-label-medium-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-label-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 @utility msys-label-md-font-prominent-* {
-    --mat-sys-label-medium-weight-prominent: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-label-medium-weight-prominent: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-label-sm-leading-* {
-    --mat-sys-label-small-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-label-small-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-sm-size-* {
-    --mat-sys-label-small-size: calc(var(--spacing) * --value(number));
+  --mat-sys-label-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-label-sm-tracking-* {
-    --mat-sys-label-small-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-label-small-tracking: --value(number, [number])em;
+  --mat-sys-label-small-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-label-small-tracking: --value(number, [number])em;
 }
 @utility msys-label-sm-font-* {
-    --mat-sys-label-small-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-label-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Title */
 @utility msys-title-lg-leading-* {
-    --mat-sys-title-large-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-title-large-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-lg-size-* {
-    --mat-sys-title-large-size: calc(var(--spacing) * --value(number));
+  --mat-sys-title-large-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-lg-tracking-* {
-    --mat-sys-title-large-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-title-large-tracking: --value(number, [number])em;
+  --mat-sys-title-large-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-title-large-tracking: --value(number, [number])em;
 }
 @utility msys-title-lg-font-* {
-    --mat-sys-title-large-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-title-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-title-md-leading-* {
-    --mat-sys-title-medium-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-title-medium-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-md-size-* {
-    --mat-sys-title-medium-size: calc(var(--spacing) * --value(number));
+  --mat-sys-title-medium-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-md-tracking-* {
-    --mat-sys-title-medium-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-title-medium-tracking: --value(number, [number])em;
+  --mat-sys-title-medium-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-title-medium-tracking: --value(number, [number])em;
 }
 @utility msys-title-md-font-* {
-    --mat-sys-title-medium-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-title-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msys-title-sm-leading-* {
-    --mat-sys-title-small-line-height: calc(var(--spacing) * --value(number));
+  --mat-sys-title-small-line-height: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-sm-size-* {
-    --mat-sys-title-small-size: calc(var(--spacing) * --value(number));
+  --mat-sys-title-small-size: calc(var(--spacing) * --value(number));
 }
 @utility msys-title-sm-tracking-* {
-    --mat-sys-title-small-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-sys-title-small-tracking: --value(number, [number])em;
+  --mat-sys-title-small-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-sys-title-small-tracking: --value(number, [number])em;
 }
 @utility msys-title-sm-font-* {
-    --mat-sys-title-small-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-sys-title-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 /* Corner tokens */
 @utility msys-corner-md-* {
-    --mat-sys-corner-medium: calc(var(--radius) * --value(number));
+  --mat-sys-corner-medium: calc(var(--radius) * --value(number));
 }
 @utility msys-corner-none-* {
-    /* prettier-ignore */
-    --mat-sys-corner-none: --value(number, [number])px;
+  /* prettier-ignore */
+  --mat-sys-corner-none: --value(number, [number])px;
 }
 @utility msys-corner-sm-* {
-    --mat-sys-corner-small: calc(var(--radius) * --value(number));
+  --mat-sys-corner-small: calc(var(--radius) * --value(number));
 }
 
 /* State layer opacity tokens */
 @utility msys-state-dragged-* {
-    --mat-sys-dragged-state-layer-opacity: --value(number, [number]);
+  --mat-sys-dragged-state-layer-opacity: --value(number, [number]);
 }
 @utility msys-state-focus-* {
-    --mat-sys-focus-state-layer-opacity: --value(number, [number]);
+  --mat-sys-focus-state-layer-opacity: --value(number, [number]);
 }
 @utility msys-state-hover-* {
-    --mat-sys-hover-state-layer-opacity: --value(number, [number]);
+  --mat-sys-hover-state-layer-opacity: --value(number, [number]);
 }
 @utility msys-state-pressed-* {
-    --mat-sys-pressed-state-layer-opacity: --value(number, [number]);
+  --mat-sys-pressed-state-layer-opacity: --value(number, [number]);
 }

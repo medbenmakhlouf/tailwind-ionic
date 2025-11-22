@@ -1,148 +1,148 @@
 /* Base Type Utilities */
 @utility mck-selected-focus-state-layer-opacity-* {
-    --mat-checkbox-selected-focus-state-layer-opacity: --value(number, [number]);
+  --mat-checkbox-selected-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-selected-hover-state-layer-opacity-* {
-    --mat-checkbox-selected-hover-state-layer-opacity: --value(number, [number]);
+  --mat-checkbox-selected-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-selected-pressed-state-layer-opacity-* {
-    --mat-checkbox-selected-pressed-state-layer-opacity: --value(number, [number]);
+  --mat-checkbox-selected-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-unselected-focus-state-layer-opacity-* {
-    --mat-checkbox-unselected-focus-state-layer-opacity: --value(number, [number]);
+  --mat-checkbox-unselected-focus-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-unselected-hover-state-layer-opacity-* {
-    --mat-checkbox-unselected-hover-state-layer-opacity: --value(number, [number]);
+  --mat-checkbox-unselected-hover-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-unselected-pressed-state-layer-opacity-* {
-    --mat-checkbox-unselected-pressed-state-layer-opacity: --value(number, [number]);
+  --mat-checkbox-unselected-pressed-state-layer-opacity: --value(number, [number]);
 }
 
 @utility mck-touch-target-size-* {
-    --mat-checkbox-touch-target-size: calc(var(--spacing) * --value(number));
+  --mat-checkbox-touch-target-size: calc(var(--spacing) * --value(number));
 }
 
 /* Color Type Utilities */
 @utility mck-disabled-label-color-* {
-    --mat-checkbox-disabled-label-color: --value(--color-*);
+  --mat-checkbox-disabled-label-color: --value(--color-*);
 }
 
 @utility mck-disabled-selected-checkmark-color-* {
-    --mat-checkbox-disabled-selected-checkmark-color: --value(--color-*);
+  --mat-checkbox-disabled-selected-checkmark-color: --value(--color-*);
 }
 
 @utility mck-disabled-selected-icon-color-* {
-    --mat-checkbox-disabled-selected-icon-color: --value(--color-*);
+  --mat-checkbox-disabled-selected-icon-color: --value(--color-*);
 }
 
 @utility mck-disabled-unselected-icon-color-* {
-    --mat-checkbox-disabled-unselected-icon-color: --value(--color-*);
+  --mat-checkbox-disabled-unselected-icon-color: --value(--color-*);
 }
 
 @utility mck-label-text-* {
-    --mat-checkbox-label-text-color: --value(--color-*);
-    --mat-checkbox-label-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-checkbox-label-text-size: --value(number, [number])rem;
+  --mat-checkbox-label-text-color: --value(--color-*);
+  --mat-checkbox-label-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-checkbox-label-text-size: --value(number, [number])rem;
 }
 
 @utility mck-selected-checkmark-color-* {
-    --mat-checkbox-selected-checkmark-color: --value(--color-*);
+  --mat-checkbox-selected-checkmark-color: --value(--color-*);
 }
 
 @utility mck-selected-focus-icon-color-* {
-    --mat-checkbox-selected-focus-icon-color: --value(--color-*);
+  --mat-checkbox-selected-focus-icon-color: --value(--color-*);
 }
 
 @utility mck-selected-focus-state-layer-color-* {
-    --mat-checkbox-selected-focus-state-layer-color: --value(--color-*);
+  --mat-checkbox-selected-focus-state-layer-color: --value(--color-*);
 }
 
 @utility mck-selected-hover-icon-color-* {
-    --mat-checkbox-selected-hover-icon-color: --value(--color-*);
+  --mat-checkbox-selected-hover-icon-color: --value(--color-*);
 }
 
 @utility mck-selected-hover-state-layer-color-* {
-    --mat-checkbox-selected-hover-state-layer-color: --value(--color-*);
+  --mat-checkbox-selected-hover-state-layer-color: --value(--color-*);
 }
 
 @utility mck-selected-icon-color-* {
-    --mat-checkbox-selected-icon-color: --value(--color-*);
+  --mat-checkbox-selected-icon-color: --value(--color-*);
 }
 
 @utility mck-selected-pressed-icon-color-* {
-    --mat-checkbox-selected-pressed-icon-color: --value(--color-*);
+  --mat-checkbox-selected-pressed-icon-color: --value(--color-*);
 }
 
 @utility mck-selected-pressed-state-layer-color-* {
-    --mat-checkbox-selected-pressed-state-layer-color: --value(--color-*);
+  --mat-checkbox-selected-pressed-state-layer-color: --value(--color-*);
 }
 
 @utility mck-unselected-focus-icon-color-* {
-    --mat-checkbox-unselected-focus-icon-color: --value(--color-*);
+  --mat-checkbox-unselected-focus-icon-color: --value(--color-*);
 }
 
 @utility mck-unselected-focus-state-layer-color-* {
-    --mat-checkbox-unselected-focus-state-layer-color: --value(--color-*);
+  --mat-checkbox-unselected-focus-state-layer-color: --value(--color-*);
 }
 
 @utility mck-unselected-hover-icon-color-* {
-    --mat-checkbox-unselected-hover-icon-color: --value(--color-*);
+  --mat-checkbox-unselected-hover-icon-color: --value(--color-*);
 }
 
 @utility mck-unselected-hover-state-layer-color-* {
-    --mat-checkbox-unselected-hover-state-layer-color: --value(--color-*);
+  --mat-checkbox-unselected-hover-state-layer-color: --value(--color-*);
 }
 
 @utility mck-unselected-icon-color-* {
-    --mat-checkbox-unselected-icon-color: --value(--color-*);
+  --mat-checkbox-unselected-icon-color: --value(--color-*);
 }
 
 @utility mck-unselected-pressed-state-layer-color-* {
-    --mat-checkbox-unselected-pressed-state-layer-color: --value(--color-*);
+  --mat-checkbox-unselected-pressed-state-layer-color: --value(--color-*);
 }
 /* Typography Type Utilities */
 @utility mck-label-leading-* {
-    --mat-checkbox-label-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-checkbox-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mck-label-tracking-* {
-    --mat-checkbox-label-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-checkbox-label-text-tracking: --value(number, [number])em;
+  --mat-checkbox-label-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-checkbox-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mck-label-font-* {
-    --mat-checkbox-label-text-font: --value(--font-*);
-    --mat-checkbox-label-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-checkbox-label-text-font: --value(--font-*);
+  --mat-checkbox-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 /* Density Type Utilities */
 @utility mck-touch-target-display-* {
-    --mat-checkbox-touch-target-display: --value(
-        'none',
-        'block',
-        'inline',
-        'inline-block',
-        'flex',
-        'inline-flex',
-        'grid',
-        'inline-grid',
-        'run-in',
-        'table',
-        'table-row',
-        'table-cell',
-        'list-item',
-        'inherit',
-        'initial',
-        'unset'
-    );
+  --mat-checkbox-touch-target-display: --value(
+    'none',
+    'block',
+    'inline',
+    'inline-block',
+    'flex',
+    'inline-flex',
+    'grid',
+    'inline-grid',
+    'run-in',
+    'table',
+    'table-row',
+    'table-cell',
+    'list-item',
+    'inherit',
+    'initial',
+    'unset'
+  );
 }
 
 @utility mck-state-layer-size-* {
-    --mat-checkbox-state-layer-size: calc(var(--spacing) * --value(number));
+  --mat-checkbox-state-layer-size: calc(var(--spacing) * --value(number));
 }

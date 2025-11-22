@@ -1,19 +1,19 @@
 @utility mtr-container-bg-* {
-    --mat-tree-container-background-color: --value(--color-*);
+  --mat-tree-container-background-color: --value(--color-*);
 }
 
 @utility mtr-node-text-* {
-    --mat-tree-node-text-color: --value(--color-*);
-    --mat-tree-node-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-tree-node-text-size: --value(number, [number])rem;
+  --mat-tree-node-text-color: --value(--color-*);
+  --mat-tree-node-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-tree-node-text-size: --value(number, [number])rem;
 }
 
 @utility mtr-node-text-font-* {
-    --mat-tree-node-text-font: --value(--font-*);
-    --mat-tree-node-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-tree-node-text-font: --value(--font-*);
+  --mat-tree-node-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mtr-node-min-h-* {
-    --mat-tree-node-min-height: calc(var(--spacing) * --value(number));
+  --mat-tree-node-min-height: calc(var(--spacing) * --value(number));
 }

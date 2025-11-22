@@ -1,189 +1,189 @@
 @utility msr-value-indicator-opacity-* {
-    --mat-slider-value-indicator-opacity: --value(number, [number]);
+  --mat-slider-value-indicator-opacity: --value(number, [number]);
 }
 
 @utility msr-value-indicator-p-* {
-    --mat-slider-value-indicator-padding: calc(var(--spacing) * --value(number));
+  --mat-slider-value-indicator-padding: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-value-indicator-w-* {
-    --mat-slider-value-indicator-width: calc(var(--spacing) * --value(number));
+  --mat-slider-value-indicator-width: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-value-indicator-h-* {
-    --mat-slider-value-indicator-height: calc(var(--spacing) * --value(number));
+  --mat-slider-value-indicator-height: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-value-indicator-caret-display-* {
-    --mat-slider-value-indicator-caret-display: --value(
-        'none',
-        'block',
-        'inline',
-        'inline-block',
-        'flex',
-        'inline-flex',
-        'grid',
-        'inline-grid',
-        'run-in',
-        'table',
-        'table-row',
-        'table-cell',
-        'list-item',
-        'inherit',
-        'initial',
-        'unset'
-    );
+  --mat-slider-value-indicator-caret-display: --value(
+    'none',
+    'block',
+    'inline',
+    'inline-block',
+    'flex',
+    'inline-flex',
+    'grid',
+    'inline-grid',
+    'run-in',
+    'table',
+    'table-row',
+    'table-cell',
+    'list-item',
+    'inherit',
+    'initial',
+    'unset'
+  );
 }
 
 @utility msr-value-indicator-border-radius-* {
-    --mat-slider-value-indicator-border-radius: calc(var(--spacing) * --value(number));
+  --mat-slider-value-indicator-border-radius: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-value-indicator-text-transform-* {
-    --mat-slider-value-indicator-text-transform: calc(var(--spacing) * --value(number));
+  --mat-slider-value-indicator-text-transform: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-value-indicator-container-transform-* {
-    --mat-slider-value-indicator-container-transform: calc(var(--spacing) * --value(number));
+  --mat-slider-value-indicator-container-transform: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-active-track-h-* {
-    --mat-slider-active-track-height: calc(var(--spacing) * --value(number));
+  --mat-slider-active-track-height: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-handle-h-* {
-    --mat-slider-handle-height: calc(var(--spacing) * --value(number));
+  --mat-slider-handle-height: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-handle-w-* {
-    --mat-slider-handle-width: calc(var(--spacing) * --value(number));
+  --mat-slider-handle-width: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-inactive-track-h-* {
-    --mat-slider-inactive-track-height: calc(var(--spacing) * --value(number));
+  --mat-slider-inactive-track-height: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-with-overlap-handle-outline-w-* {
-    --mat-slider-with-overlap-handle-outline-width: calc(var(--spacing) * --value(number));
+  --mat-slider-with-overlap-handle-outline-width: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-with-tick-marks-active-container-opacity-* {
-    --mat-slider-with-tick-marks-active-container-opacity: --value(number, [number]);
+  --mat-slider-with-tick-marks-active-container-opacity: --value(number, [number]);
 }
 
 @utility msr-with-tick-marks-container-size-* {
-    --mat-slider-with-tick-marks-container-size: calc(var(--spacing) * --value(number));
+  --mat-slider-with-tick-marks-container-size: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-with-tick-marks-inactive-container-opacity-* {
-    --mat-slider-with-tick-marks-inactive-container-opacity: --value(number, [number]);
+  --mat-slider-with-tick-marks-inactive-container-opacity: --value(number, [number]);
 }
 
 @utility msr-value-indicator-transform-origin-* {
-    --mat-slider-value-indicator-transform-origin: calc(var(--spacing) * --value(number));
+  --mat-slider-value-indicator-transform-origin: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-active-track-color-* {
-    --mat-slider-active-track-color: --value(--color-*);
+  --mat-slider-active-track-color: --value(--color-*);
 }
 
 @utility msr-active-track-shape-* {
-    --mat-slider-active-track-shape: --value(--color-*);
+  --mat-slider-active-track-shape: --value(--color-*);
 }
 
 @utility msr-disabled-active-track-color-* {
-    --mat-slider-disabled-active-track-color: --value(--color-*);
+  --mat-slider-disabled-active-track-color: --value(--color-*);
 }
 
 @utility msr-disabled-handle-color-* {
-    --mat-slider-disabled-handle-color: --value(--color-*);
+  --mat-slider-disabled-handle-color: --value(--color-*);
 }
 
 @utility msr-disabled-inactive-track-color-* {
-    --mat-slider-disabled-inactive-track-color: --value(--color-*);
+  --mat-slider-disabled-inactive-track-color: --value(--color-*);
 }
 
 @utility msr-focus-handle-color-* {
-    --mat-slider-focus-handle-color: --value(--color-*);
+  --mat-slider-focus-handle-color: --value(--color-*);
 }
 
 @utility msr-focus-state-layer-color-* {
-    --mat-slider-focus-state-layer-color: --value(--color-*);
+  --mat-slider-focus-state-layer-color: --value(--color-*);
 }
 
 @utility msr-handle-color-* {
-    --mat-slider-handle-color: --value(--color-*);
+  --mat-slider-handle-color: --value(--color-*);
 }
 
 @utility msr-handle-elevation-* {
-    --mat-slider-handle-elevation: --value(--color-*);
+  --mat-slider-handle-elevation: --value(--color-*);
 }
 
 @utility msr-handle-shape-* {
-    --mat-slider-handle-shape: --value(--color-*);
+  --mat-slider-handle-shape: --value(--color-*);
 }
 
 @utility msr-hover-handle-color-* {
-    --mat-slider-hover-handle-color: --value(--color-*);
+  --mat-slider-hover-handle-color: --value(--color-*);
 }
 
 @utility msr-hover-state-layer-color-* {
-    --mat-slider-hover-state-layer-color: --value(--color-*);
+  --mat-slider-hover-state-layer-color: --value(--color-*);
 }
 
 @utility msr-inactive-track-color-* {
-    --mat-slider-inactive-track-color: --value(--color-*);
+  --mat-slider-inactive-track-color: --value(--color-*);
 }
 
 @utility msr-inactive-track-shape-* {
-    --mat-slider-inactive-track-shape: --value(--color-*);
+  --mat-slider-inactive-track-shape: --value(--color-*);
 }
 
 @utility msr-label-container-color-* {
-    --mat-slider-label-container-color: --value(--color-*);
+  --mat-slider-label-container-color: --value(--color-*);
 }
 
 @utility msr-label-label-text-* {
-    --mat-slider-label-label-text-color: --value(--color-*);
-    --mat-slider-label-label-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-slider-label-label-text-size: --value(number, [number])rem;
+  --mat-slider-label-label-text-color: --value(--color-*);
+  --mat-slider-label-label-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-slider-label-label-text-size: --value(number, [number])rem;
 }
 
 @utility msr-ripple-color-* {
-    --mat-slider-ripple-color: --value(--color-*);
+  --mat-slider-ripple-color: --value(--color-*);
 }
 
 @utility msr-with-overlap-handle-outline-color-* {
-    --mat-slider-with-overlap-handle-outline-color: --value(--color-*);
+  --mat-slider-with-overlap-handle-outline-color: --value(--color-*);
 }
 
 @utility msr-with-tick-marks-active-container-color-* {
-    --mat-slider-with-tick-marks-active-container-color: --value(--color-*);
+  --mat-slider-with-tick-marks-active-container-color: --value(--color-*);
 }
 
 @utility msr-with-tick-marks-container-shape-* {
-    --mat-slider-with-tick-marks-container-shape: --value(--color-*);
+  --mat-slider-with-tick-marks-container-shape: --value(--color-*);
 }
 
 @utility msr-with-tick-marks-disabled-container-color-* {
-    --mat-slider-with-tick-marks-disabled-container-color: --value(--color-*);
+  --mat-slider-with-tick-marks-disabled-container-color: --value(--color-*);
 }
 
 @utility msr-with-tick-marks-inactive-container-color-* {
-    --mat-slider-with-tick-marks-inactive-container-color: --value(--color-*);
+  --mat-slider-with-tick-marks-inactive-container-color: --value(--color-*);
 }
 
 @utility msr-label-label-font-* {
-    --mat-slider-label-label-text-font: --value(--font-*);
-    --mat-slider-label-label-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-slider-label-label-text-font: --value(--font-*);
+  --mat-slider-label-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msr-label-label-leading-* {
-    --mat-slider-label-label-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-slider-label-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility msr-label-label-tracking-* {
-    /* prettier-ignore */
-    --mat-slider-label-label-text-tracking: --value(number, [number])em;
+  /* prettier-ignore */
+  --mat-slider-label-label-text-tracking: --value(number, [number])em;
 }

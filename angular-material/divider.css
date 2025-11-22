@@ -1,7 +1,7 @@
 /* Base Type Utilities */
 @utility mdiv-w-* {
-    --mat-divider-width: calc(var(--spacing) * --value(number));
+  --mat-divider-width: calc(var(--spacing) * --value(number));
 }
 @utility mdiv-* {
-    --mat-divider-color: --value(--color-*);
+  --mat-divider-color: --value(--color-*);
 }

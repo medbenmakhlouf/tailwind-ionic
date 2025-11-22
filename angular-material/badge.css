@@ -1,114 +1,114 @@
 /* Base Tokens */
 @utility mbg-container-offset-* {
-    --mat-badge-container-offset: calc(var(--spacing) * --value(number));
+  --mat-badge-container-offset: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-container-overlap-offset-* {
-    --mat-badge-container-overlap-offset: calc(var(--spacing) * --value(number));
+  --mat-badge-container-overlap-offset: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-container-p-* {
-    --mat-badge-container-padding: calc(var(--spacing) * --value(number));
+  --mat-badge-container-padding: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-container-shape-* {
-    --mat-badge-container-shape: calc(var(--spacing) * --value(number));
+  --mat-badge-container-shape: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-container-size-* {
-    --mat-badge-container-size: calc(var(--spacing) * --value(number));
+  --mat-badge-container-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-large-size-container-offset-* {
-    --mat-badge-large-size-container-offset: calc(var(--spacing) * --value(number));
+  --mat-badge-large-size-container-offset: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-large-size-container-overlap-offset-* {
-    --mat-badge-large-size-container-overlap-offset: calc(var(--spacing) * --value(number));
+  --mat-badge-large-size-container-overlap-offset: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-large-size-container-p-* {
-    --mat-badge-large-size-container-padding: calc(var(--spacing) * --value(number));
+  --mat-badge-large-size-container-padding: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-large-size-container-size-* {
-    --mat-badge-large-size-container-size: calc(var(--spacing) * --value(number));
+  --mat-badge-large-size-container-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-legacy-container-size-* {
-    --mat-badge-legacy-container-size: calc(var(--spacing) * --value(number));
+  --mat-badge-legacy-container-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-legacy-large-size-container-size-* {
-    --mat-badge-legacy-large-size-container-size: calc(var(--spacing) * --value(number));
+  --mat-badge-legacy-large-size-container-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-legacy-small-size-container-size-* {
-    --mat-badge-legacy-small-size-container-size: calc(var(--spacing) * --value(number));
+  --mat-badge-legacy-small-size-container-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-small-size-container-offset-* {
-    --mat-badge-small-size-container-offset: calc(var(--spacing) * --value(number));
+  --mat-badge-small-size-container-offset: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-small-size-container-overlap-offset-* {
-    --mat-badge-small-size-container-overlap-offset: calc(var(--spacing) * --value(number));
+  --mat-badge-small-size-container-overlap-offset: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-small-size-container-p-* {
-    --mat-badge-small-size-container-padding: calc(var(--spacing) * --value(number));
+  --mat-badge-small-size-container-padding: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-small-size-container-size-* {
-    --mat-badge-small-size-container-size: calc(var(--spacing) * --value(number));
+  --mat-badge-small-size-container-size: calc(var(--spacing) * --value(number));
 }
 
 /* Color Tokens */
 @utility mbg-bg-* {
-    --mat-badge-background-color: --value(--color-*);
+  --mat-badge-background-color: --value(--color-*);
 }
 
 @utility mbg-disabled-state-bg-* {
-    --mat-badge-disabled-state-background-color: --value(--color-*);
+  --mat-badge-disabled-state-background-color: --value(--color-*);
 }
 
 @utility mbg-disabled-state-text-* {
-    --mat-badge-disabled-state-text-color: --value(--color-*);
+  --mat-badge-disabled-state-text-color: --value(--color-*);
 }
 
 @utility mbg-text-* {
-    --mat-badge-text-color: --value(--color-*);
-    --mat-badge-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-badge-text-size: --value(number, [number])rem;
+  --mat-badge-text-color: --value(--color-*);
+  --mat-badge-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-badge-text-size: --value(number, [number])rem;
 }
 
 /* Typography Tokens */
 @utility mbg-large-size-leading-* {
-    --mat-badge-large-size-line-height: calc(var(--spacing) * --value(number));
+  --mat-badge-large-size-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-large-size-text-size-* {
-    --mat-badge-large-size-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-badge-large-size-text-size: --value(number, [number])rem;
+  --mat-badge-large-size-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-badge-large-size-text-size: --value(number, [number])rem;
 }
 
 @utility mbg-leading-* {
-    --mat-badge-line-height: calc(var(--spacing) * --value(number));
+  --mat-badge-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-small-size-leading-* {
-    --mat-badge-small-size-line-height: calc(var(--spacing) * --value(number));
+  --mat-badge-small-size-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mbg-small-size-text-size-* {
-    --mat-badge-small-size-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-badge-small-size-text-size: --value(number, [number])rem;
+  --mat-badge-small-size-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-badge-small-size-text-size: --value(number, [number])rem;
 }
 
 @utility mbg-font-* {
-    --mat-badge-text-font: --value(--font-*);
-    --mat-badge-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-badge-text-font: --value(--font-*);
+  --mat-badge-text-weight: --value(--font-weight-*, integer, [integer]);
 }

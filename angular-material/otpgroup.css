@@ -1,21 +1,21 @@
 /* Color Type Utilities */
 @utility mog-label-text-* {
-    --mat-optgroup-label-text-color: --value(--color-*);
-    --mat-optgroup-label-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-optgroup-label-text-size: --value(number, [number])rem;
+  --mat-optgroup-label-text-color: --value(--color-*);
+  --mat-optgroup-label-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-optgroup-label-text-size: --value(number, [number])rem;
 }
 /* Typography Type Utilities */
 @utility mog-label-leading-* {
-    --mat-optgroup-label-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-optgroup-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mog-label-tracking-* {
-    --mat-optgroup-label-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-optgroup-label-text-tracking: --value(number, [number])em;
+  --mat-optgroup-label-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-optgroup-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mog-label-font-* {
-    --mat-optgroup-label-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-optgroup-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }

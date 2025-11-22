@@ -1,89 +1,89 @@
 @utility mt-row-item-outline-w-* {
-    --mat-table-row-item-outline-width: calc(var(--spacing) * --value(number));
+  --mat-table-row-item-outline-width: calc(var(--spacing) * --value(number));
 }
 
 @utility mt-bg-* {
-    --mat-table-background-color: --value(--color-*);
+  --mat-table-background-color: --value(--color-*);
 }
 
 @utility mt-header-headline-color-* {
-    --mat-table-header-headline-color: --value(--color-*);
+  --mat-table-header-headline-color: --value(--color-*);
 }
 
 @utility mt-row-item-label-text-* {
-    --mat-table-row-item-label-text-color: --value(--color-*);
-    --mat-table-row-item-label-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-table-row-item-label-text-size: --value(number, [number])rem;
+  --mat-table-row-item-label-text-color: --value(--color-*);
+  --mat-table-row-item-label-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-table-row-item-label-text-size: --value(number, [number])rem;
 }
 
 @utility mt-row-item-outline-color-* {
-    --mat-table-row-item-outline-color: --value(--color-*);
+  --mat-table-row-item-outline-color: --value(--color-*);
 }
 
 @utility mt-header-headline-font-* {
-    --mat-table-header-headline-font: --value(--font-*);
-    --mat-table-header-headline-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-table-header-headline-font: --value(--font-*);
+  --mat-table-header-headline-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mt-header-headline-leading-* {
-    --mat-table-header-headline-line-height: calc(var(--spacing) * --value(number));
+  --mat-table-header-headline-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mt-header-headline-size-* {
-    --mat-table-header-headline-size: calc(var(--spacing) * --value(number));
+  --mat-table-header-headline-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mt-header-headline-tracking-* {
-    --mat-table-header-headline-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-table-header-headline-tracking: --value(number, [number])em;
+  --mat-table-header-headline-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-table-header-headline-tracking: --value(number, [number])em;
 }
 
 @utility mt-row-item-label-font-* {
-    --mat-table-row-item-label-text-font: --value(--font-*);
-    --mat-table-row-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-table-row-item-label-text-font: --value(--font-*);
+  --mat-table-row-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mt-row-item-label-leading-* {
-    --mat-table-row-item-label-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-table-row-item-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mt-row-item-label-tracking-* {
-    --mat-table-row-item-label-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-table-row-item-label-text-tracking: --value(number, [number])em;
+  --mat-table-row-item-label-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-table-row-item-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mt-footer-supporting-font-* {
-    --mat-table-footer-supporting-text-font: --value(--font-*);
-    --mat-table-footer-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-table-footer-supporting-text-font: --value(--font-*);
+  --mat-table-footer-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mt-footer-supporting-leading-* {
-    --mat-table-footer-supporting-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-table-footer-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mt-footer-supporting-text-* {
-    --mat-table-footer-supporting-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-table-footer-supporting-text-size: --value(number, [number])rem;
+  --mat-table-footer-supporting-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-table-footer-supporting-text-size: --value(number, [number])rem;
 }
 
 @utility mt-footer-supporting-tracking-* {
-    --mat-table-footer-supporting-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-table-footer-supporting-text-tracking: --value(number, [number])em;
+  --mat-table-footer-supporting-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-table-footer-supporting-text-tracking: --value(number, [number])em;
 }
 
 @utility mt-header-container-h-* {
-    --mat-table-header-container-height: calc(var(--spacing) * --value(number));
+  --mat-table-header-container-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mt-footer-container-h-* {
-    --mat-table-footer-container-height: calc(var(--spacing) * --value(number));
+  --mat-table-footer-container-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mt-row-item-container-h-* {
-    --mat-table-row-item-container-height: calc(var(--spacing) * --value(number));
+  --mat-table-row-item-container-height: calc(var(--spacing) * --value(number));
 }

@@ -42,7 +42,6 @@
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
-    "tabWidth": 4,
     "overrides": [
       {
         "files": "*.html",

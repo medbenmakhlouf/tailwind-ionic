@@ -1,25 +1,25 @@
 @utility msb-container-shape-* {
-    --mat-snackbar-container-shape: calc(var(--spacing) * --value(number));
+  --mat-snackbar-container-shape: calc(var(--spacing) * --value(number));
 }
 @utility msb-button-color-* {
-    --mat-snackbar-button-color: --value(--color-*);
+  --mat-snackbar-button-color: --value(--color-*);
 }
 
 @utility msb-container-color-* {
-    --mat-snackbar-container-color: --value(--color-*);
+  --mat-snackbar-container-color: --value(--color-*);
 }
 
 @utility msb-supporting-text-* {
-    --mat-snackbar-supporting-text-color: --value(--color-*);
-    --mat-snackbar-supporting-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-snackbar-supporting-text-size: --value(number, [number])rem;
+  --mat-snackbar-supporting-text-color: --value(--color-*);
+  --mat-snackbar-supporting-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-snackbar-supporting-text-size: --value(number, [number])rem;
 }
 @utility msb-supporting-font-* {
-    --mat-snackbar-supporting-text-font: --value(--font-*);
-    --mat-snackbar-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-snackbar-supporting-text-font: --value(--font-*);
+  --mat-snackbar-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility msb-supporting-leading-* {
-    --mat-snackbar-supporting-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-snackbar-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }

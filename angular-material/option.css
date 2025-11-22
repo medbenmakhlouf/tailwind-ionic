@@ -1,38 +1,38 @@
 /* Color Type Utilities */
 @utility mo-focus-state-layer-color-* {
-    --mat-option-focus-state-layer-color: --value(--color-*);
+  --mat-option-focus-state-layer-color: --value(--color-*);
 }
 
 @utility mo-hover-state-layer-color-* {
-    --mat-option-hover-state-layer-color: --value(--color-*);
+  --mat-option-hover-state-layer-color: --value(--color-*);
 }
 
 @utility mo-label-text-* {
-    --mat-option-label-text-color: --value(--color-*);
-    --mat-option-label-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-option-label-text-size: --value(number, [number])rem;
+  --mat-option-label-text-color: --value(--color-*);
+  --mat-option-label-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-option-label-text-size: --value(number, [number])rem;
 }
 
 @utility mo-selected-state-label-text-* {
-    --mat-option-selected-state-label-text-color: --value(--color-*);
+  --mat-option-selected-state-label-text-color: --value(--color-*);
 }
 
 @utility mo-selected-state-layer-color-* {
-    --mat-option-selected-state-layer-color: --value(--color-*);
+  --mat-option-selected-state-layer-color: --value(--color-*);
 }
 
 /* Typography Type Utilities */
 @utility mo-label-leading-* {
-    --mat-option-label-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-option-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mo-label-tracking-* {
-    --mat-option-label-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-option-label-text-tracking: --value(number, [number])em;
+  --mat-option-label-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-option-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mo-label-font-* {
-    --mat-option-label-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-option-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }

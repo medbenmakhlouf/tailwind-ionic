@@ -1,36 +1,36 @@
 @utility mtr-container-bg-* {
-    --mat-toolbar-container-background-color: --value(--color-*);
+  --mat-toolbar-container-background-color: --value(--color-*);
 }
 
 @utility mtr-container-text-* {
-    --mat-toolbar-container-text-color: --value(--color-*);
+  --mat-toolbar-container-text-color: --value(--color-*);
 }
 
 @utility mtr-title-font-* {
-    --mat-toolbar-title-text-font: --value(--font-*);
-    --mat-toolbar-title-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-toolbar-title-text-font: --value(--font-*);
+  --mat-toolbar-title-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mtr-title-leading-* {
-    --mat-toolbar-title-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-toolbar-title-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mtr-title-text-* {
-    --mat-toolbar-title-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-toolbar-title-text-size: --value(number, [number])rem;
+  --mat-toolbar-title-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-toolbar-title-text-size: --value(number, [number])rem;
 }
 
 @utility mtr-title-tracking-* {
-    --mat-toolbar-title-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-toolbar-title-text-tracking: --value(number, [number])em;
+  --mat-toolbar-title-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-toolbar-title-text-tracking: --value(number, [number])em;
 }
 
 @utility mtr-standard-h-* {
-    --mat-toolbar-standard-height: calc(var(--spacing) * --value(number));
+  --mat-toolbar-standard-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mtr-mobile-h-* {
-    --mat-toolbar-mobile-height: calc(var(--spacing) * --value(number));
+  --mat-toolbar-mobile-height: calc(var(--spacing) * --value(number));
 }

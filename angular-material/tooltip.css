@@ -1,29 +1,29 @@
 @utility mtt-container-color-* {
-    --mat-tooltip-container-color: --value(--color-*);
+  --mat-tooltip-container-color: --value(--color-*);
 }
 
 @utility mtt-container-shape-* {
-    --mat-tooltip-container-shape: --value(--color-*);
+  --mat-tooltip-container-shape: --value(--color-*);
 }
 
 @utility mtt-supporting-text-* {
-    --mat-tooltip-supporting-text-color: --value(--color-*);
-    --mat-tooltip-supporting-text-size: --value(--text-*);
-    /* prettier-ignore */
-    --mat-tooltip-supporting-text-size: --value(number, [number])rem;
+  --mat-tooltip-supporting-text-color: --value(--color-*);
+  --mat-tooltip-supporting-text-size: --value(--text-*);
+  /* prettier-ignore */
+  --mat-tooltip-supporting-text-size: --value(number, [number])rem;
 }
 
 @utility mtt-supporting-text-font-* {
-    --mat-tooltip-supporting-text-font: --value(--font-*);
-    --mat-tooltip-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-tooltip-supporting-text-font: --value(--font-*);
+  --mat-tooltip-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mtt-supporting-text-leading-* {
-    --mat-tooltip-supporting-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-tooltip-supporting-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mtt-supporting-text-tracking-* {
-    --mat-tooltip-supporting-text-tracking: --value(--tracking-*);
-    /* prettier-ignore */
-    --mat-tooltip-supporting-text-tracking: --value(number, [number])em;
+  --mat-tooltip-supporting-text-tracking: --value(--tracking-*);
+  /* prettier-ignore */
+  --mat-tooltip-supporting-text-tracking: --value(number, [number])em;
 }
