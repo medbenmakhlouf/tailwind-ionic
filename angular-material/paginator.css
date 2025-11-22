@@ -9,6 +9,8 @@
 /* Color Type Utilities */
 @utility mp-container-text-* {
     --mat-paginator-container-text-color: --value(--color-*);
+    --mat-paginator-container-text-size: --value(--text-*);
+    --mat-paginator-container-text-size: --value(number, [number])rem;
 }
 
 @utility mp-container-bg-* {
@@ -23,27 +25,25 @@
     --mat-paginator-enabled-icon-color: --value(--color-*);
 }
 /* Typography Type Utilities */
-@utility mp-container-text-leading-* {
+@utility mp-container-leading-* {
     --mat-paginator-container-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mp-container-text-size-* {
-    --mat-paginator-container-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mp-container-text-tracking-* {
+@utility mp-container-tracking-* {
     --mat-paginator-container-text-tracking: --value(--tracking-*);
     --mat-paginator-container-text-tracking: --value(number, [number])em;
 }
 
-@utility mp-container-text-font-* {
+@utility mp-container-font-* {
     --mat-paginator-container-text-font: --value(--font-*);
     --mat-paginator-container-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility mp-select-trigger-text-size-* {
-    --mat-paginator-select-trigger-text-size: calc(var(--spacing) * --value(number));
+@utility mp-select-trigger-text-* {
+    --mat-paginator-select-trigger-text-size: --value(--text-*);
+    --mat-paginator-select-trigger-text-size: --value(number, [number])rem;
 }
+
 /* Density Type Utilities */
 @utility mp-container-size-* {
     --mat-paginator-container-size: calc(var(--spacing) * --value(number));
@@ -58,5 +58,22 @@
 }
 
 @utility mp-touch-target-display-* {
-    --mat-paginator-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+    --mat-paginator-touch-target-display: --value(
+        'none',
+        'block',
+        'inline',
+        'inline-block',
+        'flex',
+        'inline-flex',
+        'grid',
+        'inline-grid',
+        'run-in',
+        'table',
+        'table-row',
+        'table-cell',
+        'list-item',
+        'inherit',
+        'initial',
+        'unset'
+    );
 }
