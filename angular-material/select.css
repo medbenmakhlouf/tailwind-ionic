@@ -30,20 +30,21 @@
     --mat-select-invalid-arrow-color: --value(--color-*);
 }
 
-@utility ms-trigger-text-font-* {
+@utility ms-trigger-font-* {
     --mat-select-trigger-text-font: --value(--font-*);
     --mat-select-trigger-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-trigger-text-leading-* {
+@utility ms-trigger-leading-* {
     --mat-select-trigger-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility ms-trigger-text-size-* {
-    --mat-select-trigger-text-size: calc(var(--spacing) * --value(number));
+@utility ms-trigger-text-* {
+    --mat-select-trigger-text-size: --value(--text-*);
+    --mat-select-trigger-text-size: --value(number, [number])rem;
 }
 
-@utility ms-trigger-text-tracking-* {
+@utility ms-trigger-tracking-* {
     --mat-select-trigger-text-tracking: --value(--tracking-*);
     --mat-select-trigger-text-tracking: --value(number, [number])em;
 }
