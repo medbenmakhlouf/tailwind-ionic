@@ -90,6 +90,8 @@
 
 @utility mcp-label-text-* {
     --mat-chip-label-text-color: --value(--color-*);
+    --mat-chip-label-text-size: --value(--text-*);
+    --mat-chip-label-text-size: --value(number, [number])rem;
 }
 
 @utility mcp-outline-color-* {
@@ -165,20 +167,16 @@
 }
 
 /* Typography Type Utilities */
-@utility mcp-label-text-leading-* {
+@utility mcp-label-leading-* {
     --mat-chip-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mcp-label-text-size-* {
-    --mat-chip-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mcp-label-text-tracking-* {
+@utility mcp-label-tracking-* {
     --mat-chip-label-text-tracking: --value(--tracking-*);
     --mat-chip-label-text-tracking: --value(number, [number])em;
 }
 
-@utility mcp-label-text-font-* {
+@utility mcp-label-font-* {
     --mat-chip-label-text-font: --value(--font-*);
     --mat-chip-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
