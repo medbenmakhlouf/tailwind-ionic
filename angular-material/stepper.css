@@ -18,7 +18,7 @@
   --mat-stepper-header-done-state-icon-background-color: --value(--color-*);
 }
 
-@utility msp-header-done-state-icon-foreground-color-* {
+@utility msp-header-done-state-icon-fg-* {
   --mat-stepper-header-done-state-icon-foreground-color: --value(--color-*);
 }
 
@@ -26,11 +26,11 @@
   --mat-stepper-header-edit-state-icon-background-color: --value(--color-*);
 }
 
-@utility msp-header-edit-state-icon-foreground-color-* {
+@utility msp-header-edit-state-icon-fg-* {
   --mat-stepper-header-edit-state-icon-foreground-color: --value(--color-*);
 }
 
-@utility msp-header-error-state-icon-foreground-color-* {
+@utility msp-header-error-state-icon-fg-* {
   --mat-stepper-header-error-state-icon-foreground-color: --value(--color-*);
 }
 
@@ -50,7 +50,7 @@
   --mat-stepper-header-icon-background-color: --value(--color-*);
 }
 
-@utility msp-header-icon-foreground-color-* {
+@utility msp-header-icon-fg-* {
   --mat-stepper-header-icon-foreground-color: --value(--color-*);
 }
 
@@ -66,7 +66,7 @@
   --mat-stepper-header-selected-state-icon-background-color: --value(--color-*);
 }
 
-@utility msp-header-selected-state-icon-foreground-color-* {
+@utility msp-header-selected-state-icon-fg-* {
   --mat-stepper-header-selected-state-icon-foreground-color: --value(--color-*);
 }
 
