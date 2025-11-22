@@ -9,6 +9,8 @@
 
 @utility mo-label-text-* {
     --mat-option-label-text-color: --value(--color-*);
+    --mat-option-label-text-size: --value(--text-*);
+    --mat-option-label-text-size: --value(number, [number])rem;
 }
 
 @utility mo-selected-state-label-text-* {
@@ -20,15 +22,11 @@
 }
 
 /* Typography Type Utilities */
-@utility mo-label-text-leading-* {
+@utility mo-label-leading-* {
     --mat-option-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
-@utility mo-label-text-size-* {
-    --mat-option-label-text-size: calc(var(--spacing) * --value(number));
-}
-
-@utility mo-label-text-tracking-* {
+@utility mo-label-tracking-* {
     --mat-option-label-text-tracking: --value(--tracking-*);
     --mat-option-label-text-tracking: --value(number, [number])em;
 }
@@ -36,4 +34,3 @@
 @utility mo-label-font-* {
     --mat-option-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
-
