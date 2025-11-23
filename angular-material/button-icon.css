@@ -1,0 +1,51 @@
+@utility mib-icon-size-* {
+    --mat-icon-button-icon-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mib-container-shape-* {
+    --mat-icon-button-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mib-touch-target-size-* {
+    --mat-icon-button-touch-target-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mib-disabled-icon-color-* {
+    --mat-icon-button-disabled-icon-color: --value(--color-*);
+}
+
+@utility mib-disabled-state-layer-color-* {
+    --mat-icon-button-disabled-state-layer-color: --value(--color-*);
+}
+
+@utility mib-focus-state-layer-opacity-* {
+    --mat-icon-button-focus-state-layer-opacity: --value(number, [number]);
+}
+
+@utility mib-hover-state-layer-opacity-* {
+    --mat-icon-button-hover-state-layer-opacity: --value(number, [number]);
+}
+
+@utility mib-icon-color-* {
+    --mat-icon-button-icon-color: --value(--color-*);
+}
+
+@utility mib-pressed-state-layer-opacity-* {
+    --mat-icon-button-pressed-state-layer-opacity: --value(number, [number]);
+}
+
+@utility mib-ripple-color-* {
+    --mat-icon-button-ripple-color: --value(--color-*);
+}
+
+@utility mib-state-layer-color-* {
+    --mat-icon-button-state-layer-color: --value(--color-*);
+}
+
+@utility mib-touch-target-display-* {
+    --mat-icon-button-touch-target-display: calc(var(--spacing) * --value(number));
+}
+
+@utility mib-state-layer-size-* {
+    --mat-icon-button-state-layer-size: calc(var(--spacing) * --value(number));
+}
