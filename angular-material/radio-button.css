@@ -1,93 +1,93 @@
 @utility mrb-disabled-unselected-icon-opacity-* {
-  --mat-radion-button-disabled-unselected-icon-opacity: --value(number, [number]);
+  --mat-radio-disabled-unselected-icon-opacity: --value(number, [number]);
 }
 
 @utility mrb-disabled-selected-icon-opacity-* {
-  --mat-radion-button-disabled-selected-icon-opacity: --value(number, [number]);
+  --mat-radio-disabled-selected-icon-opacity: --value(number, [number]);
 }
 
 @utility mrb-touch-target-size-* {
-  --mat-radion-button-touch-target-size: calc(var(--spacing) * --value(number));
+  --mat-radio-touch-target-size: calc(var(--spacing) * --value(number));
 }
 
 @utility mrb-checked-ripple-color-* {
-  --mat-radion-button-checked-ripple-color: --value(--color-*);
+  --mat-radio-checked-ripple-color: --value(--color-*);
 }
 
 @utility mrb-disabled-label-color-* {
-  --mat-radion-button-disabled-label-color: --value(--color-*);
+  --mat-radio-disabled-label-color: --value(--color-*);
 }
 
 @utility mrb-disabled-selected-icon-color-* {
-  --mat-radion-button-disabled-selected-icon-color: --value(--color-*);
+  --mat-radio-disabled-selected-icon-color: --value(--color-*);
 }
 
 @utility mrb-disabled-unselected-icon-color-* {
-  --mat-radion-button-disabled-unselected-icon-color: --value(--color-*);
+  --mat-radio-disabled-unselected-icon-color: --value(--color-*);
 }
 
 @utility mrb-label-text-* {
-  --mat-radion-button-label-text-color: --value(--color-*);
-  --mat-radion-button-label-text-size: --value(--text-*);
+  --mat-radio-label-text-color: --value(--color-*);
+  --mat-radio-label-text-size: --value(--text-*);
   /* prettier-ignore */
-  --mat-radion-button-label-text-size: --value(number, [number])rem;
+  --mat-radio-label-text-size: --value(number, [number])rem;
 }
 
 @utility mrb-ripple-color-* {
-  --mat-radion-button-ripple-color: --value(--color-*);
+  --mat-radio-ripple-color: --value(--color-*);
 }
 
 @utility mrb-selected-focus-icon-color-* {
-  --mat-radion-button-selected-focus-icon-color: --value(--color-*);
+  --mat-radio-selected-focus-icon-color: --value(--color-*);
 }
 
 @utility mrb-selected-hover-icon-color-* {
-  --mat-radion-button-selected-hover-icon-color: --value(--color-*);
+  --mat-radio-selected-hover-icon-color: --value(--color-*);
 }
 
 @utility mrb-selected-icon-color-* {
-  --mat-radion-button-selected-icon-color: --value(--color-*);
+  --mat-radio-selected-icon-color: --value(--color-*);
 }
 
 @utility mrb-selected-pressed-icon-color-* {
-  --mat-radion-button-selected-pressed-icon-color: --value(--color-*);
+  --mat-radio-selected-pressed-icon-color: --value(--color-*);
 }
 
 @utility mrb-unselected-focus-icon-color-* {
-  --mat-radion-button-unselected-focus-icon-color: --value(--color-*);
+  --mat-radio-unselected-focus-icon-color: --value(--color-*);
 }
 
 @utility mrb-unselected-hover-icon-color-* {
-  --mat-radion-button-unselected-hover-icon-color: --value(--color-*);
+  --mat-radio-unselected-hover-icon-color: --value(--color-*);
 }
 
 @utility mrb-unselected-icon-color-* {
-  --mat-radion-button-unselected-icon-color: --value(--color-*);
+  --mat-radio-unselected-icon-color: --value(--color-*);
 }
 
 @utility mrb-unselected-pressed-icon-color-* {
-  --mat-radion-button-unselected-pressed-icon-color: --value(--color-*);
+  --mat-radio-unselected-pressed-icon-color: --value(--color-*);
 }
 
 @utility mrb-label-font-* {
-  --mat-radion-button-label-text-font: --value(--font-*);
-  --mat-radion-button-label-text-weight: --value(--font-weight-*, integer, [integer]);
+  --mat-radio-label-text-font: --value(--font-*);
+  --mat-radio-label-text-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 @utility mrb-label-leading-* {
-  --mat-radion-button-label-text-line-height: calc(var(--spacing) * --value(number));
+  --mat-radio-label-text-line-height: calc(var(--spacing) * --value(number));
 }
 
 @utility mrb-label-tracking-* {
-  --mat-radion-button-label-text-tracking: --value(--tracking-*);
+  --mat-radio-label-text-tracking: --value(--tracking-*);
   /* prettier-ignore */
-  --mat-radion-button-label-text-tracking: --value(number, [number])em;
+  --mat-radio-label-text-tracking: --value(number, [number])em;
 }
 
 @utility mrb-touch-target-display-* {
-  --mat-radion-button-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+  --mat-radio-touch-target-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
 }
 
 @utility mrb-state-layer-size-* {
-  --mat-radion-button-state-layer-size: calc(var(--spacing) * --value(number));
+  --mat-radio-state-layer-size: calc(var(--spacing) * --value(number));
 }
