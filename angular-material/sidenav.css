@@ -7,11 +7,11 @@
 }
 
 @utility msc-content-bg-* {
-  --mat-sidenav-content-content-background-color: --value(--color-*);
+  --mat-sidenav-content-background-color: --value(--color-*);
 }
 
 @utility msc-content-text-* {
-  --mat-sidenav-content-content-text-color: --value(--color-*);
+  --mat-sidenav-content-text-color: --value(--color-*);
 }
 
 @utility msc-scrim-color-* {
@@ -32,4 +32,40 @@
 
 @utility msc-container-divider-color-* {
   --mat-sidenav-content-container-divider-color: calc(var(--spacing) * --value(number));
+}
+
+@utility msn-container-bg-* {
+    --mat-sidenav-container-background-color: --value(--color-*);
+}
+
+@utility msn-container-text-* {
+    --mat-sidenav-container-text-color: --value(--color-*);
+}
+
+@utility msn-bg-* {
+    --mat-sidenav-background-color: --value(--color-*);
+}
+
+@utility msn-text-* {
+    --mat-sidenav-text-color: --value(--color-*);
+}
+
+@utility msn-scrim-color-* {
+    --mat-sidenav-scrim-color: --value(--color-*);
+}
+
+@utility msn-container-shape-* {
+    --mat-sidenav-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility msn-container-elevation-shadow-* {
+    --mat-sidenav-container-elevation-shadow: calc(var(--spacing) * --value(number));
+}
+
+@utility msn-container-w-* {
+    --mat-sidenav-container-width: calc(var(--spacing) * --value(number));
+}
+
+@utility msn-container-divider-color-* {
+    --mat-sidenav-container-divider-color: calc(var(--spacing) * --value(number));
 }
