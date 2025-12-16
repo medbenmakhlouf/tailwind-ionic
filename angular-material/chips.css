@@ -8,7 +8,7 @@
 }
 
 @utility mcp-elevated-container-color-* {
-  --mat-chip-elevated-container-color: calc(var(--spacing) * --value(number));
+  --mat-chip-elevated-container-color: --value(--color-*);
 }
 
 @utility mcp-flat-selected-outline-w-* {
