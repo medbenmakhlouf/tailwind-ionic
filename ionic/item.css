@@ -12,5 +12,5 @@ Components:
     --detail-icon-font-size: --value(integer)px; /*TODO*/
 }
 @utility ion-item-detail-icon-opacity-* {
-    --detail-icon-opacity: --value(number); /*TODO*/
+    --detail-icon-opacity: --value(number, [number])
 }

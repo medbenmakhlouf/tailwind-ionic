@@ -127,7 +127,7 @@ Components:
 - ion-popover
 */
 @utility ion-backdrop-opacity-* {
-    --backdrop-opacity: --value(number); /*TODO*/
+    --backdrop-opacity: --value(number, [number])
 }
 /*
 Components:
@@ -340,7 +340,7 @@ Components:
 - ion-segment-button
 */
 @utility ion-bg-hover-opacity-* {
-    --background-hover-opacity: --value(number); /*TODO*/
+    --background-hover-opacity: --value(number, [number])
 }
 /*
 Components:
@@ -365,7 +365,7 @@ Components:
 - ion-tab-button
 */
 @utility ion-bg-focused-opacity-* {
-    --background-focused-opacity: --value(number); /*TODO*/
+    --background-focused-opacity: --value(number, [number])
 }
 /*
 Components:
@@ -493,7 +493,7 @@ Components:
 - ion-textarea
 */
 @utility ion-placeholder-opacity-* {
-    --placeholder-opacity: --value(number); /*TODO*/
+    --placeholder-opacity: --value(number, [number])
 }
 /*
 Components:

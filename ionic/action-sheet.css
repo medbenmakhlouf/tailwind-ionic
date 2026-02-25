@@ -3,7 +3,7 @@ Components:
 - ion-action-sheet
 */
 @utility ion-action-sheet-bg-selected-opacity-* {
-    --button-background-selected-opacity: --value(number); /*TODO*/
+    --button-background-selected-opacity: --value(number, [number])
 }
 @utility ion-action-sheet-text-disabled-* {
     --button-color-disabled: --value(--color-*);
@@ -21,7 +21,7 @@ Components:
     --button-background-selected: --value(--color-*);
 }
 @utility ion-action-sheet-bg-hover-opacity-* {
-    --button-background-hover-opacity: --value(number); /*TODO*/
+    --button-background-hover-opacity: --value(number, [number])
 }
 @utility ion-action-sheet-bg-* {
     --button-background: --value(--color-*);
@@ -30,13 +30,13 @@ Components:
     --button-background-activated: --value(--color-*);
 }
 @utility ion-action-sheet-bg-activated-opacity-* {
-    --button-background-activated-opacity: --value(number); /*TODO*/
+    --button-background-activated-opacity: --value(number, [number])
 }
 @utility ion-action-sheet-bg-focused-* {
     --button-background-focused: --value(--color-*);
 }
 @utility ion-action-sheet-bg-focused-opacity-* {
-    --button-background-focused-opacity: --value(number); /*TODO*/
+    --button-background-focused-opacity: --value(number, [number])
 }
 @utility ion-action-sheet-text-activated-* {
     --button-color-activated: --value(--color-*);
