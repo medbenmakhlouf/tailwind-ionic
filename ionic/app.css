@@ -1,0 +1,119 @@
+/* Background color of the entire app */
+@utility ion-app-bg-* {
+    --ion-background-color: --value(--color-*);
+}
+
+/* Text color of the entire app */
+@utility ion-app-text-* {
+    --ion-text-color: --value(--color-*);
+}
+
+/* Color of the Backdrop component */
+@utility ion-app-backdrop-color-* {
+    --ion-backdrop-color: --value(--color-*);
+}
+
+/* Opacity of the Backdrop component */
+@utility ion-app-backdrop-opacity-* {
+    --ion-backdrop-opacity: --value(number, [number]);
+}
+
+/* Background color of the overlays */
+@utility ion-app-overlay-bg-* {
+    --ion-overlay-background-color: --value(--color-*);
+}
+
+/* Border color */
+@utility ion-app-border-* {
+    --ion-border-color: --value(--color-*);
+}
+
+/* Box shadow color */
+@utility ion-app-box-shadow-* {
+    --ion-box-shadow-color: --value(--color-*);
+}
+
+/* Background of the Tab Bar */
+@utility ion-app-tab-bar-bg-* {
+    --ion-tab-bar-background: --value(--color-*);
+}
+
+/* Background of the focused Tab Bar */
+@utility ion-app-tab-bar-bg-focused-* {
+    --ion-tab-bar-background-focused: --value(--color-*);
+}
+
+/* Border color of the Tab Bar */
+@utility ion-app-tab-bar-border-* {
+    --ion-tab-bar-border-color: --value(--color-*);
+}
+
+/* Color of the Tab Bar */
+@utility ion-app-tab-bar-color-* {
+    --ion-tab-bar-color: --value(--color-*);
+}
+
+/* Color of the selected Tab Button */
+@utility ion-app-tab-bar-color-selected-* {
+    --ion-tab-bar-color-selected: --value(--color-*);
+}
+
+/* Background of the Toolbar */
+@utility ion-app-toolbar-bg-* {
+    --ion-toolbar-background: --value(--color-*);
+}
+
+/* Border color of the Toolbar */
+@utility ion-app-toolbar-border-* {
+    --ion-toolbar-border-color: --value(--color-*);
+}
+
+/* Color of the components in the Toolbar */
+@utility ion-app-toolbar-color-* {
+    --ion-toolbar-color: --value(--color-*);
+}
+
+/* Color of the Segment Buttons in the Toolbar */
+@utility ion-app-toolbar-segment-color-* {
+    --ion-toolbar-segment-color: --value(--color-*);
+}
+
+/* Color of the checked Segment Buttons in the Toolbar */
+@utility ion-app-toolbar-segment-color-checked-* {
+    --ion-toolbar-segment-color-checked: --value(--color-*);
+}
+
+/* Background of the Segment Buttons in the Toolbar */
+@utility ion-app-toolbar-segment-bg-* {
+    --ion-toolbar-segment-background: --value(--color-*);
+}
+
+/* Background of the checked Segment Buttons in the Toolbar */
+@utility ion-app-toolbar-segment-bg-checked-* {
+    --ion-toolbar-segment-background-checked: --value(--color-*);
+}
+
+/* Color of the Segment Button indicator in the Toolbar */
+@utility ion-app-toolbar-segment-indicator-* {
+    --ion-toolbar-segment-indicator-color: --value(--color-*);
+}
+
+/* Background of the Item */
+@utility ion-app-item-bg-* {
+    --ion-item-background: --value(--color-*);
+}
+
+/* Border color of the Item */
+@utility ion-app-item-border-* {
+    --ion-item-border-color: --value(--color-*);
+}
+
+/* Color of the components in the Item */
+@utility ion-app-item-color-* {
+    --ion-item-color: --value(--color-*);
+}
+
+/* Color of the placeholder in Inputs */
+@utility ion-app-placeholder-* {
+    --ion-placeholder-color: --value(--color-*);
+}
